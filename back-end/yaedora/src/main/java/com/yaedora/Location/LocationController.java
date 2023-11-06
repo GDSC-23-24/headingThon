@@ -18,4 +18,5 @@ public class LocationController {
         List<Location> locations = rep.findAll();
         return ResponseEntity.ok(locations);
     }
+
 }
