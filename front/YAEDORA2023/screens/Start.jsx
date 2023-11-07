@@ -1,34 +1,40 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, TextInput, Item } from 'react-native';
-import axios from 'axios'
-import Picker from '@react-native-picker/picker'
+import { View, Text, TouchableOpacity, StyleSheet, TextInput,SafeAreaView  } from 'react-native';
+import axios from 'axios';
 import PickerScreen from './Picker';
-
-
-
 
 export default function Start() {
   const [nickname, setNickname] = useState('');
   const [city, setCity] = useState('');
   const [town, setTown] = useState('');
   const [village, setVillage] = useState('');
+  const [locationData, setLocationData] = useState([]);
 
   useEffect(() => {
-    // Make a request to your backend's API endpoint to fetch location data
-    axios.get('http://58.231.37.42:25565/location')
+    fetchLocationData();
+  }, []);
+  //서버로부터 위치 데이터를 가져오기 위해 Axios를 사용
+  const fetchLocationData = () => {
+    axios.get('http://58.231.37.42:25565/location/town')
       .then(response => {
-        // Assuming the response data is an array of location options
         setLocationData(response.data);
+        // 이후 두 번째 엔드포인트에 대한 요청 추가
+        axios.get('http://58.231.37.42:25565/location/village?town=사하구')
+          .then(villageResponse => {
+            // villageResponse.data를 처리하는 로직 추가
+          })
+          .catch(villageError => {
+            console.error('Error fetching village data:', villageError);
+          });
       })
       .catch(error => {
         console.error('Error fetching location data:', error);
       });
-  }, []);
-  const handleSaveLocation = () => {
-    // Handle saving the selected location to your backend or perform any other action
-    // For this example, we're just displaying the selected location.
-    console.log(`Selected Location: City: ${city}, Town: ${town}, Village: ${village}`);
   };
+  
+
+
+//사용자 입력에 따라 상태 변수를 업데이트하는 함수
   const handleNicknameChange = (text) => {
     setNickname(text);
   };
@@ -46,12 +52,13 @@ export default function Start() {
   };
 
   const handleSaveNickname = () => {
-
     alert(`Nickname: ${nickname}\nCity: ${city}\nTown: ${town}\nVillage: ${village}`);
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView  style={styles.safeContainer}>
+      <Text style={styles.title}> 입력란</Text>
+      <View style={styles.container}>
       <Text style={styles.title}>닉네임을 입력하세요</Text>
       <TextInput
         style={styles.input}
@@ -69,6 +76,7 @@ export default function Start() {
           selectedTown={town}
           selectedVillage={village}
         />
+      </View>  
       </View>
       <TouchableOpacity
         style={[styles.button, { backgroundColor: "gray" }]}
@@ -76,17 +84,26 @@ export default function Start() {
       >
         <Text style={styles.buttonText}>확인</Text>
       </TouchableOpacity>
-    </View>
+    </SafeAreaView >
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  safeContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f5f5f5',
-    paddingHorizontal: 20,
+  },
+  container: {
+    flex: 1,
+    margin: 20,
+    backgroundColor: 'white',
+    padding: 20, // 패딩 값 증가
+    borderWidth: 2,
+    borderColor: '#ccc',
+    borderRadius: 5,
+    paddingBottom: 20, // 패딩 값 증가
   },
   title: {
     color: 'black',
@@ -106,10 +123,14 @@ const styles = StyleSheet.create({
   button: {
     padding: 15,
     borderRadius: 5,
+    backgroundColor: 'gray',
   },
   buttonText: {
-    color: 'black',
+    color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
+  },
+  pickerView: {
+    marginBottom: 10,
   },
 });
