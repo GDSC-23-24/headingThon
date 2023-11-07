@@ -2,16 +2,15 @@ package com.yaedora.Member.Entity;
 
 import com.yaedora.Store.entity.StoreLikes;
 import com.yaedora.Store.entity.RecommendStore;
-import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
+
+import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Entity
 @Getter
@@ -20,6 +19,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Member {
     @Id
+    @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
     private String name;
