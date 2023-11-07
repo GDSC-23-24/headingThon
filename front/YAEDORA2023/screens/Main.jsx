@@ -1,44 +1,45 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet,Image } from 'react-native';
 
 export default function Main({ navigation }) {
   const navigateToMapView = () => {
-    // Implement navigation logic to the Map View screen
+    
   };
 
   const navigateToNotice = () => {
-    // Implement navigation logic to the Notice screen
+    navigation.navigate('Notice');
   };
 
   const navigateToMyPage = () => {
-    // Implement navigation logic to the My Page screen
+    navigation.navigate('My');
   };
 
   const navigateToCommunity = () => {
-    // Implement navigation logic to the Community screen
+    
   };
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Main Screen</Text>
-
+      <View>
+      <Image source={require('../imgSrc/app.png')} style={styles.main} /> 
+      </View>
       {/* Horizontal container for "지도보기" and "공지사항" */}
       <View style={styles.horizontalContainer}>
-        <TouchableOpacity style={styles.horizontalButton} onPress={navigateToMapView}>
-          <Text style={styles.buttonText}>지도보기</Text>
-        </TouchableOpacity>
         <TouchableOpacity style={styles.horizontalButton} onPress={navigateToNotice}>
-          <Text style={styles.buttonText}>공지사항</Text>
+        <Image source={require('../imgSrc/001.png')} style={styles.logo} /> 
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.horizontalButton} onPress={navigateToMapView}>
+        <Image source={require('../imgSrc/002.png')} style={styles.logo} /> 
         </TouchableOpacity>
       </View>
 
       {/* Horizontal container for "마이페이지" and "커뮤니티" */}
       <View style={styles.horizontalContainer}>
-        <TouchableOpacity style={styles.horizontalButton} onPress={navigateToMyPage}>
-          <Text style={styles.buttonText}>마이페이지</Text>
-        </TouchableOpacity>
         <TouchableOpacity style={styles.horizontalButton} onPress={navigateToCommunity}>
-          <Text style={styles.buttonText}>커뮤니티</Text>
+        <Image source={require('../imgSrc/003.png')} style={styles.logo} /> 
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.horizontalButton} onPress={navigateToMyPage}>
+        <Image source={require('../imgSrc/004.png')} style={styles.logo} /> 
         </TouchableOpacity>
       </View>
     </View>
@@ -53,25 +54,32 @@ const styles = StyleSheet.create({
     backgroundColor: '#f5f5f5',
     paddingHorizontal: 20,
   },
-  title: {
-    color: 'black',
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 20,
+
+  main:{
+    width:300,
+    height:300,
+    justifyContent:'center'
   },
   horizontalContainer: {
     flexDirection: 'row',
-    justifyContent: 'center',
-    marginBottom: 20,
+    alignItems: 'center',
+    marginBottom: 5,
   },
   horizontalButton: {
-    padding: 15,
-    borderRadius: 5,
-    backgroundColor: 'gray',
+    padding: 10,
+    
     marginHorizontal: 10,
+    marginBottom: 20,
   },
   buttonText: {
     color: 'white',
     fontWeight: 'bold',
   },
+  logo:{
+    
+    width: 200,
+    height: 200,
+    
+    
+  }
 });

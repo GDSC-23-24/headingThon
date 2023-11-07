@@ -32,10 +32,12 @@ const createAxiosObject = () => {
 };
 
 const cities = ["강원도", "경기도", "경상남도", "경상북도", "광주광역시", "대구광역시", "부산광역시", "서울특별시", "세종특별자치시", "울산광역시", "인천광역시", "전라남도", "전라북도", "충청남도", "충청북도"];
-let districts = {};
-let villages = {};
 
 function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCity, selectedTown, selectedVillage }) {
+  const [selectedCityData, setSelectedCityData] = useState([]);
+  const [selectedTownData, setSelectedTownData] = useState([]);
+  const [selectedVillageData, setSelectedVillageData] = useState([]);
+
   useEffect(() => {
     fetchApplicationDetails();
   }, []);
@@ -43,33 +45,23 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
   const fetchApplicationDetails = async () => {
     try {
       const axiosObject = createAxiosObject();
-      const response = await axiosObject.get('http://localhost:25565/location/town');
-      const data = response.data;
+      const townResponse = await axiosObject.get('http://localhost:25565/location/town');
+      const townData = townResponse.data;
+      console.log(townData);
+      console.log("@@");
+      townData.towns // 도시 데이터를 설정
+      console.log(townData.towns)
 
-      data.forEach((item, _) => {
-        if (districts[item.state] === undefined) {
-          districts[item.state] = [item.name];
-        } else {
-          districts[item.state].push(item.name);
-        }
-      });
-
-      console.log(districts);
-
-      // 두 번째 엔드포인트를 호출하여 village 데이터를 가져오도록 추가
-      const villageResponse = await axiosObject.get('http://localhost:25565/location/village?town=사하구');
-      const villageData = villageResponse.data;
-
-      // village 데이터 처리 로직 추가
+      console.log(selectedTownData)
     } catch (error) {
-      console.log('Error fetching application details:', error);
+      console.log('Error fetching city data:', error);
     }
   };
 
-  const handleCityChange = (city) => {
-    onCityChange(city);
-    onTownChange(null); // Reset town when city changes
-    onVillageChange(null); // Reset village when city changes
+  const handleCityChange = (selectedCity) => {
+    onCityChange(selectedCity);
+    onTownChange(null);
+    onVillageChange(null);
   };
 
   return (
@@ -84,29 +76,38 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
         ))}
       </Picker>
 
-      {selectedCity && (
-        <Picker
-          selectedValue={selectedTown}
-          onValueChange={(town) => onTownChange(town)}
-          style={{ color: "white" }}
-        >
-          {districts[selectedCity]?.map((town) => (
-            <Picker.Item key={town} label={town} value={town} />
-          ))}
-        </Picker>
-      )}
 
-      {selectedTown && (
-        <Picker
-          selectedValue={selectedVillage}
-          onValueChange={(village) => onVillageChange(village)}
-          style={{ color: "white" }}
-        >
-          {villages[selectedTown]?.map((village) => (
-            <Picker.Item key={village} label={village} value={village} />
-          ))}
-        </Picker>
-      )}
+      <Picker
+        selectedValue={selectedTown}
+        onValueChange={(town) => {
+          onTownChange(town);
+          onVillageChange(null);
+
+          // 선택한 "동"에 해당하는 "마을" 데이터 추출
+          const townData = selectedTownData.find((item) => item.name === town);
+          if (townData) {
+            setSelectedVillageData(townData.villages);
+          }
+        }}
+        style={{ color: "white" }}
+      >
+        {selectedTownData.map((town) => (
+          <Picker.Item key={town.name} label={town.name} value={town.name} />
+        ))}
+      </Picker>
+
+
+
+      <Picker
+        selectedValue={selectedVillage}
+        onValueChange={onVillageChange}
+        style={{ color: "white" }}
+      >
+        {selectedVillageData.map((village) => (
+          <Picker.Item key={village} label={village} value={village} />
+        ))}
+      </Picker>
+
     </View>
   );
 }

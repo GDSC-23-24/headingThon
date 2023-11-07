@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, TextInput,SafeAreaView  } from 'react-native';
 import axios from 'axios';
 import PickerScreen from './Picker';
+import { createStackNavigator } from '@react-navigation/stack';
 
-export default function Start() {
+
+
+export default function Start({navigation} ) {
   const [nickname, setNickname] = useState('');
   const [city, setCity] = useState('');
   const [town, setTown] = useState('');
@@ -53,6 +56,8 @@ export default function Start() {
 
   const handleSaveNickname = () => {
     alert(`Nickname: ${nickname}\nCity: ${city}\nTown: ${town}\nVillage: ${village}`);
+    navigation.navigate('Main');
+    
   };
 
   return (
