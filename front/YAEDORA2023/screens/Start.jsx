@@ -1,12 +1,40 @@
-import React, { useState } from 'react';
-import { View, TextInput, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, Text, TouchableOpacity, StyleSheet, TextInput,SafeAreaView  } from 'react-native';
+import axios from 'axios';
+import PickerScreen from './Picker';
 
 export default function Start() {
   const [nickname, setNickname] = useState('');
   const [city, setCity] = useState('');
-  const [county, setCounty] = useState('');
-  const [district, setDistrict] = useState('');
+  const [town, setTown] = useState('');
+  const [village, setVillage] = useState('');
+  const [locationData, setLocationData] = useState([]);
 
+  useEffect(() => {
+    fetchLocationData();
+  }, []);
+  //서버로부터 위치 데이터를 가져오기 위해 Axios를 사용
+  const fetchLocationData = () => {
+    axios.get('http://localhost:25565/location/town')
+      .then(response => {
+        setLocationData(response.data);
+        // 이후 두 번째 엔드포인트에 대한 요청 추가
+        axios.get('http://localhost:25565/location/village?town=사하구')
+          .then(villageResponse => {
+            // villageResponse.data를 처리하는 로직 추가
+          })
+          .catch(villageError => {
+            console.error('Error fetching village data:', villageError);
+          });
+      })
+      .catch(error => {
+        console.error('Error fetching location data:', error);
+      });
+  };
+  
+
+
+//사용자 입력에 따라 상태 변수를 업데이트하는 함수
   const handleNicknameChange = (text) => {
     setNickname(text);
   };
@@ -15,21 +43,22 @@ export default function Start() {
     setCity(text);
   };
 
-  const handleCountyChange = (text) => {
-    setCounty(text);
+  const handleTownChange = (text) => {
+    setTown(text);
   };
 
-  const handleDistrictChange = (text) => {
-    setDistrict(text);
+  const handleVillage = (text) => {
+    setVillage(text);
   };
 
   const handleSaveNickname = () => {
-   
-    alert(`Nickname: ${nickname}\nCity: ${city}\nCounty: ${county}\nDistrict: ${district}`);
+    alert(`Nickname: ${nickname}\nCity: ${city}\nTown: ${town}\nVillage: ${village}`);
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView  style={styles.safeContainer}>
+      <Text style={styles.title}> 입력란</Text>
+      <View style={styles.container}>
       <Text style={styles.title}>닉네임을 입력하세요</Text>
       <TextInput
         style={styles.input}
@@ -38,41 +67,43 @@ export default function Start() {
         onChangeText={handleNicknameChange}
       />
       <Text style={styles.title}>지역을 선택하세요</Text>
-      <TextInput
-        style={styles.input}
-        placeholder="시"
-        value={city}
-        onChangeText={handleCityChange}
-      />
-      <TextInput
-        style={styles.input}
-        placeholder="읍,면,구"
-        value={county}
-        onChangeText={handleCountyChange}
-      />
-      <TextInput
-        style={styles.input}
-        placeholder="동"
-        value={district}
-        onChangeText={handleDistrictChange}
-      />
+      <View style={styles.pickerView}>
+        <PickerScreen
+          onCityChange={handleCityChange}
+          onTownChange={handleTownChange}
+          onVillageChange={handleVillage}
+          selectedCity={city}
+          selectedTown={town}
+          selectedVillage={village}
+        />
+      </View>  
+      </View>
       <TouchableOpacity
         style={[styles.button, { backgroundColor: "gray" }]}
         onPress={handleSaveNickname}
       >
         <Text style={styles.buttonText}>확인</Text>
       </TouchableOpacity>
-    </View>
+    </SafeAreaView >
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  safeContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f5f5f5',
-    paddingHorizontal: 20,
+  },
+  container: {
+    flex: 1,
+    margin: 20,
+    backgroundColor: 'white',
+    padding: 20, // 패딩 값 증가
+    borderWidth: 2,
+    borderColor: '#ccc',
+    borderRadius: 5,
+    paddingBottom: 20, // 패딩 값 증가
   },
   title: {
     color: 'black',
@@ -92,10 +123,14 @@ const styles = StyleSheet.create({
   button: {
     padding: 15,
     borderRadius: 5,
+    backgroundColor: 'gray',
   },
   buttonText: {
-    color: 'black',
+    color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
+  },
+  pickerView: {
+    marginBottom: 10,
   },
 });
