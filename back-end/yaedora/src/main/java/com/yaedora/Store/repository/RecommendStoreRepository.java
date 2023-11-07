@@ -11,6 +11,6 @@ import java.util.List;
 
 public interface RecommendStoreRepository extends JpaRepository<RecommendStore,Long> {
 
-    @Query("SELECT rs FROM RecommendStore rs WHERE rs.member = :member")
-    List<StoreLikes> findAllByMember(@Param("member") Member member);
+    @Query("SELECT rs FROM RecommendStore rs join fetch rs.store WHERE rs.member = :member")
+    List<RecommendStore> findAllByMember(@Param("member") Member member);
 }
