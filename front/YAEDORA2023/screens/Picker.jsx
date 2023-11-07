@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import axios from 'axios';
@@ -34,29 +34,37 @@ const createAxiosObject = () => {
 const cities = ["강원도", "경기도", "경상남도", "경상북도", "광주광역시", "대구광역시", "부산광역시", "서울특별시", "세종특별자치시", "울산광역시", "인천광역시", "전라남도", "전라북도", "충청남도", "충청북도"];
 
 function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCity, selectedTown, selectedVillage }) {
-  const [selectedCityData, setSelectedCityData] = useState([]);
-  const [selectedTownData, setSelectedTownData] = useState([]);
-  const [selectedVillageData, setSelectedVillageData] = useState([]);
+  const [townData, setTownData] = useState([]);
+  const [villageData, setVillageData] = useState([]);
 
-  useEffect(() => {
-    fetchApplicationDetails();
-  }, []);
-
-  const fetchApplicationDetails = async () => {
+  const fetchTownData = useCallback(async () => {
     try {
       const axiosObject = createAxiosObject();
       const townResponse = await axiosObject.get('http://58.231.37.42:25565/location/town');
-      const townData = townResponse.data;
-      console.log(townData);
-      console.log("@@");
-      townData.towns // 도시 데이터를 설정
-      console.log(townData.towns)
+      const towns = townResponse.data.towns;
 
-      console.log(selectedTownData)
+      setTownData(towns);
     } catch (error) {
-      console.log('Error fetching city data:', error);
+      console.log('Error fetching town data:', error);
     }
-  };
+  }, []);
+
+  const fetchVillageData = useCallback(async () => {
+    try {
+      const axiosObject = createAxiosObject();
+      const villageResponse = await axiosObject.get('http://58.231.37.42:25565/location/village?town=사하구');
+      const villages = villageResponse.data.villages;
+
+      setVillageData(villages);
+    } catch (error) {
+      console.log('Error fetching village data:', error);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchTownData();
+    fetchVillageData(); // Fetch village data directly
+  }, [fetchTownData, fetchVillageData]);
 
   const handleCityChange = (selectedCity) => {
     onCityChange(selectedCity);
@@ -76,52 +84,48 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
         ))}
       </Picker>
 
-
       <Picker
         selectedValue={selectedTown}
+        style={{ backgroundColor: 'white', color: 'black' }}
         onValueChange={(town) => {
           onTownChange(town);
           onVillageChange(null);
-
-          // 선택한 "동"에 해당하는 "마을" 데이터 추출
-          const townData = selectedTownData.find((item) => item.name === town);
-          if (townData) {
-            setSelectedVillageData(townData.villages);
+          
+          // You can use the "townData" state directly here
+          const selectedTownData = townData.find((item) => item.name === town);
+          if (selectedTownData) {
+            // No need to fetch village data here
+            setVillageData(selectedTownData.villages);
           }
         }}
-        style={{ color: "white" }}
+        
       >
-        {selectedTownData.map((town) => (
-          <Picker.Item key={town.name} label={town.name} value={town.name} />
+        {townData.map((town) => (
+          <Picker.Item key={town} label={town} value={town} />
         ))}
       </Picker>
 
-
-
-      <Picker
+      {/* <Picker
         selectedValue={selectedVillage}
         onValueChange={onVillageChange}
         style={{ color: "white" }}
       >
-        {selectedVillageData.map((village) => (
+        {villageData.map((village) => (
           <Picker.Item key={village} label={village} value={village} />
         ))}
-      </Picker>
-
+      </Picker> */}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+  
     justifyContent: 'center',
-    backgroundColor: '#4B8A08',
+    backgroundColor: '#F5F6CE',
     margin: 10,
-    padding: 10,
-    borderRadius: 10,
-    paddingVertical: 12,
-    paddingHorizontal: 16,
+    
+    
   },
 });
 
