@@ -5,6 +5,7 @@ import com.yaedora.Member.Repository.MemberRepository;
 import com.yaedora.Store.dto.RatingStoreDto;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
+import com.yaedora.Store.dto.StoreLikesCountDto;
 import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.entity.Store;
 import com.yaedora.Store.entity.StoreLikes;
@@ -105,4 +106,12 @@ public class StoreService {
         return storeDtos;
     }
 
+    /**
+     * 가게별 좋아요 개수 반환
+     */
+
+    public List<StoreLikesCountDto> getLikeCount(){
+        List<StoreLikesCountDto> storeLikeDtos = storeLikeRepository.countStoreLikes();
+        return storeLikeDtos;
+    }
 }

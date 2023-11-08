@@ -4,6 +4,7 @@ import com.yaedora.Store.RequestDto.LikeRequest;
 import com.yaedora.Store.dto.RatingStoreDto;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
+import com.yaedora.Store.dto.StoreLikesCountDto;
 import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.service.StoreService;
 import lombok.extern.slf4j.Slf4j;
@@ -62,6 +63,13 @@ public class storeController {
         Map<String,List<RatingStoreDto>> response = new HashMap<>();
         response.put("ratingStores", ratingStores);
         log.info("추천 가게");
+        return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/store/likes/count")
+    public ResponseEntity<?> getLikesCount(){
+        Map<String, List<StoreLikesCountDto>> response = new HashMap<>();
+        response.put("likesCount",storeService.getLikeCount());
         return ResponseEntity.ok(response);
     }
 }
