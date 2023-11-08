@@ -3,6 +3,7 @@ package com.yaedora.Store.controller;
 import com.yaedora.Store.RequestDto.LikeRequest;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
+import com.yaedora.Store.entity.RecommendStore;
 import com.yaedora.Store.service.StoreService;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -42,6 +43,13 @@ public class storeController {
         boolean like = storeService.CheckStoreLike(likeRequest.getMemberId(), likeRequest.getMemberId());
         log.info("좋아요 추가 및 삭제");
         return ResponseEntity.ok(like);
+    }
+
+    @GetMapping("/store/recommend")
+    public ResponseEntity<?> getRecommendStores(Long member_id){
+        List<RecommendStore> recommendStores = storeService.getRecommendStores(member_id);
+        log.info("추천 가게");
+        return ResponseEntity.ok(recommendStores);
     }
 
 }
