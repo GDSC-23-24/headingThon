@@ -20,8 +20,8 @@ public interface StoreLikeRepository extends JpaRepository<StoreLikes,Long> {
     Optional<StoreLikes> findStoreByMemberAndStore(@Param("memberId") Long memberId,@Param("storeId") Long storeId);
 
 
-        @Query("SELECT new com.yaedora.Store.dto.StoreLikesCountDto(sl.store.id, COUNT(sl)) " +
-                "FROM StoreLikes sl " +
-                "GROUP BY sl.store.id")
-        List<StoreLikesCountDto> countStoreLikes();
+    @Query("SELECT new com.yaedora.Store.dto.StoreLikesCountDto(sl.store.id, COUNT(sl)) " +
+            "FROM StoreLikes sl " +
+            "GROUP BY sl.store.id")
+    List<StoreLikesCountDto> countStoreLikes();
 }
