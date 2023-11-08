@@ -89,7 +89,7 @@ public class StoreService {
     /**
      * 추천 가게 반환
      */
-    public List<RatingStoreDto> getRatedStores(Long memberId){
+    public List<RatingStoreDto> getRatedStores(){
 
         List<RatingStoreDto> ratingStores = ratingRepository.findAllWithJoin().stream().map(RatingStoreDto::from).toList();
 
