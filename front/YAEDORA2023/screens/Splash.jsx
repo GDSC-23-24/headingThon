@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';;
 
 // 이 부분에서 Splash 컴포넌트를 import하는 부분은 제거하십시오.
@@ -9,7 +9,7 @@ const Splash = ({ navigation }) => {
   useEffect(() => {
     const initializeApp = async () => {
       // 4초동안 스플래시 화면(좀있어보이게..ㅋ)
-      await new Promise(resolve => setTimeout(resolve, 3000));
+      await new Promise(resolve => setTimeout(resolve, 300));
 
       // 앱 로드가 완료되고 표시할 준비가 되면 스플래시 화면을 숨기기 위해
       SplashScreen.hide();
