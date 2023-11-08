@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import axios from 'axios';
@@ -32,44 +32,44 @@ const createAxiosObject = () => {
 };
 
 const cities = ["강원도", "경기도", "경상남도", "경상북도", "광주광역시", "대구광역시", "부산광역시", "서울특별시", "세종특별자치시", "울산광역시", "인천광역시", "전라남도", "전라북도", "충청남도", "충청북도"];
-let districts = {};
-let villages = {};
 
 function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCity, selectedTown, selectedVillage }) {
-  useEffect(() => {
-    fetchApplicationDetails();
-  }, []);
+  const [townData, setTownData] = useState([]);
+  const [villageData, setVillageData] = useState([]);
 
-  const fetchApplicationDetails = async () => {
+  const fetchTownData = useCallback(async () => {
     try {
       const axiosObject = createAxiosObject();
-      const response = await axiosObject.get('http://localhost:25565/location/town');
-      const data = response.data;
+      const townResponse = await axiosObject.get('http://localhost:25565/location/town');
+      const towns = townResponse.data.towns;
 
-      data.forEach((item, _) => {
-        if (districts[item.state] === undefined) {
-          districts[item.state] = [item.name];
-        } else {
-          districts[item.state].push(item.name);
-        }
-      });
-
-      console.log(districts);
-
-      // 두 번째 엔드포인트를 호출하여 village 데이터를 가져오도록 추가
-      const villageResponse = await axiosObject.get('http://localhost:25565/location/village?town=사하구');
-      const villageData = villageResponse.data;
-
-      // village 데이터 처리 로직 추가
+      setTownData(towns);
     } catch (error) {
-      console.log('Error fetching application details:', error);
+      console.log('Error fetching town data:', error);
     }
-  };
+  }, []);
 
-  const handleCityChange = (city) => {
-    onCityChange(city);
-    onTownChange(null); // Reset town when city changes
-    onVillageChange(null); // Reset village when city changes
+  const fetchVillageData = useCallback(async () => {
+    try {
+      const axiosObject = createAxiosObject();
+      const villageResponse = await axiosObject.get('http://localhost:25565/location/village?town=사하구');
+      const villages = villageResponse.data.villages;
+
+      setVillageData(villages);
+    } catch (error) {
+      console.log('Error fetching village data:', error);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchTownData();
+    fetchVillageData(); // Fetch village data directly
+  }, [fetchTownData, fetchVillageData]);
+
+  const handleCityChange = (selectedCity) => {
+    onCityChange(selectedCity);
+    onTownChange(null);
+    onVillageChange(null);
   };
 
   return (
@@ -84,43 +84,48 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
         ))}
       </Picker>
 
-      {selectedCity && (
-        <Picker
-          selectedValue={selectedTown}
-          onValueChange={(town) => onTownChange(town)}
-          style={{ color: "white" }}
-        >
-          {districts[selectedCity]?.map((town) => (
-            <Picker.Item key={town} label={town} value={town} />
-          ))}
-        </Picker>
-      )}
+      <Picker
+        selectedValue={selectedTown}
+        style={{ backgroundColor: 'white', color: 'black' }}
+        onValueChange={(town) => {
+          onTownChange(town);
+          onVillageChange(null);
+          
+          // You can use the "townData" state directly here
+          const selectedTownData = townData.find((item) => item.name === town);
+          if (selectedTownData) {
+            // No need to fetch village data here
+            setVillageData(selectedTownData.villages);
+          }
+        }}
+        
+      >
+        {townData.map((town) => (
+          <Picker.Item key={town} label={town} value={town} />
+        ))}
+      </Picker>
 
-      {selectedTown && (
-        <Picker
-          selectedValue={selectedVillage}
-          onValueChange={(village) => onVillageChange(village)}
-          style={{ color: "white" }}
-        >
-          {villages[selectedTown]?.map((village) => (
-            <Picker.Item key={village} label={village} value={village} />
-          ))}
-        </Picker>
-      )}
+      {/* <Picker
+        selectedValue={selectedVillage}
+        onValueChange={onVillageChange}
+        style={{ color: "white" }}
+      >
+        {villageData.map((village) => (
+          <Picker.Item key={village} label={village} value={village} />
+        ))}
+      </Picker> */}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+  
     justifyContent: 'center',
-    backgroundColor: '#4B8A08',
+    backgroundColor: '#F5F6CE',
     margin: 10,
-    padding: 10,
-    borderRadius: 10,
-    paddingVertical: 12,
-    paddingHorizontal: 16,
+    
+    
   },
 });
 
