@@ -35,7 +35,13 @@ public class storeController {
 
     @GetMapping("/store/{value}")
     public ResponseEntity<?> getStores(@PathVariable String value){
-        List<StoreDto> storeDtos = storeService.searchStores(value);
+        List<StoreDto> storeDtos;
+        if(value.contains("#")){
+                storeDtos = storeService.searchStoresByCategory(value.replace("#",""));
+        }
+        else{
+            storeDtos = storeService.searchStores(value);
+        }
         Map<String, List<StoreDto>> response = new HashMap<>();
         response.put("stores", storeDtos);
         return ResponseEntity.ok(response);
