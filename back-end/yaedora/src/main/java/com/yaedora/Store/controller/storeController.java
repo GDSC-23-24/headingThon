@@ -3,9 +3,8 @@ package com.yaedora.Store.controller;
 import com.yaedora.Store.RequestDto.LikeRequest;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
-import com.yaedora.Store.entity.RecommendStore;
+import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.service.StoreService;
-import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @Slf4j
@@ -26,7 +27,9 @@ public class storeController {
     public ResponseEntity<?> getStores(){
         List<StoreDto> stores = storeService.getStoresList();
         log.info("가게명 전체");
-        return ResponseEntity.ok(stores);
+        Map<String, List<StoreDto>> response = new HashMap<>();
+        response.put("stores", stores);
+        return ResponseEntity.ok(response);
 
     }
 
@@ -47,9 +50,11 @@ public class storeController {
 
     @GetMapping("/store/recommend")
     public ResponseEntity<?> getRecommendStores(Long member_id){
-        List<RecommendStore> recommendStores = storeService.getRecommendStores(member_id);
-        log.info("추천 가게");
-        return ResponseEntity.ok(recommendStores);
-    }
+        List<RatingStore> ratingStores = storeService.getRecommendStores(member_id);
 
+        Map<String,List<RatingStore>> response = new HashMap<>();
+        response.put("recommendStores", ratingStores);
+        log.info("추천 가게");
+        return ResponseEntity.ok(response);
+    }
 }
