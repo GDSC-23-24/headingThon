@@ -8,8 +8,8 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface RecommendStoreRepository extends JpaRepository<RatingStore,Long> {
+public interface RatingRepository extends JpaRepository<RatingStore,Long> {
 
-    @Query("SELECT rs FROM RatingStore rs join fetch rs.store WHERE rs.member = :member")
-    List<RatingStore> findAllByMember(@Param("member") Member member);
+    @Query("SELECT rs FROM RatingStore rs join fetch rs.store ")
+    List<RatingStore> findAllWithJoin();
 }
