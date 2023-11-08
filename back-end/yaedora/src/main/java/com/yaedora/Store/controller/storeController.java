@@ -1,6 +1,7 @@
 package com.yaedora.Store.controller;
 
 import com.yaedora.Store.RequestDto.LikeRequest;
+import com.yaedora.Store.dto.RatingStoreDto;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
 import com.yaedora.Store.entity.RatingStore;
@@ -54,11 +55,11 @@ public class storeController {
         return ResponseEntity.ok(like);
     }
 
-    @GetMapping("/store/rating")
-    public ResponseEntity<?> getRecommendStores(Long member_id){
-        List<RatingStore> ratingStores = storeService.getRatedStores(member_id);
+    @GetMapping("/store/rating/{member_id}")
+    public ResponseEntity<?> getRecommendStores(@PathVariable Long member_id){
+        List<RatingStoreDto> ratingStores = storeService.getRatedStores(member_id);
 
-        Map<String,List<RatingStore>> response = new HashMap<>();
+        Map<String,List<RatingStoreDto>> response = new HashMap<>();
         response.put("ratingStores", ratingStores);
         log.info("추천 가게");
         return ResponseEntity.ok(response);
