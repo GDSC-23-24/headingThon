@@ -2,6 +2,7 @@ package com.yaedora.Store.service;
 
 import com.yaedora.Member.Entity.Member;
 import com.yaedora.Member.Repository.MemberRepository;
+import com.yaedora.Store.dto.RatingStoreDto;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
 import com.yaedora.Store.entity.RatingStore;
@@ -88,9 +89,9 @@ public class StoreService {
     /**
      * 추천 가게 반환
      */
-    public List<RatingStore> getRatedStores(Long memberId){
+    public List<RatingStoreDto> getRatedStores(Long memberId){
 
-        List<RatingStore> ratingStores = ratingRepository.findAllWithJoin();
+        List<RatingStoreDto> ratingStores = ratingRepository.findAllWithJoin().stream().map(RatingStoreDto::from).toList();
 
         return ratingStores;
     }
