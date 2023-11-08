@@ -7,7 +7,7 @@ import com.yaedora.Store.dto.StoreLikeDto;
 import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.entity.Store;
 import com.yaedora.Store.entity.StoreLikes;
-import com.yaedora.Store.repository.RecommendStoreRepository;
+import com.yaedora.Store.repository.RatingRepository;
 import com.yaedora.Store.repository.StoreLikeRepository;
 import com.yaedora.Store.repository.StoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,7 @@ public class StoreService {
     private MemberRepository memberRepository;
 
     @Autowired
-    private RecommendStoreRepository recommendStoreRepository;
+    private RatingRepository ratingRepository;
 
 
     /**
@@ -88,10 +88,9 @@ public class StoreService {
     /**
      * 추천 가게 반환
      */
-    public List<RatingStore> getRecommendStores(Long memberId){
-        Optional<Member> member = memberRepository.findById(memberId);
+    public List<RatingStore> getRatedStores(Long memberId){
 
-        List<RatingStore> ratingStores = recommendStoreRepository.findAllByMember(member.get());
+        List<RatingStore> ratingStores = ratingRepository.findAllWithJoin();
 
         return ratingStores;
     }
