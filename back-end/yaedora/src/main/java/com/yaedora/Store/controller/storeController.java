@@ -55,9 +55,9 @@ public class storeController {
         return ResponseEntity.ok(like);
     }
 
-    @GetMapping("/store/rating/{member_id}")
-    public ResponseEntity<?> getRecommendStores(@PathVariable Long member_id){
-        List<RatingStoreDto> ratingStores = storeService.getRatedStores(member_id);
+    @GetMapping("/store/rating")
+    public ResponseEntity<?> getRecommendStores(){
+        List<RatingStoreDto> ratingStores = storeService.getRatedStores();
 
         Map<String,List<RatingStoreDto>> response = new HashMap<>();
         response.put("ratingStores", ratingStores);
