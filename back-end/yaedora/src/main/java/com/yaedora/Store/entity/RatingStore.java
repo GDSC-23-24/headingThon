@@ -14,7 +14,7 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class RecommendStore {
+public class RatingStore {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
@@ -26,4 +26,6 @@ public class RecommendStore {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "store_id")
     private Store store;
+
+    private float rating;
 }

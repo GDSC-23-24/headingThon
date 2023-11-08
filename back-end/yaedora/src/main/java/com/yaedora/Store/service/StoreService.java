@@ -4,7 +4,7 @@ import com.yaedora.Member.Entity.Member;
 import com.yaedora.Member.Repository.MemberRepository;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
-import com.yaedora.Store.entity.RecommendStore;
+import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.entity.Store;
 import com.yaedora.Store.entity.StoreLikes;
 import com.yaedora.Store.repository.RecommendStoreRepository;
@@ -88,12 +88,21 @@ public class StoreService {
     /**
      * 추천 가게 반환
      */
-    public List<RecommendStore> getRecommendStores(Long memberId){
+    public List<RatingStore> getRecommendStores(Long memberId){
         Optional<Member> member = memberRepository.findById(memberId);
 
-        List<RecommendStore> recommendStores = recommendStoreRepository.findAllByMember(member.get());
+        List<RatingStore> ratingStores = recommendStoreRepository.findAllByMember(member.get());
 
-        return recommendStores;
+        return ratingStores;
+    }
+
+    /**
+     * 가게 검색
+     */
+    public List<StoreDto> searchStores(String value){
+        List<StoreDto> storeDtos = storeRepository.findStoreByName(value).stream().map(StoreDto::from).toList();
+
+        return storeDtos;
     }
 
 }
