@@ -110,7 +110,7 @@ public class StoreService {
      * 가게 검색 category
      */
     public List<StoreDto> searchStoresByCategory(String value){
-        List<StoreDto> storeDtos = storeRepository.findStoreByName(value).stream().map(StoreDto::from).toList();
+        List<StoreDto> storeDtos = storeRepository.findStoreByCategory(value).stream().map(StoreDto::from).toList();
 
         return storeDtos;
     }
