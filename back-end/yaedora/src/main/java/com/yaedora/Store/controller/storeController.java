@@ -24,6 +24,9 @@ public class storeController {
     @Autowired
     private StoreService storeService;
 
+    /**
+     * 가게명 전체 조회
+     */
     @GetMapping("/store")
     public ResponseEntity<?> getStores(){
         List<StoreDto> stores = storeService.getStoresList();
@@ -34,6 +37,10 @@ public class storeController {
 
     }
 
+    /**
+     *  가게 검색 조회
+     *  url 형식 : ~~~:25565/store/김가네
+     */
     @GetMapping("/store/{value}")
     public ResponseEntity<?> getStores(@PathVariable("value") String value){
         List<StoreDto> storeDtos;
@@ -44,6 +51,11 @@ public class storeController {
         return ResponseEntity.ok(response);
     }
 
+
+    /**
+     *  카테고리별 가게 검색
+     *  url 형식 : ~~~:25565/store/category/한식
+     */
     @GetMapping("/store/category/{value}")
     public ResponseEntity<?> getStoreCategory(@PathVariable("value") String value){
 
@@ -54,6 +66,10 @@ public class storeController {
 
     }
 
+    /**
+     *  좋아요 가게 조회
+     *  url 형식 : ~~~:25565/store/like?member_id=1
+     */
     @GetMapping("/store/like")
     public ResponseEntity<?> getLikesStores(Long member_id){
         List<StoreLikeDto> storeLikeDtos = storeService.getStoreLikeList(member_id);
@@ -61,6 +77,10 @@ public class storeController {
         return ResponseEntity.ok(storeLikeDtos);
     }
 
+    /**
+     *  좋아요 추가 및 삭제
+     *  url 형식 : ~~~:25565/store/increase/like << Method = Post 주의
+     */
     @PostMapping("/store/increase/like")
     public ResponseEntity<?> checkLike(@RequestBody LikeRequest likeRequest){
         // true이면 좋아요 추가.
@@ -69,13 +89,14 @@ public class storeController {
         return ResponseEntity.ok(like);
     }
 
+
     @GetMapping("/store/rating")
     public ResponseEntity<?> getRecommendStores(){
         List<RatingStoreDto> ratingStores = storeService.getRatedStores();
 
         Map<String,List<RatingStoreDto>> response = new HashMap<>();
         response.put("ratingStores", ratingStores);
-        log.info("추천 가게");
+        log.info("평점 가게");
         return ResponseEntity.ok(response);
     }
 
