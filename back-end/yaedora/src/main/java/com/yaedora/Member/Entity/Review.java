@@ -1,11 +1,8 @@
-package com.yaedora.Store.entity;
+package com.yaedora.Member.Entity;
 
-import com.yaedora.Member.Entity.Member;
+import com.yaedora.Store.entity.Store;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import static jakarta.persistence.GenerationType.IDENTITY;
 
@@ -14,16 +11,19 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class RecommendStore {
+@Builder
+public class Review {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
+    @Column(columnDefinition = "Text")
+    private String text;
+
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "member_id")
     private Member member;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "store_id")
     private Store store;
+
 }

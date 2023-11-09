@@ -2,18 +2,21 @@ package com.yaedora.Store.service;
 
 import com.yaedora.Member.Entity.Member;
 import com.yaedora.Member.Repository.MemberRepository;
+import com.yaedora.Store.dto.RatingStoreDto;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
-import com.yaedora.Store.entity.RecommendStore;
+import com.yaedora.Store.dto.StoreLikesCountDto;
+import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.entity.Store;
 import com.yaedora.Store.entity.StoreLikes;
-import com.yaedora.Store.repository.RecommendStoreRepository;
+import com.yaedora.Store.repository.RatingRepository;
 import com.yaedora.Store.repository.StoreLikeRepository;
 import com.yaedora.Store.repository.StoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -31,7 +34,7 @@ public class StoreService {
     private MemberRepository memberRepository;
 
     @Autowired
-    private RecommendStoreRepository recommendStoreRepository;
+    private RatingRepository ratingRepository;
 
 
     /**
@@ -42,6 +45,21 @@ public class StoreService {
 
         return stores;
 
+    }
+
+    /**
+     * id로 스토어 검색
+     */
+
+    public List<StoreDto> getStoreById(List<Long> ids){
+
+        List<StoreDto> storeDtos = new ArrayList<>();
+
+        for( Long i : ids){
+            storeDtos.add(StoreDto.from(storeRepository.findStoreById(i)));
+        }
+
+        return storeDtos;
     }
 
 
@@ -88,12 +106,37 @@ public class StoreService {
     /**
      * 추천 가게 반환
      */
-    public List<RecommendStore> getRecommendStores(Long memberId){
-        Optional<Member> member = memberRepository.findById(memberId);
+    public List<RatingStoreDto> getRatedStores(){
 
-        List<RecommendStore> recommendStores = recommendStoreRepository.findAllByMember(member.get());
+        List<RatingStoreDto> ratingStores = ratingRepository.findAllWithJoin().stream().map(RatingStoreDto::from).toList();
 
-        return recommendStores;
+        return ratingStores;
     }
 
+    /**
+     * 가게 검색
+     */
+    public List<StoreDto> searchStores(String value){
+        List<StoreDto> storeDtos = storeRepository.findStoreByName(value).stream().map(StoreDto::from).toList();
+
+        return storeDtos;
+    }
+
+    /**
+     * 가게 검색 category
+     */
+    public List<StoreDto> searchStoresByCategory(String value){
+        List<StoreDto> storeDtos = storeRepository.findStoreByCategory(value).stream().map(StoreDto::from).toList();
+
+        return storeDtos;
+    }
+
+    /**
+     * 가게별 좋아요 개수 반환
+     */
+
+    public List<StoreLikesCountDto> getLikeCount(){
+        List<StoreLikesCountDto> storeLikeDtos = storeLikeRepository.countStoreLikes();
+        return storeLikeDtos;
+    }
 }

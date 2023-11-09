@@ -1,7 +1,7 @@
 package com.yaedora.Member.Entity;
 
 import com.yaedora.Store.entity.StoreLikes;
-import com.yaedora.Store.entity.RecommendStore;
+import com.yaedora.Store.entity.RatingStore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,5 +28,5 @@ public class Member {
     private List<StoreLikes> storeLikes;
 
     @OneToMany(mappedBy = "member", fetch = FetchType.LAZY)
-    private List<RecommendStore> RecommendStores;
+    private List<RatingStore> ratingStores;
 }

@@ -25,7 +25,7 @@ public class StoreDto {
 
     public static StoreDto from(Store store){
         return new StoreDto(store.getId(),
-                store.getCategory(),
+                store.getStorename(),
                 store.getFulladdress(),
                 store.getCategory(),
                 store.getLatitude(),
