@@ -34,7 +34,7 @@ public class PythonExecutorService {
                 for (String numberString : numberStrings) {
                     numbers.add(Long.parseLong(numberString.trim()));
                 }
-                System.out.println(numbers);
+                System.out.println("추천 가게 : "+numbers);
 
                 return numbers;
             } else {

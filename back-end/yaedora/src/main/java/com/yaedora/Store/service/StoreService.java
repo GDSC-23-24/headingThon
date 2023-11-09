@@ -2,6 +2,7 @@ package com.yaedora.Store.service;
 
 import com.yaedora.Member.Entity.Member;
 import com.yaedora.Member.Repository.MemberRepository;
+import com.yaedora.Recommend.Dto.StoreRecommendDto;
 import com.yaedora.Store.dto.RatingStoreDto;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
@@ -51,13 +52,22 @@ public class StoreService {
      * id로 스토어 검색
      */
 
-    public List<StoreDto> getStoreById(List<Long> ids){
+    public List<StoreRecommendDto> getStoreById(List<Long> ids){
 
-        List<StoreDto> storeDtos = new ArrayList<>();
+        List<StoreRecommendDto> storeDtos = new ArrayList<>();
 
         for( Long i : ids){
-            storeDtos.add(StoreDto.from(storeRepository.findStoreById(i)));
+            storeDtos.add(StoreRecommendDto.from(storeRepository.findStoreById(i)));
         }
+
+        return storeDtos;
+    }
+
+    /**
+     * 가까운 가게 10개
+     */
+    public List<StoreDto> getNearTop10Store(float lat, float lng){
+        List<StoreDto> storeDtos = storeRepository.findNearStore(lat,lng).stream().map(StoreDto::from).toList();
 
         return storeDtos;
     }

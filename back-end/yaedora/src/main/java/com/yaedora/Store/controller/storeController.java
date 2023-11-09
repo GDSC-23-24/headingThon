@@ -1,6 +1,7 @@
 package com.yaedora.Store.controller;
 
 import com.yaedora.Store.RequestDto.LikeRequest;
+import com.yaedora.Store.RequestDto.coordinate;
 import com.yaedora.Store.dto.RatingStoreDto;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.dto.StoreLikeDto;
@@ -67,14 +68,40 @@ public class storeController {
     }
 
     /**
+     * 가까운 가게 검색
+     */
+    @PostMapping("/store/near")
+    public ResponseEntity<?> getNearStore(@RequestBody coordinate coordinate){
+        List<StoreDto> storeDtos = storeService.getNearTop10Store(coordinate.getLatitude(),coordinate.getLongitude());
+        Map<String,List<StoreDto>> response = new HashMap<>();
+        response.put("stores", storeDtos);
+        log.info("근처가게 조회");
+        return ResponseEntity.ok(response);
+    }
+
+
+    @GetMapping("/store/near")
+    public ResponseEntity<?> getNearStore(){
+        List<StoreDto> storeDtos = storeService.getNearTop10Store((float)35.106,(float)128.966);
+        Map<String,List<StoreDto>> response = new HashMap<>();
+        response.put("stores", storeDtos);
+        log.info("근처가게 조회");
+        return ResponseEntity.ok(response);
+    }
+
+    /**
      *  좋아요 가게 조회
      *  url 형식 : ~~~:25565/store/like?member_id=1
      */
     @GetMapping("/store/like")
     public ResponseEntity<?> getLikesStores(Long member_id){
         List<StoreLikeDto> storeLikeDtos = storeService.getStoreLikeList(member_id);
+
+        Map<String,List<StoreLikeDto>> response = new HashMap<>();
+        response.put("storeLikeDtos", storeLikeDtos);
+
         log.info("멤버 좋아요 조회");
-        return ResponseEntity.ok(storeLikeDtos);
+        return ResponseEntity.ok(response);
     }
 
     /**
@@ -100,12 +127,12 @@ public class storeController {
         return ResponseEntity.ok(response);
     }
 
-    @GetMapping("/store/likes/count")
-    public ResponseEntity<?> getLikesCount(){
-        Map<String, List<StoreLikesCountDto>> response = new HashMap<>();
-        response.put("likesCount",storeService.getLikeCount());
-        return ResponseEntity.ok(response);
-    }
+        @GetMapping("/store/likes/count")
+        public ResponseEntity<?> getLikesCount(){
+            Map<String, List<StoreLikesCountDto>> response = new HashMap<>();
+            response.put("likesCount",storeService.getLikeCount());
+            return ResponseEntity.ok(response);
+        }
 
 
 }

@@ -81,7 +81,7 @@ def CF_knn_bias(user_id, store_id,neighbor_size=5):
     return prediction
 
 userid= 1
-store_list = 25
+store_list = 20
 ratingid={}
 store_result=[]
 

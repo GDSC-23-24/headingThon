@@ -1,6 +1,7 @@
 package com.yaedora.Recommend.Controller;
 
 
+import com.yaedora.Recommend.Dto.StoreRecommendDto;
 import com.yaedora.Recommend.Service.PythonExecutorService;
 import com.yaedora.Store.dto.StoreDto;
 import com.yaedora.Store.service.StoreService;
@@ -25,19 +26,17 @@ public class RecommendController {
 
     @GetMapping("/recommend")
     public ResponseEntity<?> getRecommendStore(){
-        long beforeTime = System.currentTimeMillis();
 
         List<Long> storeIds = service.executePythonScript();
 
-        List<StoreDto> storeDtos = storeService.getStoreById(storeIds);
-        Map<String,List<StoreDto>> response = new HashMap<>();
-        response.put("storeDtos",storeDtos);
+        List<StoreRecommendDto> storeDtos = storeService.getStoreById(storeIds);
 
-        long afterTime = System.currentTimeMillis();
-        long secDiffTime = (afterTime - beforeTime);
-        System.out.println("시간차이(m) : "+secDiffTime);
+        Map<String,List<StoreRecommendDto>> response = new HashMap<>();
+        response.put("storeRecommend",storeDtos);
+
 
         return ResponseEntity.ok(response);
     }
+
 
 }
