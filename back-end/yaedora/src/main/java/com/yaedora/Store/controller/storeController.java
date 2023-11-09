@@ -7,6 +7,7 @@ import com.yaedora.Store.dto.StoreLikeDto;
 import com.yaedora.Store.dto.StoreLikesCountDto;
 import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.service.StoreService;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -34,11 +35,23 @@ public class storeController {
     }
 
     @GetMapping("/store/{value}")
-    public ResponseEntity<?> getStores(@PathVariable String value){
-        List<StoreDto> storeDtos = storeService.searchStores(value);
+    public ResponseEntity<?> getStores(@PathVariable("value") String value){
+        List<StoreDto> storeDtos;
+        storeDtos = storeService.searchStores(value);
+
         Map<String, List<StoreDto>> response = new HashMap<>();
         response.put("stores", storeDtos);
         return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/store/category/{value}")
+    public ResponseEntity<?> getStoreCategory(@PathVariable("value") String value){
+
+        List<StoreDto> storeDtos = storeService.searchStoresByCategory(value);
+        Map<String, List<StoreDto>> response = new HashMap<>();
+        response.put("stores", storeDtos);
+        return ResponseEntity.ok(response);
+
     }
 
     @GetMapping("/store/like")

@@ -107,6 +107,15 @@ public class StoreService {
     }
 
     /**
+     * 가게 검색 category
+     */
+    public List<StoreDto> searchStoresByCategory(String value){
+        List<StoreDto> storeDtos = storeRepository.findStoreByCategory(value).stream().map(StoreDto::from).toList();
+
+        return storeDtos;
+    }
+
+    /**
      * 가게별 좋아요 개수 반환
      */
 
