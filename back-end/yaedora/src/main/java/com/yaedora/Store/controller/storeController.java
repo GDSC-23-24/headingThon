@@ -72,4 +72,6 @@ public class storeController {
         response.put("likesCount",storeService.getLikeCount());
         return ResponseEntity.ok(response);
     }
+
+
 }

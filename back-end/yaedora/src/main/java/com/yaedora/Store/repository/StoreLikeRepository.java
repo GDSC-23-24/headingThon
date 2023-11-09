@@ -24,4 +24,6 @@ public interface StoreLikeRepository extends JpaRepository<StoreLikes,Long> {
                 "FROM StoreLikes sl " +
                 "GROUP BY sl.store.id")
         List<StoreLikesCountDto> countStoreLikes();
+
+
 }

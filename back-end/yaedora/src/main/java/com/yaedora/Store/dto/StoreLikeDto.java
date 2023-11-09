@@ -22,7 +22,7 @@ public class StoreLikeDto {
         return new StoreLikeDto(
                 e.getId(),
                 e.getStore(),
-                "red"
+                "yellow"
         );
     }
 
