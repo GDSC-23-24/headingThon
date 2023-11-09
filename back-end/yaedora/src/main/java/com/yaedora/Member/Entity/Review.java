@@ -3,6 +3,10 @@ package com.yaedora.Member.Entity;
 import com.yaedora.Store.entity.Store;
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+import java.time.LocalDateTime;
 
 import static jakarta.persistence.GenerationType.IDENTITY;
 
@@ -12,6 +16,7 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@EntityListeners({AuditingEntityListener.class})
 public class Review {
     @Id
     @GeneratedValue(strategy = IDENTITY)
@@ -25,5 +30,8 @@ public class Review {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Store store;
+
+    @CreatedDate
+    private LocalDateTime createTime;
 
 }
