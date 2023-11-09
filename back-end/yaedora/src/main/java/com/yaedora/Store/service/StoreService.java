@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -44,6 +45,21 @@ public class StoreService {
 
         return stores;
 
+    }
+
+    /**
+     * id로 스토어 검색
+     */
+
+    public List<StoreDto> getStoreById(List<Long> ids){
+
+        List<StoreDto> storeDtos = new ArrayList<>();
+
+        for( Long i : ids){
+            storeDtos.add(StoreDto.from(storeRepository.findStoreById(i)));
+        }
+
+        return storeDtos;
     }
 
 
