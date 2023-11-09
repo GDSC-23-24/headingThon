@@ -4,14 +4,11 @@ import { Picker } from '@react-native-picker/picker';
 import axios from 'axios';
 
 const createAxiosObject = () => {
-  const { CancelToken } = axios;
-  const source = CancelToken.source();
   const axiosObject = axios.create({
     baseURL: 'http://localhost:25565',
     headers: {
       Accept: 'application/json',
     },
-    cancelToken: source.token,
   });
 
   const timeout = setTimeout(() => {
@@ -77,7 +74,7 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
       <Picker
         selectedValue={selectedCity}
         onValueChange={handleCityChange}
-        style={{ backgroundColor: 'white', color: 'black' }}
+        style={{ backgroundColor: '#FBFBEF', color: 'black' }}
       >
         {cities.map((city) => (
           <Picker.Item key={city} label={city} value={city} />
@@ -86,7 +83,7 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
 
       <Picker
         selectedValue={selectedTown}
-        style={{ backgroundColor: 'white', color: 'black' }}
+        style={{ backgroundColor: '#FBFBEF', color: 'black' }}
         onValueChange={(town) => {
           onTownChange(town);
           onVillageChange(null);
@@ -124,8 +121,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#F5F6CE',
     margin: 10,
-    
-    
   },
 });
 

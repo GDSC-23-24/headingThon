@@ -6,6 +6,7 @@ import Main from './Main'
 import Splash from './Splash';
 import Notice from './Notice';
 import My from './My';
+import Map from './Map'
 
 ;
 
@@ -20,6 +21,8 @@ export default function App() {
         <Stack.Screen name="Main" component={Main} options={{ headerShown: false }} />
         <Stack.Screen name="Notice" component={Notice} options={{ headerShown: false }} />
         <Stack.Screen name="My" component={My} options={{ headerShown: false }} />
+        <Stack.Screen name="Map" component={Map} options={{ headerShown: false }} />
+
 
       </Stack.Navigator>
     </NavigationContainer>
