@@ -2,10 +2,7 @@ package com.yaedora.Store.controller;
 
 import com.yaedora.Store.RequestDto.LikeRequest;
 import com.yaedora.Store.RequestDto.coordinate;
-import com.yaedora.Store.dto.RatingStoreDto;
-import com.yaedora.Store.dto.StoreDto;
-import com.yaedora.Store.dto.StoreLikeDto;
-import com.yaedora.Store.dto.StoreLikesCountDto;
+import com.yaedora.Store.dto.*;
 import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.service.StoreService;
 import jakarta.servlet.http.HttpServletRequest;
@@ -127,12 +124,24 @@ public class storeController {
         return ResponseEntity.ok(response);
     }
 
-        @GetMapping("/store/likes/count")
-        public ResponseEntity<?> getLikesCount(){
-            Map<String, List<StoreLikesCountDto>> response = new HashMap<>();
-            response.put("likesCount",storeService.getLikeCount());
-            return ResponseEntity.ok(response);
-        }
+    @GetMapping("/store/likes/count")
+    public ResponseEntity<?> getLikesCount(){
+        Map<String, List<StoreLikesCountDto>> response = new HashMap<>();
+        response.put("likesCount",storeService.getLikeCount());
+        return ResponseEntity.ok(response);
+    }
+
+    /**
+     * 가게 상세정보 조회
+     */
+    @GetMapping("/store/detail/{storeId}")
+    public ResponseEntity<?> getStoreDetail(@PathVariable("storeId") Long storeId){
+        StoreDetailDto storeDetailDto = storeService.getStoreDetail(storeId);
+        Map<String, StoreDetailDto> response = new HashMap<>();
+        response.put("storeDetailDto",storeDetailDto);
+        log.info("상세정보 조회");
+        return ResponseEntity.ok(response);
+    }
 
 
 }

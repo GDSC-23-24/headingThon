@@ -3,13 +3,12 @@ package com.yaedora.Store.service;
 import com.yaedora.Member.Entity.Member;
 import com.yaedora.Member.Repository.MemberRepository;
 import com.yaedora.Recommend.Dto.StoreRecommendDto;
-import com.yaedora.Store.dto.RatingStoreDto;
-import com.yaedora.Store.dto.StoreDto;
-import com.yaedora.Store.dto.StoreLikeDto;
-import com.yaedora.Store.dto.StoreLikesCountDto;
+import com.yaedora.Store.dto.*;
+import com.yaedora.Store.entity.Menu;
 import com.yaedora.Store.entity.RatingStore;
 import com.yaedora.Store.entity.Store;
 import com.yaedora.Store.entity.StoreLikes;
+import com.yaedora.Store.repository.MenuRepository;
 import com.yaedora.Store.repository.RatingRepository;
 import com.yaedora.Store.repository.StoreLikeRepository;
 import com.yaedora.Store.repository.StoreRepository;
@@ -36,6 +35,9 @@ public class StoreService {
 
     @Autowired
     private RatingRepository ratingRepository;
+
+    @Autowired
+    private MenuRepository menuRepository;
 
 
     /**
@@ -148,5 +150,18 @@ public class StoreService {
     public List<StoreLikesCountDto> getLikeCount(){
         List<StoreLikesCountDto> storeLikeDtos = storeLikeRepository.countStoreLikes();
         return storeLikeDtos;
+    }
+
+    /**
+     * 가게 상세정보 조회
+     */
+    public StoreDetailDto getStoreDetail(Long storeId){
+        Store store = storeRepository.findStoreById(storeId);
+        List<MenuDto> menus = menuRepository.findAllByStoreId(storeId);
+        LikesRateDto likesRateDto = storeRepository.findCountAndRate(storeId);
+
+        StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus,likesRateDto.getLikes(), likesRateDto.getRate_avg());
+
+        return storeDetailDto;
     }
 }

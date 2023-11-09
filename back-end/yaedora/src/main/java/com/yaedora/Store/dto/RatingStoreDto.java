@@ -12,7 +12,8 @@ import java.util.List;
 public class RatingStoreDto {
 
     private Long id;
-    private float rating;
+
+    private double rating;
 
     private Long member_id;
 
