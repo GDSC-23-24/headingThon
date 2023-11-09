@@ -55,11 +55,16 @@ const MyPageScreen = () => {
   const fetchLikedStores = async () => {
     try {
       const axiosObject = createAxiosObject();
-      const response = await axiosObject.get('http://localhost:25565/store/like?member_id=1', { headers: { Accept: "application/json" }, }); // Replace with the actual center name
+      const response = await axiosObject.get('http://localhost:25565/store/like?member_id=1', { headers: { Accept: "application/json" }, }); 
       const likedStores = response.data; // Assuming the data structure is an array of liked stores
-      setLikeData(likedStores); // Update the state with the fetched data]
-      console.log("hello")
-      setLikeData(response.data)
+      //setLikeData(likedStores); // Update the state with the fetched data]
+      console.log("start")
+      setLikeData(likedStores.storeLikeDtos)
+      console.log(response.data)
+      console.log(likedStores)
+
+
+
       
 
     } catch (error) {

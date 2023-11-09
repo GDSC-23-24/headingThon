@@ -1,11 +1,62 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import axios from 'axios';
 import { View, StyleSheet, Button } from 'react-native';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
-const Map = () => {
-  const mapRef = useRef(null);
+const createAxiosObject = () => {
+  const { CancelToken } = axios;
+  const source = CancelToken.source();
+  const axiosObject = axios.create({
+    baseURL: 'http://localhost:25565',
+    headers: {
+      Accept: 'application/json',
+    },
+    cancelToken: source.token,
+  });
 
+  const timeout = setTimeout(() => {
+    source.cancel(-1);
+  }, 10000);
+
+  axiosObject.interceptors.response.use(
+    (response) => {
+      clearTimeout(timeout);
+      return response;
+    },
+    (error) => {
+      return Promise.reject(error);
+    }
+  );
+  return axiosObject;
+};
+
+const Map = () => {
+  const [likeData, setLikeData] = useState([]);
+
+  useEffect(() => {
+    fetchLikedStores();
+  }, [fetchLikedStores]);
+
+  const fetchLikedStores = async () => {
+    try {
+      const axiosObject = createAxiosObject();
+      const response = await axiosObject.get('http://localhost:25565/store/like?member_id=1', { headers: { Accept: "application/json" }, });
+      const likedStores = response.data
+      console.log("시작")
+      console.log(response)
+      setLikeData(likedStores.storeLikeDtos)
+      console.log(likedStores)
+
+
+
+
+    } catch (error) {
+      console.log('Error fetching liked stores:', error);
+    }
+  }
+
+  const mapRef = useRef(null);
   const [selectedPlace, setSelectedPlace] = useState(null);
 
   const handlePlaceSelect = (data, details) => {
@@ -21,7 +72,7 @@ const Map = () => {
         latitudeDelta: 0.0922,
         longitudeDelta: 0.0421,
       };
-      mapRef.current.animateToRegion(newRegion, 1000); // Adjust the duration as needed
+      mapRef.current.animateToRegion(newRegion, 1000);
     }
   };
 
@@ -32,7 +83,7 @@ const Map = () => {
           minLength={2}
           placeholder="장소를 검색해보세요!"
           query={{
-            key: 'AIzaSyDUxejCVhBL0GAOdlTUW-rc6qnwpxKjg_M',
+            key: 'AIzaSyAHCoiPElse3luRIVilcDYYxz9l9-y4UE0',
             language: "ko",
             components: "country:kr",
           }}
@@ -52,22 +103,26 @@ const Map = () => {
           provider={PROVIDER_GOOGLE}
           style={styles.map}
           initialRegion={{
-            latitude: 35.106, // 초기위치 사하구
-            longitude: 128.966, // 초기위치 사하구
+            latitude: 35.11081, // 초기위치 사하구
+            longitude: 128.9479, // 초기위치 사하구
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421,
           }}
         >
-          {selectedPlace && (
+          {likeData.map((likedStore) => (
             <Marker
+              key={likedStore.id}
               coordinate={{
-                latitude: selectedPlace.details.geometry.location.lat,
-                longitude: selectedPlace.details.geometry.location.lng,
+                latitude: likedStore.store.latitude,
+                longitude: likedStore.store.longitude,
               }}
-              title={selectedPlace.data.description}
-              pinColor="red" // Set the marker color to red
+              title={likedStore.store.storename}
+              description={likedStore.store.category}
+              pinColor={likedStore.color || "red"} // Use 'color' from the data
             />
-          )}
+          ))}
+
+
         </MapView>
       </View>
     </View>
