@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet,Image } from 'react-native';
 
 export default function Main({ navigation }) {
   const navigateToMapView = () => {
-    
+    navigation.navigate('Map');
   };
 
   const navigateToNotice = () => {
@@ -58,16 +58,19 @@ const styles = StyleSheet.create({
   main:{
     width:300,
     height:300,
-    justifyContent:'center'
+    justifyContent:'center',
+
   },
   horizontalContainer: {
     flexDirection: 'row',
     alignItems: 'center',
+    marginLeft: 20,
+    marginRight:20,
     marginBottom: 5,
   },
   horizontalButton: {
-    padding: 10,
-    
+    marginTop: 10,
+    marginLeft: 10,
     marginHorizontal: 10,
     marginBottom: 20,
   },
@@ -77,7 +80,7 @@ const styles = StyleSheet.create({
   },
   logo:{
     
-    width: 200,
+    width: 180,
     height: 200,
     
     

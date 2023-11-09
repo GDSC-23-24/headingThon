@@ -100,6 +100,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FBFBEF',
     margin: 10,
     padding: 10,
+
   },
   logo: {
     width: 200,
@@ -119,6 +120,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginTop: 10,
+    
   },
   input: {
     height: 40,
