@@ -68,8 +68,8 @@ public class StoreService {
     /**
      * 가까운 가게 10개
      */
-    public List<StoreDto> getNearTop10Store(float lat, float lng){
-        List<StoreDto> storeDtos = storeRepository.findNearStore(lat,lng).stream().map(StoreDto::from).toList();
+    public List<StoreResponseDto> getNearTop10Store(float lat, float lng){
+        List<StoreResponseDto> storeDtos = storeRepository.findNearStore(lat,lng).stream().map(StoreResponseDto::from).toList();
 
         return storeDtos;
     }

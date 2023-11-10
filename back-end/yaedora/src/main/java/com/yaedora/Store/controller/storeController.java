@@ -67,20 +67,20 @@ public class storeController {
     /**
      * 가까운 가게 검색
      */
-    @PostMapping("/store/near")
-    public ResponseEntity<?> getNearStore(@RequestBody coordinate coordinate){
-        List<StoreDto> storeDtos = storeService.getNearTop10Store(coordinate.getLatitude(),coordinate.getLongitude());
-        Map<String,List<StoreDto>> response = new HashMap<>();
-        response.put("stores", storeDtos);
-        log.info("근처가게 조회");
-        return ResponseEntity.ok(response);
-    }
+//    @PostMapping("/store/near")
+//    public ResponseEntity<?> getNearStore(@RequestBody coordinate coordinate){
+//        List<StoreDto> storeDtos = storeService.getNearTop10Store(coordinate.getLatitude(),coordinate.getLongitude());
+//        Map<String,List<StoreDto>> response = new HashMap<>();
+//        response.put("stores", storeDtos);
+//        log.info("근처가게 조회");
+//        return ResponseEntity.ok(response);
+//    }
 
 
     @GetMapping("/store/near")
     public ResponseEntity<?> getNearStore(){
-        List<StoreDto> storeDtos = storeService.getNearTop10Store((float)35.106,(float)128.966);
-        Map<String,List<StoreDto>> response = new HashMap<>();
+        List<StoreResponseDto> storeDtos = storeService.getNearTop10Store((float)35.106,(float)128.966);
+        Map<String,List<StoreResponseDto>> response = new HashMap<>();
         response.put("stores", storeDtos);
         log.info("근처가게 조회");
         return ResponseEntity.ok(response);
