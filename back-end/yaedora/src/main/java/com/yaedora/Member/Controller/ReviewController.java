@@ -52,4 +52,13 @@ public class ReviewController {
         return ResponseEntity.ok(response);
     }
 
+    @GetMapping("store/review/member/{memberId}")
+    public ResponseEntity<?> getReviewByMember(@PathVariable("memberId") Long memberId){
+        List<ReviewDto> reviewResponseDtos = reviewService.getReviewByMemberId(memberId);
+
+        Map<String, List<ReviewDto>> response = new HashMap<>();
+        response.put("ReviewDto",reviewResponseDtos );
+        return ResponseEntity.ok(response);
+    }
+
 }
