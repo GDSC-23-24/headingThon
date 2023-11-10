@@ -43,8 +43,8 @@ public class StoreService {
     /**
      * 가맹점 전체 반환
      */
-    public List<StoreDto> getStoresList(){
-        List<StoreDto> stores = storeRepository.findAll().stream().map(StoreDto::from).toList();
+    public List<StoreResponseDto> getStoresList(){
+        List<StoreResponseDto> stores = storeRepository.findAll().stream().map(StoreResponseDto::from).toList();
 
         return stores;
 
