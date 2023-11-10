@@ -4,6 +4,7 @@ import com.yaedora.Member.Entity.Member;
 import com.yaedora.Member.Entity.Review;
 import com.yaedora.Member.Repository.MemberRepository;
 import com.yaedora.Member.Repository.ReviewRepository;
+import com.yaedora.Member.dto.ReviewDto;
 import com.yaedora.Member.dto.ReviewRequestDto;
 import com.yaedora.Store.entity.Store;
 import com.yaedora.Store.repository.StoreRepository;
@@ -12,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -26,6 +28,11 @@ public class ReviewService {
 
     @Autowired
     private ReviewRepository reviewRepository;
+
+    public List<ReviewDto> getReview(Long storeId){
+        List<ReviewDto> reviewDtos = reviewRepository.findBystoreId(storeId).stream().map(ReviewDto::from).toList();
+        return reviewDtos;
+    }
 
     public void insertReview(ReviewRequestDto reviewRequestDto){
         Member member = memberRepository.findById(reviewRequestDto.getMemberId()).get();
