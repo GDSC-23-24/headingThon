@@ -21,7 +21,7 @@ public class StoreRecommendDto {
     public static StoreRecommendDto from(Store e){
         return new StoreRecommendDto(
                 e,
-                "skyBlue"
+                "skyblue"
         );
     }
 

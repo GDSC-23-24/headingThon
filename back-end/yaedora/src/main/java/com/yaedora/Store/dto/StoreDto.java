@@ -13,7 +13,7 @@ public class StoreDto {
 
     private Long id;
 
-    private String storeName;
+    private String storename;
 
     private String fullAddress;
 
