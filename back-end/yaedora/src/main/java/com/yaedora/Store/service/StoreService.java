@@ -1,7 +1,10 @@
 package com.yaedora.Store.service;
 
 import com.yaedora.Member.Entity.Member;
+import com.yaedora.Member.Entity.Review;
 import com.yaedora.Member.Repository.MemberRepository;
+import com.yaedora.Member.Repository.ReviewRepository;
+import com.yaedora.Member.dto.ReviewDto;
 import com.yaedora.Recommend.Dto.StoreRecommendDto;
 import com.yaedora.Store.dto.*;
 import com.yaedora.Store.entity.Menu;
@@ -38,6 +41,10 @@ public class StoreService {
 
     @Autowired
     private MenuRepository menuRepository;
+
+    @Autowired
+    private ReviewRepository reviewRepository;
+
 
 
     /**
@@ -159,8 +166,9 @@ public class StoreService {
         Store store = storeRepository.findStoreById(storeId);
         List<MenuDto> menus = menuRepository.findAllByStoreId(storeId);
         LikesRateDto likesRateDto = storeRepository.findCountAndRate(storeId);
+        List<ReviewDto> review =  reviewRepository.findBystoreId(storeId).stream().map(ReviewDto::from).toList();
 
-        StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus,likesRateDto.getLikes(), likesRateDto.getRate_avg());
+        StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus,likesRateDto.getLikes(), likesRateDto.getRate_avg(),review);
 
         return storeDetailDto;
     }
