@@ -1,7 +1,10 @@
 package com.yaedora.Store.service;
 
 import com.yaedora.Member.Entity.Member;
+import com.yaedora.Member.Entity.Review;
 import com.yaedora.Member.Repository.MemberRepository;
+import com.yaedora.Member.Repository.ReviewRepository;
+import com.yaedora.Member.dto.ReviewDto;
 import com.yaedora.Recommend.Dto.StoreRecommendDto;
 import com.yaedora.Store.dto.*;
 import com.yaedora.Store.entity.Menu;
@@ -12,6 +15,7 @@ import com.yaedora.Store.repository.MenuRepository;
 import com.yaedora.Store.repository.RatingRepository;
 import com.yaedora.Store.repository.StoreLikeRepository;
 import com.yaedora.Store.repository.StoreRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,6 +26,7 @@ import java.util.Optional;
 
 @Service
 @Transactional
+@Slf4j
 public class StoreService {
 
     @Autowired
@@ -38,6 +43,10 @@ public class StoreService {
 
     @Autowired
     private MenuRepository menuRepository;
+
+    @Autowired
+    private ReviewRepository reviewRepository;
+
 
 
     /**
@@ -157,11 +166,27 @@ public class StoreService {
      */
     public StoreDetailDto getStoreDetail(Long storeId){
         Store store = storeRepository.findStoreById(storeId);
+        log.info("1");
         List<MenuDto> menus = menuRepository.findAllByStoreId(storeId);
-        LikesRateDto likesRateDto = storeRepository.findCountAndRate(storeId);
+        log.info("2");
 
-        StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus,likesRateDto.getLikes(), likesRateDto.getRate_avg());
+        Optional<LikesRateDto> likesRateDto = storeRepository.findCountAndRate(storeId);
+        log.info("3");
 
-        return storeDetailDto;
+        List<ReviewDto> review =  reviewRepository.findBystoreId(storeId).stream().map(ReviewDto::from).toList();
+        log.info("4");
+
+        if(likesRateDto.isPresent()){
+            StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus,likesRateDto.get().getLikes(), likesRateDto.get().getRate_avg(),review);
+            return storeDetailDto;
+        }
+        else{
+            StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus, 0l, 0.0,review);
+            return storeDetailDto;
+
+        }
+
+
+
     }
 }

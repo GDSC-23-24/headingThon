@@ -9,6 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface StoreRepository extends JpaRepository<Store,Long> {
 
@@ -30,7 +31,7 @@ public interface StoreRepository extends JpaRepository<Store,Long> {
             "LEFT JOIN RatingStore r ON l.store.id = r.store.id " +
             "WHERE l.store.id = :storeId " +
             "GROUP BY l.store.id")
-    LikesRateDto findCountAndRate(@Param("storeId") Long storeId);
+    Optional<LikesRateDto> findCountAndRate(@Param("storeId") Long storeId);
 
 
 

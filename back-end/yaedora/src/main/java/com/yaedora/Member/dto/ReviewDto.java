@@ -8,11 +8,13 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Slf4j
 public class ReviewDto {
     private Long id;
     private String content;
@@ -21,12 +23,12 @@ public class ReviewDto {
     private StoreDto storeDto;
 
     public static ReviewDto from(Review r){
+        log.info("리뷰디티오 안");
         return new ReviewDto(
                 r.getId(),
                 r.getText(),
                 MemberDto.from(r.getMember()),
                 StoreDto.from(r.getStore())
-
         );
     }
 }
