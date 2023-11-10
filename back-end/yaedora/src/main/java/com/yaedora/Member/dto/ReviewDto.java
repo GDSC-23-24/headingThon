@@ -3,6 +3,7 @@ package com.yaedora.Member.dto;
 
 import com.yaedora.Member.Entity.Member;
 import com.yaedora.Member.Entity.Review;
+import com.yaedora.Store.dto.StoreDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,11 +18,15 @@ public class ReviewDto {
     private String content;
     private MemberDto member;
 
+    private StoreDto storeDto;
+
     public static ReviewDto from(Review r){
         return new ReviewDto(
                 r.getId(),
                 r.getText(),
-                MemberDto.from(r.getMember())
+                MemberDto.from(r.getMember()),
+                StoreDto.from(r.getStore())
+
         );
     }
 }

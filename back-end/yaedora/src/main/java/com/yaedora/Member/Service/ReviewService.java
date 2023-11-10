@@ -6,6 +6,7 @@ import com.yaedora.Member.Repository.MemberRepository;
 import com.yaedora.Member.Repository.ReviewRepository;
 import com.yaedora.Member.dto.ReviewDto;
 import com.yaedora.Member.dto.ReviewRequestDto;
+import com.yaedora.Member.dto.ReviewResponseDto;
 import com.yaedora.Store.entity.Store;
 import com.yaedora.Store.repository.StoreRepository;
 import jakarta.persistence.Table;
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -60,6 +62,13 @@ public class ReviewService {
         Review review = reviewRepository.findById(reviewRequestDto.getId()).get();
 
         review.setText(reviewRequestDto.getContent());
+
+    }
+
+    public List<ReviewDto> getReviewByMemberId(Long memberId) {
+        List<ReviewDto> reviewResponseDtos = reviewRepository.findBymemberId(memberId).stream().map(ReviewDto::from).toList();
+        return reviewResponseDtos;
+
 
     }
 }
