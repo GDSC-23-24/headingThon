@@ -38,9 +38,9 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
     try {
       const axiosObject = createAxiosObject();
       const townResponse = await axiosObject.get('http://localhost:25565/location/town');
-      const towns = townResponse.data.towns;
+      const towns = townResponse.data;
 
-      setTownData(towns);
+      setTownData(towns.towns);
     } catch (error) {
       console.log('Error fetching town data:', error);
     }
@@ -50,9 +50,9 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
     try {
       const axiosObject = createAxiosObject();
       const villageResponse = await axiosObject.get('http://localhost:25565/location/village?town=사하구');
-      const villages = villageResponse.data.villages;
+      const villages = villageResponse.data
 
-      setVillageData(villages);
+      setVillageData(villages.villages);
     } catch (error) {
       console.log('Error fetching village data:', error);
     }
@@ -102,15 +102,15 @@ function PickerScreen({ onCityChange, onTownChange, onVillageChange, selectedCit
         ))}
       </Picker>
 
-      {/* <Picker
+      { <Picker
         selectedValue={selectedVillage}
         onValueChange={onVillageChange}
-        style={{ color: "white" }}
+        style={{ backgroundColor: '#FBFBEF', color: 'black' }}
       >
         {villageData.map((village) => (
           <Picker.Item key={village} label={village} value={village} />
         ))}
-      </Picker> */}
+      </Picker> }
     </View>
   );
 }

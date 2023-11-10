@@ -3,8 +3,9 @@ import { View, Text, StyleSheet, FlatList } from 'react-native';
 
 const notices = [
   { id: '1', title: '공지사항', content: '급식 카드를 가지고 있는 누구나 사용 가능' },
-  { id: '2', title: '공지사항', content: '커뮤니티를 통해 밥친구를 만들고, 정보를 공유해요' },
+  { id: '2', title: '커뮤니티', content: '커뮤니티를 통해 밥친구를 만들고, 정보를 공유해요' },
   { id: '3', title: '공지사항', content: '오늘은 뭘 먹을까?' },
+  { id: '4', title: '추천시스템', content: '좋아요를 누른 바탕으로 가게를 추천받아요!' },
   // Add more notices as needed
 ];
 

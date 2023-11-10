@@ -1,0 +1,59 @@
+{
+    "storeRecommend": [
+        {
+            "store": {
+                "id": 3,
+                "storename": "(주)교동면옥 부산하단점",
+                "fulladdress": "부산광역시 사하구 낙동남로 1382 1층",
+                "category": "한식",
+                "latitude": 35.10591,
+                "longitude": 128.96266
+            },
+            "color": "skyblue"
+        },
+        {
+            "store": {
+                "id": 5,
+                "storename": "(주)센킴스롤링파스타",
+                "fulladdress": "부산광역시 사하구 낙동남로1423번길 3 2층(하단동  태영빌딩)",
+                "category": "양식",
+                "latitude": 35.106678,
+                "longitude": 128.96716
+            },
+            "color": "skyblue"
+        },
+        {
+            "store": {
+                "id": 11,
+                "storename": "1979남포통닭",
+                "fulladdress": "부산광역시 사하구 낙동남로1347번길 45 1층",
+                "category": "일반대중음식",
+                "latitude": 35.108574,
+                "longitude": 128.95927
+            },
+            "color": "skyblue"
+        },
+        {
+            "store": {
+                "id": 19,
+                "storename": "776(칠칠육)",
+                "fulladdress": "부산광역시 사하구 승학로3번길 79 1층",
+                "category": "한식",
+                "latitude": 35.109734,
+                "longitude": 128.96692
+            },
+            "color": "skyblue"
+        },
+        {
+            "store": {
+                "id": 7,
+                "storename": "(주)코리아세븐 부산하단가락점",
+                "fulladdress": "부산광역시 사하구 하신번영로 312  1층 (하단동)",
+                "category": "편의점",
+                "latitude": 35.10883,
+                "longitude": 128.95906
+            },
+            "color": "skyblue"
+        }
+    ]
+}

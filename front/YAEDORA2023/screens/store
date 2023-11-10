@@ -1,0 +1,5180 @@
+{
+    "stores": [
+        {
+            "id": 1,
+            "storeName": "(GS)25부산을숙도점",
+            "fullAddress": "부산광역시 사하구 낙동남로1233번길 34 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.110893,
+            "longitude": 128.94698
+        },
+        {
+            "id": 2,
+            "storeName": "(주)GS가락타운",
+            "fullAddress": "부산광역시 사하구 동매로 9 (하단동)",
+            "category": "편의점",
+            "latitude": 35.1038,
+            "longitude": 128.95935
+        },
+        {
+            "id": 3,
+            "storeName": "(주)교동면옥 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1382 1층",
+            "category": "한식",
+            "latitude": 35.10591,
+            "longitude": 128.96266
+        },
+        {
+            "id": 4,
+            "storeName": "(주)롯데리아",
+            "fullAddress": "부산광역시 사하구 낙동대로 551 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.11284,
+            "longitude": 128.96373
+        },
+        {
+            "id": 5,
+            "storeName": "(주)센킴스롤링파스타",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 3 2층(하단동  태영빌딩)",
+            "category": "양식",
+            "latitude": 35.106678,
+            "longitude": 128.96716
+        },
+        {
+            "id": 6,
+            "storeName": "(주)제이와이써브",
+            "fullAddress": "부산광역시 사하구 낙동남로 1413 지하1층 (하단동  아트몰링)",
+            "category": "일반대중음식",
+            "latitude": 35.106754,
+            "longitude": 128.96648
+        },
+        {
+            "id": 7,
+            "storeName": "(주)코리아세븐 부산하단가락점",
+            "fullAddress": "부산광역시 사하구 하신번영로 312  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10883,
+            "longitude": 128.95906
+        },
+        {
+            "id": 8,
+            "storeName": "(주)코리아세븐 부산하단남영점",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 30  남영상가 A동 1층 3호 (하단동  남영아파트)",
+            "category": "편의점",
+            "latitude": 35.113605,
+            "longitude": 128.96141
+        },
+        {
+            "id": 9,
+            "storeName": "(주)코리아세븐부산하단제일",
+            "fullAddress": "부산광역시 사하구 낙동대로 474 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10714,
+            "longitude": 128.96819
+        },
+        {
+            "id": 10,
+            "storeName": "153(일오삼)",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 64 1층",
+            "category": "한식",
+            "latitude": 35.111885,
+            "longitude": 128.96126
+        },
+        {
+            "id": 11,
+            "storeName": "1979남포통닭",
+            "fullAddress": "부산광역시 사하구 낙동남로1347번길 45 1층",
+            "category": "일반대중음식",
+            "latitude": 35.108574,
+            "longitude": 128.95927
+        },
+        {
+            "id": 12,
+            "storeName": "1987대패집",
+            "fullAddress": "부산광역시 사하구 동매로 14 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.103542,
+            "longitude": 128.9598
+        },
+        {
+            "id": 13,
+            "storeName": "39푸드",
+            "fullAddress": "부산광역시 사하구 낙동남로1233번길 38 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.110806,
+            "longitude": 128.94794
+        },
+        {
+            "id": 14,
+            "storeName": "4242 샌드위치",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 48 1층 3호",
+            "category": "일반대중음식",
+            "latitude": 35.112904,
+            "longitude": 128.96616
+        },
+        {
+            "id": 15,
+            "storeName": "4번출구",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 6  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.11159,
+            "longitude": 128.96417
+        },
+        {
+            "id": 16,
+            "storeName": "5평바다",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 17 (하단동)",
+            "category": "한식",
+            "latitude": 35.112408,
+            "longitude": 128.96284
+        },
+        {
+            "id": 17,
+            "storeName": "60계치킨 하단신평점",
+            "fullAddress": "부산광역시 사하구 동매로 13 1층 동쪽일부",
+            "category": "일반대중음식",
+            "latitude": 35.103798,
+            "longitude": 128.95984
+        },
+        {
+            "id": 18,
+            "storeName": "666버거 하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로300번길 111  1층",
+            "category": "패스트푸드",
+            "latitude": 35.10816,
+            "longitude": 128.96503
+        },
+        {
+            "id": 19,
+            "storeName": "776(칠칠육)",
+            "fullAddress": "부산광역시 사하구 승학로3번길 79 1층",
+            "category": "한식",
+            "latitude": 35.109734,
+            "longitude": 128.96692
+        },
+        {
+            "id": 20,
+            "storeName": "7번가피자",
+            "fullAddress": "부산광역시 사하구 하신번영로 328 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.110153,
+            "longitude": 128.95923
+        },
+        {
+            "id": 21,
+            "storeName": "ALL DAY SAND",
+            "fullAddress": "부산광역시 사하구 동매로 18   A동 101호",
+            "category": "일반대중음식",
+            "latitude": 35.10355,
+            "longitude": 128.96031
+        },
+        {
+            "id": 22,
+            "storeName": "BHC 유나인",
+            "fullAddress": "부산광역시 사하구 낙동대로 513 (하단동)",
+            "category": "한식",
+            "latitude": 35.11001,
+            "longitude": 128.96568
+        },
+        {
+            "id": 23,
+            "storeName": "CU 하단가락로점",
+            "fullAddress": "부산광역시 사하구 동매로 17 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10378,
+            "longitude": 128.96039
+        },
+        {
+            "id": 24,
+            "storeName": "CU 하단가락원룸점",
+            "fullAddress": "부산광역시 사하구 낙동남로1357번길 24  CU하단가락원룸점 (하단동)",
+            "category": "편의점",
+            "latitude": 35.107647,
+            "longitude": 128.96034
+        },
+        {
+            "id": 25,
+            "storeName": "CU 하단복개로점",
+            "fullAddress": "부산광역시 사하구 괴정로 83 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10214,
+            "longitude": 128.97327
+        },
+        {
+            "id": 26,
+            "storeName": "CU 하단스마일점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 3 (하단동)",
+            "category": "편의점",
+            "latitude": 35.106678,
+            "longitude": 128.96716
+        },
+        {
+            "id": 27,
+            "storeName": "GS25 부산을숙도점",
+            "fullAddress": "부산광역시 사하구 낙동남로1233번길 34 .",
+            "category": "편의점",
+            "latitude": 35.110893,
+            "longitude": 128.94698
+        },
+        {
+            "id": 28,
+            "storeName": "GS25 하단가락점",
+            "fullAddress": "부산광역시 사하구 하단2동 503-27번지",
+            "category": "편의점",
+            "latitude": 35.10879,
+            "longitude": 128.96042
+        },
+        {
+            "id": 29,
+            "storeName": "GS25 하단강변점",
+            "fullAddress": "부산광역시 사하구 하신번영로 405  104호 (하단동)",
+            "category": "편의점",
+            "latitude": 35.117138,
+            "longitude": 128.9603
+        },
+        {
+            "id": 30,
+            "storeName": "GS25 하단낙동점",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 9 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10704,
+            "longitude": 128.96356
+        },
+        {
+            "id": 31,
+            "storeName": "GS25 하단리안점",
+            "fullAddress": "부산광역시 사하구 동매로 117 A동 B301호",
+            "category": "편의점",
+            "latitude": 35.101933,
+            "longitude": 128.97104
+        },
+        {
+            "id": 32,
+            "storeName": "GS25 하단센터점",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 10 (하단동)",
+            "category": "편의점",
+            "latitude": 35.107624,
+            "longitude": 128.96648
+        },
+        {
+            "id": 33,
+            "storeName": "GS25 하신번영로점",
+            "fullAddress": "부산광역시 사하구 하신번영로 237  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.102192,
+            "longitude": 128.95805
+        },
+        {
+            "id": 34,
+            "storeName": "GS25에덴점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 17 (하단동)",
+            "category": "편의점",
+            "latitude": 35.112408,
+            "longitude": 128.96284
+        },
+        {
+            "id": 35,
+            "storeName": "GS25하단번영",
+            "fullAddress": "부산광역시 사하구 낙동대로520번길 1 (하단동)",
+            "category": "편의점",
+            "latitude": 35.110947,
+            "longitude": 128.96605
+        },
+        {
+            "id": 36,
+            "storeName": "GS25하단사하점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 335 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10545,
+            "longitude": 128.96657
+        },
+        {
+            "id": 37,
+            "storeName": "GS25하신중앙로점",
+            "fullAddress": "부산광역시 사하구 하신번영로 266-1 (하단동)",
+            "category": "편의점",
+            "latitude": 35.104736,
+            "longitude": 128.95865
+        },
+        {
+            "id": 38,
+            "storeName": "THE램",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 14 (하단동)",
+            "category": "한식",
+            "latitude": 35.111404,
+            "longitude": 128.96375
+        },
+        {
+            "id": 39,
+            "storeName": "가락칼국수",
+            "fullAddress": "부산광역시 사하구 하신중앙로 265 355동 지하12호",
+            "category": "일반대중음식",
+            "latitude": 35.09993,
+            "longitude": 128.95848
+        },
+        {
+            "id": 40,
+            "storeName": "가락횟집",
+            "fullAddress": "부산광역시 사하구 하신번영로261번길 14 (하단동)",
+            "category": "한식",
+            "latitude": 35.104504,
+            "longitude": 128.95764
+        },
+        {
+            "id": 41,
+            "storeName": "가마솥 추어탕",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 51 1층",
+            "category": "한식",
+            "latitude": 35.11201,
+            "longitude": 128.9617
+        },
+        {
+            "id": 42,
+            "storeName": "가마솥밀양돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 31 1층",
+            "category": "한식",
+            "latitude": 35.107975,
+            "longitude": 128.96497
+        },
+        {
+            "id": 43,
+            "storeName": "가마치통닭 (가락타운점)",
+            "fullAddress": "부산광역시 사하구 하신번영로 209 .",
+            "category": "일반대중음식",
+            "latitude": 35.09979,
+            "longitude": 128.95819
+        },
+        {
+            "id": 44,
+            "storeName": "가마치통닭 (동대점)",
+            "fullAddress": "부산광역시 사하구 낙동대로 523 .",
+            "category": "일반대중음식",
+            "latitude": 35.11083,
+            "longitude": 128.96515
+        },
+        {
+            "id": 45,
+            "storeName": "가우리",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 70 (하단동)",
+            "category": "한식",
+            "latitude": 35.10943,
+            "longitude": 128.96568
+        },
+        {
+            "id": 46,
+            "storeName": "가장맛있는족발",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 19 (하단동)",
+            "category": "한식",
+            "latitude": 35.107414,
+            "longitude": 128.966
+        },
+        {
+            "id": 47,
+            "storeName": "갈매기횟집",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 33 1층",
+            "category": "일식",
+            "latitude": 35.103714,
+            "longitude": 128.97014
+        },
+        {
+            "id": 48,
+            "storeName": "감미",
+            "fullAddress": "부산광역시 사하구 하신번영로 425 1층 103호",
+            "category": "한식",
+            "latitude": 35.11891,
+            "longitude": 128.96071
+        },
+        {
+            "id": 49,
+            "storeName": "갓튀긴후라이드 하단점",
+            "fullAddress": "부산광역시 사하구 괴정로 41 101호",
+            "category": "일반대중음식",
+            "latitude": 35.103477,
+            "longitude": 128.96924
+        },
+        {
+            "id": 50,
+            "storeName": "강 참치전문점(康)",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 5 2층",
+            "category": "일식",
+            "latitude": 35.10687,
+            "longitude": 128.96532
+        },
+        {
+            "id": 51,
+            "storeName": "강나루산곰장어",
+            "fullAddress": "부산광역시 사하구 하신번영로 256 하단동 강변빌딩107호",
+            "category": "한식",
+            "latitude": 35.10386,
+            "longitude": 128.95863
+        },
+        {
+            "id": 52,
+            "storeName": "강변식당",
+            "fullAddress": "부산광역시 사하구 하신중앙로 275  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.103268,
+            "longitude": 128.96103
+        },
+        {
+            "id": 53,
+            "storeName": "강변아구찜",
+            "fullAddress": "부산광역시 사하구 낙동남로1367번길 23 101호",
+            "category": "한식",
+            "latitude": 35.107582,
+            "longitude": 128.96117
+        },
+        {
+            "id": 55,
+            "storeName": "강촌생오리",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 121 .",
+            "category": "한식",
+            "latitude": 35.109253,
+            "longitude": 128.9604
+        },
+        {
+            "id": 56,
+            "storeName": "겨자씨분식",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 78  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.10977,
+            "longitude": 128.96538
+        },
+        {
+            "id": 57,
+            "storeName": "경대컵밥 동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 17 (하단동)",
+            "category": "한식",
+            "latitude": 35.1124,
+            "longitude": 128.96599
+        },
+        {
+            "id": 58,
+            "storeName": "고기묵짜 부산점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1426 2층",
+            "category": "한식",
+            "latitude": 35.105927,
+            "longitude": 128.9676
+        },
+        {
+            "id": 59,
+            "storeName": "고래섬동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 24 2층",
+            "category": "한식",
+            "latitude": 35.11308,
+            "longitude": 128.96542
+        },
+        {
+            "id": 60,
+            "storeName": "고래잡는날",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 9-8 (하단동)",
+            "category": "한식",
+            "latitude": 35.107044,
+            "longitude": 128.96469
+        },
+        {
+            "id": 61,
+            "storeName": "고반식당 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 11 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.107117,
+            "longitude": 128.96678
+        },
+        {
+            "id": 62,
+            "storeName": "고봉민김밥",
+            "fullAddress": "부산광역시 사하구 하신번영로 407 104호",
+            "category": "한식",
+            "latitude": 35.11737,
+            "longitude": 128.96031
+        },
+        {
+            "id": 63,
+            "storeName": "고봉민김밥인",
+            "fullAddress": "부산광역시 사하구 낙동남로 1396 (하단동)",
+            "category": "한식",
+            "latitude": 35.105827,
+            "longitude": 128.96426
+        },
+        {
+            "id": 64,
+            "storeName": "고성수산횟집",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 77 (하단동)",
+            "category": "한식",
+            "latitude": 35.109734,
+            "longitude": 128.96513
+        },
+        {
+            "id": 65,
+            "storeName": "고성집",
+            "fullAddress": "부산광역시 사하구 제석로 16  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.10358,
+            "longitude": 128.97116
+        },
+        {
+            "id": 66,
+            "storeName": "고수",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 24  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.111973,
+            "longitude": 128.96605
+        },
+        {
+            "id": 67,
+            "storeName": "고향 양꼬치 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 22 1층",
+            "category": "중식",
+            "latitude": 35.105183,
+            "longitude": 128.96747
+        },
+        {
+            "id": 68,
+            "storeName": "고향돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 29 301동103호",
+            "category": "한식",
+            "latitude": 35.112274,
+            "longitude": 128.96222
+        },
+        {
+            "id": 69,
+            "storeName": "고향아줌마보리밥",
+            "fullAddress": "부산광역시 사하구 낙동대로 521-1 (하단동)",
+            "category": "한식",
+            "latitude": 35.110683,
+            "longitude": 128.96526
+        },
+        {
+            "id": 70,
+            "storeName": "골목분식",
+            "fullAddress": "부산광역시 사하구 제석로18번길 4-1 (하단동)",
+            "category": "한식",
+            "latitude": 35.103466,
+            "longitude": 128.9714
+        },
+        {
+            "id": 71,
+            "storeName": "골목안집",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 13-1 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.1073,
+            "longitude": 128.96631
+        },
+        {
+            "id": 72,
+            "storeName": "곰초밥",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 86 1층",
+            "category": "한식",
+            "latitude": 35.110004,
+            "longitude": 128.96521
+        },
+        {
+            "id": 73,
+            "storeName": "과일의 숲 사하점",
+            "fullAddress": "부산광역시 사하구 낙동대로 523 1층",
+            "category": "일반대중음식",
+            "latitude": 35.11083,
+            "longitude": 128.96515
+        },
+        {
+            "id": 74,
+            "storeName": "광명수산",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 2 1층",
+            "category": "한식",
+            "latitude": 35.110477,
+            "longitude": 128.96516
+        },
+        {
+            "id": 75,
+            "storeName": "괴짜고수대구왕뽈찜",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 39 (하단동)",
+            "category": "한식",
+            "latitude": 35.108723,
+            "longitude": 128.96133
+        },
+        {
+            "id": 76,
+            "storeName": "교촌치킨 하단1호점",
+            "fullAddress": "부산광역시 사하구 낙동대로 512 .",
+            "category": "일반대중음식",
+            "latitude": 35.11005,
+            "longitude": 128.96622
+        },
+        {
+            "id": 77,
+            "storeName": "교촌치킨하단2호점",
+            "fullAddress": "부산광역시 사하구 동매로 31-1  1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.103683,
+            "longitude": 128.96191
+        },
+        {
+            "id": 78,
+            "storeName": "구공주",
+            "fullAddress": "부산광역시 사하구 낙동대로 510   2층",
+            "category": "한식",
+            "latitude": 35.109844,
+            "longitude": 128.96642
+        },
+        {
+            "id": 79,
+            "storeName": "구땡식당 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 98  1층",
+            "category": "한식",
+            "latitude": 35.1105,
+            "longitude": 128.96489
+        },
+        {
+            "id": 80,
+            "storeName": "구룡성",
+            "fullAddress": "부산광역시 사하구 낙동대로 533 (하단동)",
+            "category": "중식",
+            "latitude": 35.111515,
+            "longitude": 128.96454
+        },
+        {
+            "id": 81,
+            "storeName": "구르미식당",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 5 .",
+            "category": "한식",
+            "latitude": 35.11027,
+            "longitude": 128.96515
+        },
+        {
+            "id": 82,
+            "storeName": "구이(92)찌개",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 72 101호(하단동 백조연립)",
+            "category": "한식",
+            "latitude": 35.11122,
+            "longitude": 128.96121
+        },
+        {
+            "id": 83,
+            "storeName": "국가대표&우리동네찜닭대장",
+            "fullAddress": "부산광역시 사하구 동매로 64  1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.10286,
+            "longitude": 128.96516
+        },
+        {
+            "id": 84,
+            "storeName": "국민통닭",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 35-2 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11198,
+            "longitude": 128.9633
+        },
+        {
+            "id": 85,
+            "storeName": "국밥 브로스",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 43 1층",
+            "category": "한식",
+            "latitude": 35.11119,
+            "longitude": 128.96222
+        },
+        {
+            "id": 86,
+            "storeName": "굽네치킨 부산하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로 304  ",
+            "category": "일반대중음식",
+            "latitude": 35.108196,
+            "longitude": 128.95908
+        },
+        {
+            "id": 87,
+            "storeName": "그린다이닝",
+            "fullAddress": "부산광역시 사하구 낙동대로 526 1층",
+            "category": "일반대중음식",
+            "latitude": 35.111065,
+            "longitude": 128.96558
+        },
+        {
+            "id": 88,
+            "storeName": "근본닭발",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 7  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.11017,
+            "longitude": 128.96509
+        },
+        {
+            "id": 89,
+            "storeName": "금돈",
+            "fullAddress": "부산광역시 사하구 동매로 45 .",
+            "category": "한식",
+            "latitude": 35.103535,
+            "longitude": 128.96333
+        },
+        {
+            "id": 90,
+            "storeName": "금산",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 20 (하단동)",
+            "category": "한식",
+            "latitude": 35.105194,
+            "longitude": 128.9676
+        },
+        {
+            "id": 91,
+            "storeName": "금천식당",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 27 (하단동)",
+            "category": "한식",
+            "latitude": 35.108757,
+            "longitude": 128.96056
+        },
+        {
+            "id": 92,
+            "storeName": "기찬푸드",
+            "fullAddress": "부산광역시 사하구 동매로 64 1층",
+            "category": "한식",
+            "latitude": 35.10286,
+            "longitude": 128.96516
+        },
+        {
+            "id": 93,
+            "storeName": "기찬한우",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 29  302동 201호 (하단동  청목미르피아아파트)",
+            "category": "한식",
+            "latitude": 35.112274,
+            "longitude": 128.96222
+        },
+        {
+            "id": 94,
+            "storeName": "김가네 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1400 101호",
+            "category": "한식",
+            "latitude": 35.105812,
+            "longitude": 128.96468
+        },
+        {
+            "id": 95,
+            "storeName": "김가네 하단동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 548 1층",
+            "category": "한식",
+            "latitude": 35.11295,
+            "longitude": 128.9645
+        },
+        {
+            "id": 96,
+            "storeName": "김민경국수",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 11  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.105194,
+            "longitude": 128.9681
+        },
+        {
+            "id": 97,
+            "storeName": "김해기사식당",
+            "fullAddress": "부산광역시 사하구 괴정로 39 김해기사식당 (하단동)",
+            "category": "한식",
+            "latitude": 35.103115,
+            "longitude": 128.96866
+        },
+        {
+            "id": 98,
+            "storeName": "김해뒷고기",
+            "fullAddress": "부산광역시 사하구 동매로 19 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.103836,
+            "longitude": 128.96068
+        },
+        {
+            "id": 99,
+            "storeName": "깻잎치킨",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 64 1층",
+            "category": "일반대중음식",
+            "latitude": 35.11139,
+            "longitude": 128.96109
+        },
+        {
+            "id": 100,
+            "storeName": "꼬치황제",
+            "fullAddress": "부산광역시 사하구 낙동대로486번길 22 1층",
+            "category": "일반대중음식",
+            "latitude": 35.108356,
+            "longitude": 128.96881
+        },
+        {
+            "id": 101,
+            "storeName": "꽃내음",
+            "fullAddress": "부산광역시 사하구 동매로23번길 5 2층201호",
+            "category": "양식",
+            "latitude": 35.104046,
+            "longitude": 128.96083
+        },
+        {
+            "id": 102,
+            "storeName": "꽃마름 하단역점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1427  2층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.106632,
+            "longitude": 128.9677
+        },
+        {
+            "id": 103,
+            "storeName": "꽃주방",
+            "fullAddress": "부산광역시 사하구 낙동대로451번안길 7  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.10466,
+            "longitude": 128.96877
+        },
+        {
+            "id": 104,
+            "storeName": "꿀벌과자점",
+            "fullAddress": "부산광역시 사하구 하신번영로 370 1층",
+            "category": "일반대중음식",
+            "latitude": 35.114048,
+            "longitude": 128.96068
+        },
+        {
+            "id": 105,
+            "storeName": "나는꼬마김밥이다",
+            "fullAddress": "부산광역시 사하구 하신번영로 346 102호",
+            "category": "한식",
+            "latitude": 35.111797,
+            "longitude": 128.95972
+        },
+        {
+            "id": 106,
+            "storeName": "나포리 충무김밥",
+            "fullAddress": "부산광역시 사하구 하신중앙로 350  101호 덕천빌딩 (하단동)",
+            "category": "한식",
+            "latitude": 35.10558,
+            "longitude": 128.96844
+        },
+        {
+            "id": 107,
+            "storeName": "남다른감자탕",
+            "fullAddress": "부산광역시 사하구 낙동대로 518 (하단동)",
+            "category": "한식",
+            "latitude": 35.110546,
+            "longitude": 128.96606
+        },
+        {
+            "id": 108,
+            "storeName": "남다른썬치킨 가락3단지점",
+            "fullAddress": "부산광역시 사하구 동매로 15-1 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.10379,
+            "longitude": 128.96022
+        },
+        {
+            "id": 109,
+            "storeName": "남영궁분식",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 30 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.113605,
+            "longitude": 128.96141
+        },
+        {
+            "id": 110,
+            "storeName": "남영반점",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 30 (하단동)",
+            "category": "중식",
+            "latitude": 35.113605,
+            "longitude": 128.96141
+        },
+        {
+            "id": 111,
+            "storeName": "내집",
+            "fullAddress": "부산광역시 사하구 괴정로43번길 16 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.103672,
+            "longitude": 128.9696
+        },
+        {
+            "id": 112,
+            "storeName": "넉넉한터",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 13-1 (하단동)",
+            "category": "한식",
+            "latitude": 35.112274,
+            "longitude": 128.9633
+        },
+        {
+            "id": 113,
+            "storeName": "네네치킨",
+            "fullAddress": "부산광역시 사하구 낙동대로 542 (하단동 대우에덴프라자제B105호)",
+            "category": "일반대중음식",
+            "latitude": 35.112465,
+            "longitude": 128.96478
+        },
+        {
+            "id": 114,
+            "storeName": "노다지파전",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 2  1 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11054,
+            "longitude": 128.96509
+        },
+        {
+            "id": 115,
+            "storeName": "노랑통닭 당리점",
+            "fullAddress": "부산광역시 사하구 괴정로 76 2호동 102호(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.101696,
+            "longitude": 128.97182
+        },
+        {
+            "id": 116,
+            "storeName": "노랑통닭(하단점)",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 35-4 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112034,
+            "longitude": 128.96342
+        },
+        {
+            "id": 117,
+            "storeName": "노적봉",
+            "fullAddress": "부산광역시 사하구 낙동남로 1366-3 .",
+            "category": "한식",
+            "latitude": 35.105675,
+            "longitude": 128.96132
+        },
+        {
+            "id": 118,
+            "storeName": "누리마을감자탕",
+            "fullAddress": "부산광역시 사하구 낙동대로 477 1층 2층",
+            "category": "한식",
+            "latitude": 35.107246,
+            "longitude": 128.96736
+        },
+        {
+            "id": 119,
+            "storeName": "뉴욕버거 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 552 1층",
+            "category": "패스트푸드",
+            "latitude": 35.113434,
+            "longitude": 128.96388
+        },
+        {
+            "id": 120,
+            "storeName": "뉴욕야시장S 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 76 2층",
+            "category": "일반대중음식",
+            "latitude": 35.109695,
+            "longitude": 128.96547
+        },
+        {
+            "id": 121,
+            "storeName": "느티나무식당",
+            "fullAddress": "부산광역시 사하구 하신중앙로 290 (하단동)",
+            "category": "한식",
+            "latitude": 35.103283,
+            "longitude": 128.96243
+        },
+        {
+            "id": 122,
+            "storeName": "니하오",
+            "fullAddress": "부산광역시 사하구 하신번영로201번길 20 1층 (하단동)",
+            "category": "중식",
+            "latitude": 35.09921,
+            "longitude": 128.95715
+        },
+        {
+            "id": 123,
+            "storeName": "다맛",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 39 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112637,
+            "longitude": 128.96577
+        },
+        {
+            "id": 124,
+            "storeName": "다오리과자점",
+            "fullAddress": "부산광역시 사하구 제석로 22 (하단동)",
+            "category": "제과점",
+            "latitude": 35.10383,
+            "longitude": 128.97171
+        },
+        {
+            "id": 125,
+            "storeName": "다온푸드",
+            "fullAddress": "부산광역시 사하구 동매로 59 101호",
+            "category": "일반대중음식",
+            "latitude": 35.103333,
+            "longitude": 128.96481
+        },
+        {
+            "id": 126,
+            "storeName": "다올 베스트 코리아",
+            "fullAddress": "부산광역시 사하구 낙동남로1361번길 25 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.10766,
+            "longitude": 128.96053
+        },
+        {
+            "id": 127,
+            "storeName": "다이버해물나라",
+            "fullAddress": "부산광역시 사하구 낙동대로 501  109호 (하단동  하구언3차맨션)",
+            "category": "한식",
+            "latitude": 35.10901,
+            "longitude": 128.96606
+        },
+        {
+            "id": 128,
+            "storeName": "단골손님 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 133 (하단동)",
+            "category": "한식",
+            "latitude": 35.111916,
+            "longitude": 128.9637
+        },
+        {
+            "id": 129,
+            "storeName": "달고나 대패",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 144 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.112373,
+            "longitude": 128.96367
+        },
+        {
+            "id": 130,
+            "storeName": "달빛마을",
+            "fullAddress": "부산광역시 사하구 하신번영로 258-1 1층",
+            "category": "한식",
+            "latitude": 35.10412,
+            "longitude": 128.95872
+        },
+        {
+            "id": 131,
+            "storeName": "달인고등어구이전문점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 318 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.104507,
+            "longitude": 128.96538
+        },
+        {
+            "id": 132,
+            "storeName": "달콩발롱핫도그",
+            "fullAddress": "부산광역시 사하구 낙동대로 543 .",
+            "category": "일반대중음식",
+            "latitude": 35.112347,
+            "longitude": 128.96411
+        },
+        {
+            "id": 133,
+            "storeName": "닭도리탕",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 128 (하단동)",
+            "category": "한식",
+            "latitude": 35.11171,
+            "longitude": 128.96408
+        },
+        {
+            "id": 134,
+            "storeName": "닭발 CEO",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 67 1층 102호",
+            "category": "한식",
+            "latitude": 35.1107,
+            "longitude": 128.96397
+        },
+        {
+            "id": 135,
+            "storeName": "닭쟁이 피자쟁이",
+            "fullAddress": "부산광역시 사하구 괴정로 55 102호",
+            "category": "일반대중음식",
+            "latitude": 35.102516,
+            "longitude": 128.97028
+        },
+        {
+            "id": 136,
+            "storeName": "담양청국장보리밥",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 44 하단동",
+            "category": "한식",
+            "latitude": 35.102715,
+            "longitude": 128.97275
+        },
+        {
+            "id": 137,
+            "storeName": "대가식당",
+            "fullAddress": "부산광역시 사하구 하신중앙로 342 1층",
+            "category": "한식",
+            "latitude": 35.10548,
+            "longitude": 128.96767
+        },
+        {
+            "id": 138,
+            "storeName": "대독장",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 28 2층",
+            "category": "한식",
+            "latitude": 35.105637,
+            "longitude": 128.9653
+        },
+        {
+            "id": 139,
+            "storeName": "대동식당",
+            "fullAddress": "부산광역시 사하구 괴정로 59 (하단동)",
+            "category": "한식",
+            "latitude": 35.102486,
+            "longitude": 128.97076
+        },
+        {
+            "id": 140,
+            "storeName": "대물림청송집",
+            "fullAddress": "부산광역시 사하구 하단동 845-28번지",
+            "category": "일반대중음식",
+            "latitude": 35.119343,
+            "longitude": 128.96133
+        },
+        {
+            "id": 141,
+            "storeName": "대박김밥",
+            "fullAddress": "부산광역시 사하구 낙동대로 521 (하단동)",
+            "category": "한식",
+            "latitude": 35.110577,
+            "longitude": 128.96533
+        },
+        {
+            "id": 142,
+            "storeName": "대박난전 사하구점",
+            "fullAddress": "부산광역시 사하구 동매로 117   A동 지하3층 B302호",
+            "category": "한식",
+            "latitude": 35.101933,
+            "longitude": 128.97104
+        },
+        {
+            "id": 143,
+            "storeName": "대박통하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 62 하단동",
+            "category": "한식",
+            "latitude": 35.110867,
+            "longitude": 128.96364
+        },
+        {
+            "id": 144,
+            "storeName": "대원왕족발",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 20 1층 오른쪽",
+            "category": "한식",
+            "latitude": 35.104176,
+            "longitude": 128.96962
+        },
+        {
+            "id": 145,
+            "storeName": "대패가1900 하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 115 .",
+            "category": "한식",
+            "latitude": 35.109367,
+            "longitude": 128.96039
+        },
+        {
+            "id": 146,
+            "storeName": "대패만땅",
+            "fullAddress": "부산광역시 사하구 낙동남로1347번길 45 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.108574,
+            "longitude": 128.95927
+        },
+        {
+            "id": 147,
+            "storeName": "더 밥 하우스(the BOB Haus)",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 17  2층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11171,
+            "longitude": 128.96579
+        },
+        {
+            "id": 148,
+            "storeName": "더덕먹은제주똥돼지",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 10-7 (하단동)",
+            "category": "한식",
+            "latitude": 35.10706,
+            "longitude": 128.96446
+        },
+        {
+            "id": 149,
+            "storeName": "더덕명가",
+            "fullAddress": "부산광역시 사하구 하신중앙로 270  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.102512,
+            "longitude": 128.96107
+        },
+        {
+            "id": 150,
+            "storeName": "더바스켓",
+            "fullAddress": "부산광역시 사하구 낙동대로520번길 1 1층",
+            "category": "한식",
+            "latitude": 35.110947,
+            "longitude": 128.96605
+        },
+        {
+            "id": 151,
+            "storeName": "더봉무한장어",
+            "fullAddress": "부산광역시 사하구 동매로 50 하단동",
+            "category": "한식",
+            "latitude": 35.103233,
+            "longitude": 128.9638
+        },
+        {
+            "id": 152,
+            "storeName": "더진국 하단점",
+            "fullAddress": "부산광역시 사하구 승학로3번길 23 101호",
+            "category": "한식",
+            "latitude": 35.10735,
+            "longitude": 128.96825
+        },
+        {
+            "id": 153,
+            "storeName": "더피쉬",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 21 1층",
+            "category": "일식",
+            "latitude": 35.110317,
+            "longitude": 128.96417
+        },
+        {
+            "id": 154,
+            "storeName": "던킨 하단 아트몰링점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1413 지하1층",
+            "category": "제과점",
+            "latitude": 35.106754,
+            "longitude": 128.96648
+        },
+        {
+            "id": 155,
+            "storeName": "도랑가마솥추어탕",
+            "fullAddress": "부산광역시 사하구 낙동대로451번안길 7 (하단동)",
+            "category": "한식",
+            "latitude": 35.10466,
+            "longitude": 128.96877
+        },
+        {
+            "id": 156,
+            "storeName": "도로시주방",
+            "fullAddress": "부산광역시 사하구 동매로 75-2 1층",
+            "category": "양식",
+            "latitude": 35.102676,
+            "longitude": 128.96658
+        },
+        {
+            "id": 157,
+            "storeName": "도미노피자하단점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 333 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.10541,
+            "longitude": 128.9664
+        },
+        {
+            "id": 158,
+            "storeName": "도야족발&보쌈 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 16 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.110416,
+            "longitude": 128.96451
+        },
+        {
+            "id": 159,
+            "storeName": "돈미담 왕소금구이",
+            "fullAddress": "부산광역시 사하구 하신번영로 378 (하단동)",
+            "category": "한식",
+            "latitude": 35.114525,
+            "longitude": 128.96104
+        },
+        {
+            "id": 160,
+            "storeName": "동궁찜닭하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 21 1층좌측",
+            "category": "일반대중음식",
+            "latitude": 35.110317,
+            "longitude": 128.96417
+        },
+        {
+            "id": 161,
+            "storeName": "동대식당",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 16 (하단동)",
+            "category": "한식",
+            "latitude": 35.113125,
+            "longitude": 128.96532
+        },
+        {
+            "id": 162,
+            "storeName": "동대앞 꼬마김밥",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 28  에덴종합시장 (하단동)",
+            "category": "한식",
+            "latitude": 35.111485,
+            "longitude": 128.96297
+        },
+        {
+            "id": 163,
+            "storeName": "동래삼계탕하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1399  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.10661,
+            "longitude": 128.9647
+        },
+        {
+            "id": 164,
+            "storeName": "동방축산 하단점",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 28  1층",
+            "category": "한식",
+            "latitude": 35.105637,
+            "longitude": 128.9653
+        },
+        {
+            "id": 165,
+            "storeName": "동산아구찜",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 30 상가A동 1층 1호",
+            "category": "일반대중음식",
+            "latitude": 35.113605,
+            "longitude": 128.96141
+        },
+        {
+            "id": 166,
+            "storeName": "동아대학교생활협동조합",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 단독",
+            "category": "일반대중음식",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 167,
+            "storeName": "동아루",
+            "fullAddress": "부산광역시 사하구 승학로3번길 100 (하단동)",
+            "category": "중식",
+            "latitude": 35.110508,
+            "longitude": 128.9668
+        },
+        {
+            "id": 168,
+            "storeName": "동원장수촌하단점",
+            "fullAddress": "부산광역시 사하구 동매로 117 상가B201호(건우리안)",
+            "category": "한식",
+            "latitude": 35.101933,
+            "longitude": 128.97104
+        },
+        {
+            "id": 169,
+            "storeName": "동원장수촌하단점",
+            "fullAddress": "부산광역시 사하구 동매로 117   지하2층 B201호 (하단동)",
+            "category": "한식",
+            "latitude": 35.101933,
+            "longitude": 128.97104
+        },
+        {
+            "id": 170,
+            "storeName": "동전집 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 14 1층 하단동",
+            "category": "한식",
+            "latitude": 35.110374,
+            "longitude": 128.96469
+        },
+        {
+            "id": 171,
+            "storeName": "동태와 찜마을",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 43 1층 (우측점포)",
+            "category": "한식",
+            "latitude": 35.111645,
+            "longitude": 128.96335
+        },
+        {
+            "id": 172,
+            "storeName": "돼지갈매기",
+            "fullAddress": "부산광역시 사하구 하신번영로 256 (하단동)",
+            "category": "한식",
+            "latitude": 35.10386,
+            "longitude": 128.95863
+        },
+        {
+            "id": 173,
+            "storeName": "돼지게티 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 38 1층",
+            "category": "양식",
+            "latitude": 35.111336,
+            "longitude": 128.96248
+        },
+        {
+            "id": 174,
+            "storeName": "두찜부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로474번길 6 1층",
+            "category": "한식",
+            "latitude": 35.107105,
+            "longitude": 128.96864
+        },
+        {
+            "id": 175,
+            "storeName": "드&통",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 2 (하단동)",
+            "category": "한식",
+            "latitude": 35.111702,
+            "longitude": 128.9644
+        },
+        {
+            "id": 176,
+            "storeName": "디프컴퍼니",
+            "fullAddress": "부산광역시 사하구 하신중앙로 279 2층",
+            "category": "일반대중음식",
+            "latitude": 35.10335,
+            "longitude": 128.96129
+        },
+        {
+            "id": 177,
+            "storeName": "딜라이트 하단점",
+            "fullAddress": "부산광역시 사하구 괴정로 76  104호",
+            "category": "한식",
+            "latitude": 35.101696,
+            "longitude": 128.97182
+        },
+        {
+            "id": 178,
+            "storeName": "딜리버리 멀티샵(D.M.S)",
+            "fullAddress": "부산광역시 사하구 승학로3번길 64 3동 101호",
+            "category": "한식",
+            "latitude": 35.10908,
+            "longitude": 128.96754
+        },
+        {
+            "id": 179,
+            "storeName": "따뜻한밥상",
+            "fullAddress": "부산광역시 사하구 낙동대로563번길 38 1층",
+            "category": "한식",
+            "latitude": 35.113823,
+            "longitude": 128.96078
+        },
+        {
+            "id": 180,
+            "storeName": "또레오레 하단동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 6  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.11185,
+            "longitude": 128.96542
+        },
+        {
+            "id": 181,
+            "storeName": "또바기김밥",
+            "fullAddress": "부산광역시 사하구 동매로 12 1층",
+            "category": "한식",
+            "latitude": 35.10359,
+            "longitude": 128.95963
+        },
+        {
+            "id": 182,
+            "storeName": "또순이네",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 43 하단동",
+            "category": "한식",
+            "latitude": 35.11119,
+            "longitude": 128.96222
+        },
+        {
+            "id": 183,
+            "storeName": "또아식빵 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 482 1층(하단동)",
+            "category": "제과점",
+            "latitude": 35.1076,
+            "longitude": 128.96783
+        },
+        {
+            "id": 184,
+            "storeName": "뚜레쥬르 부산동아대점",
+            "fullAddress": "부산광역시 사하구 하단동 497-27 ",
+            "category": "제과점",
+            "latitude": 35.110966,
+            "longitude": 128.96582
+        },
+        {
+            "id": 185,
+            "storeName": "뚜레쥬르 하단역점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1391 1층",
+            "category": "제과점",
+            "latitude": 35.106647,
+            "longitude": 128.96394
+        },
+        {
+            "id": 186,
+            "storeName": "뚝방산꼼장어",
+            "fullAddress": "부산광역시 사하구 하신번영로 258-1 (하단동)",
+            "category": "한식",
+            "latitude": 35.10412,
+            "longitude": 128.95872
+        },
+        {
+            "id": 188,
+            "storeName": "라마마",
+            "fullAddress": "부산광역시 사하구 낙동대로 513  1층",
+            "category": "한식",
+            "latitude": 35.11001,
+            "longitude": 128.96568
+        },
+        {
+            "id": 189,
+            "storeName": "롯데리아 동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 1  1동 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.113194,
+            "longitude": 128.9643
+        },
+        {
+            "id": 190,
+            "storeName": "롯데리아 부산하단",
+            "fullAddress": "부산광역시 사하구 낙동대로 457 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.105442,
+            "longitude": 128.96875
+        },
+        {
+            "id": 191,
+            "storeName": "롯데리아하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 457 1층",
+            "category": "패스트푸드",
+            "latitude": 35.105442,
+            "longitude": 128.96875
+        },
+        {
+            "id": 192,
+            "storeName": "류참치",
+            "fullAddress": "부산광역시 사하구 하신번영로 411 1층",
+            "category": "일식",
+            "latitude": 35.11757,
+            "longitude": 128.9604
+        },
+        {
+            "id": 193,
+            "storeName": "리얼야구존 푸드(FOOD)",
+            "fullAddress": "부산광역시 사하구 낙동대로 498 3층",
+            "category": "한식",
+            "latitude": 35.10884,
+            "longitude": 128.96716
+        },
+        {
+            "id": 194,
+            "storeName": "리코리코 동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 33  2층 (하단동)",
+            "category": "양식",
+            "latitude": 35.11243,
+            "longitude": 128.96577
+        },
+        {
+            "id": 195,
+            "storeName": "마라골목",
+            "fullAddress": "부산광역시 사하구 낙동대로 510-2 1층",
+            "category": "중식",
+            "latitude": 35.109936,
+            "longitude": 128.96631
+        },
+        {
+            "id": 196,
+            "storeName": "마라달인",
+            "fullAddress": "부산광역시 사하구 동매로 13 2층",
+            "category": "일반대중음식",
+            "latitude": 35.103798,
+            "longitude": 128.95984
+        },
+        {
+            "id": 197,
+            "storeName": "마라당 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 548 2층",
+            "category": "중식",
+            "latitude": 35.11295,
+            "longitude": 128.9645
+        },
+        {
+            "id": 198,
+            "storeName": "마라사부 하단점",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 13 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.105354,
+            "longitude": 128.96603
+        },
+        {
+            "id": 199,
+            "storeName": "마라헌터",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 22 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.10266,
+            "longitude": 128.97153
+        },
+        {
+            "id": 200,
+            "storeName": "마리웨일",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 48  1층 2호 (하단동  하단에덴아파트)",
+            "category": "한식",
+            "latitude": 35.112904,
+            "longitude": 128.96616
+        },
+        {
+            "id": 201,
+            "storeName": "마이스트치킨",
+            "fullAddress": "부산광역시 사하구 낙동대로520번길 8  A-104 (하단동  하구언2차아파트)",
+            "category": "일반대중음식",
+            "latitude": 35.11082,
+            "longitude": 128.96642
+        },
+        {
+            "id": 202,
+            "storeName": "마인츠과자점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 63 (하단동)",
+            "category": "제과점",
+            "latitude": 35.112553,
+            "longitude": 128.96034
+        },
+        {
+            "id": 203,
+            "storeName": "마장동김씨 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 26 1층",
+            "category": "한식",
+            "latitude": 35.10762,
+            "longitude": 128.96568
+        },
+        {
+            "id": 204,
+            "storeName": "마카롱 블라썸",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 9 1층",
+            "category": "일반대중음식",
+            "latitude": 35.111313,
+            "longitude": 128.96576
+        },
+        {
+            "id": 205,
+            "storeName": "마피아떡볶이 하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 11 1층",
+            "category": "한식",
+            "latitude": 35.108784,
+            "longitude": 128.9598
+        },
+        {
+            "id": 206,
+            "storeName": "막썰어회해물",
+            "fullAddress": "부산광역시 사하구 괴정로 40 1층 하단동",
+            "category": "일반대중음식",
+            "latitude": 35.102585,
+            "longitude": 128.9684
+        },
+        {
+            "id": 207,
+            "storeName": "만두. 찐빵",
+            "fullAddress": "부산광역시 사하구 하신번영로 387  에스케이상가 1층 1호 (하단동)",
+            "category": "한식",
+            "latitude": 35.11564,
+            "longitude": 128.96053
+        },
+        {
+            "id": 208,
+            "storeName": "만복국수집",
+            "fullAddress": "부산광역시 사하구 하신번영로 411 (하단동)",
+            "category": "한식",
+            "latitude": 35.11757,
+            "longitude": 128.9604
+        },
+        {
+            "id": 209,
+            "storeName": "만찬",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 15  2층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.10449,
+            "longitude": 128.96967
+        },
+        {
+            "id": 210,
+            "storeName": "만타 하단직영점",
+            "fullAddress": "부산광역시 사하구 하신번영로320번길 3 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.109627,
+            "longitude": 128.95932
+        },
+        {
+            "id": 211,
+            "storeName": "맘스터치",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 47 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.11302,
+            "longitude": 128.96574
+        },
+        {
+            "id": 212,
+            "storeName": "맘스터치 하단가락점",
+            "fullAddress": "부산광역시 사하구 하신번영로 209 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.09979,
+            "longitude": 128.95819
+        },
+        {
+            "id": 213,
+            "storeName": "맘스터치 하단점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 322 1층",
+            "category": "패스트푸드",
+            "latitude": 35.10459,
+            "longitude": 128.96559
+        },
+        {
+            "id": 214,
+            "storeName": "맛나감자탕(신평점)",
+            "fullAddress": "부산광역시 사하구 하신중앙로 236 1 2층",
+            "category": "한식",
+            "latitude": 35.09971,
+            "longitude": 128.96155
+        },
+        {
+            "id": 215,
+            "storeName": "맛나는이야기미담",
+            "fullAddress": "부산광역시 사하구 제석로18번길 21 B동 102호  101호 일부",
+            "category": "한식",
+            "latitude": 35.10339,
+            "longitude": 128.97247
+        },
+        {
+            "id": 216,
+            "storeName": "맛나분식",
+            "fullAddress": "부산광역시 사하구 하신중앙로 265 355동 B006 B007호",
+            "category": "한식",
+            "latitude": 35.09993,
+            "longitude": 128.95848
+        },
+        {
+            "id": 217,
+            "storeName": "먹으면돼지",
+            "fullAddress": "부산광역시 사하구 낙동남로1347번길 30  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.107883,
+            "longitude": 128.95946
+        },
+        {
+            "id": 218,
+            "storeName": "멕스타코(MEX TACO)",
+            "fullAddress": "부산광역시 사하구 낙동남로1367번길 16 1층 103호 맥스타코(MEX TACO) (하단동  선경아트빌)",
+            "category": "일반대중음식",
+            "latitude": 35.107174,
+            "longitude": 128.96138
+        },
+        {
+            "id": 219,
+            "storeName": "명가",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 1층 (하단동  동아대학교)",
+            "category": "일반대중음식",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 220,
+            "storeName": "명동곱도리 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 5   101호 명동곱도리(하단동  엘스테이)",
+            "category": "한식",
+            "latitude": 35.107426,
+            "longitude": 128.96693
+        },
+        {
+            "id": 221,
+            "storeName": "명랑쌀핫도그동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 553 .",
+            "category": "한식",
+            "latitude": 35.11302,
+            "longitude": 128.96362
+        },
+        {
+            "id": 222,
+            "storeName": "명륜진사갈비 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 533 1층",
+            "category": "한식",
+            "latitude": 35.111515,
+            "longitude": 128.96454
+        },
+        {
+            "id": 223,
+            "storeName": "명스시",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 13 1층",
+            "category": "일식",
+            "latitude": 35.105354,
+            "longitude": 128.96603
+        },
+        {
+            "id": 224,
+            "storeName": "모두와",
+            "fullAddress": "부산광역시 사하구 낙동대로 549 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112656,
+            "longitude": 128.9639
+        },
+        {
+            "id": 225,
+            "storeName": "모두와",
+            "fullAddress": "부산광역시 사하구 낙동대로 549 1층",
+            "category": "한식",
+            "latitude": 35.112656,
+            "longitude": 128.9639
+        },
+        {
+            "id": 226,
+            "storeName": "모름지기",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 134 하단동",
+            "category": "한식",
+            "latitude": 35.111988,
+            "longitude": 128.96393
+        },
+        {
+            "id": 227,
+            "storeName": "목촌돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동대로 555 하단동",
+            "category": "한식",
+            "latitude": 35.113186,
+            "longitude": 128.96333
+        },
+        {
+            "id": 228,
+            "storeName": "몽이두마리치킨",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 7 .",
+            "category": "일반대중음식",
+            "latitude": 35.102844,
+            "longitude": 128.97078
+        },
+        {
+            "id": 229,
+            "storeName": "무라오뎅",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 27 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.110374,
+            "longitude": 128.96384
+        },
+        {
+            "id": 230,
+            "storeName": "무봤나촌닭",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 15 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.111637,
+            "longitude": 128.96576
+        },
+        {
+            "id": 231,
+            "storeName": "문경흑염소",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 31  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.104645,
+            "longitude": 128.96712
+        },
+        {
+            "id": 232,
+            "storeName": "물고기횟집",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 68 (하단동)",
+            "category": "한식",
+            "latitude": 35.11061,
+            "longitude": 128.96382
+        },
+        {
+            "id": 233,
+            "storeName": "미당",
+            "fullAddress": "부산광역시 사하구 괴정로 41 1층",
+            "category": "중식",
+            "latitude": 35.103477,
+            "longitude": 128.96924
+        },
+        {
+            "id": 234,
+            "storeName": "미락정",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 6  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.107624,
+            "longitude": 128.96677
+        },
+        {
+            "id": 235,
+            "storeName": "미미샤브앤월남쌈",
+            "fullAddress": "부산광역시 사하구 승학로3번길 79 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.109734,
+            "longitude": 128.96692
+        },
+        {
+            "id": 236,
+            "storeName": "미쉐린베이커리",
+            "fullAddress": "부산광역시 사하구 하신중앙로 265  상가 355-122 (하단동  가락아파트)",
+            "category": "제과점",
+            "latitude": 35.09993,
+            "longitude": 128.95848
+        },
+        {
+            "id": 237,
+            "storeName": "미조꼬막정식",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 48 105호 (하단동)",
+            "category": "한식",
+            "latitude": 35.102623,
+            "longitude": 128.97322
+        },
+        {
+            "id": 238,
+            "storeName": "미진축산(하단점)",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 10-3   1층",
+            "category": "한식",
+            "latitude": 35.10706,
+            "longitude": 128.9642
+        },
+        {
+            "id": 239,
+            "storeName": "민속보쌈쑥밀면전문점",
+            "fullAddress": "부산광역시 사하구 하신번영로207번길 17 (하단동)",
+            "category": "한식",
+            "latitude": 35.099377,
+            "longitude": 128.9571
+        },
+        {
+            "id": 240,
+            "storeName": "밀양강촌횟집 부산점",
+            "fullAddress": "부산광역시 사하구 괴정로 73 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.102127,
+            "longitude": 128.97227
+        },
+        {
+            "id": 241,
+            "storeName": "바비박스&개념떡볶이",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 동아대학교",
+            "category": "한식",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 242,
+            "storeName": "반치앙라이",
+            "fullAddress": "부산광역시 사하구 낙동대로 542 지하1층 107 108호",
+            "category": "일반대중음식",
+            "latitude": 35.112465,
+            "longitude": 128.96478
+        },
+        {
+            "id": 243,
+            "storeName": "반하다식당",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 1층(하단동 동아대학교)",
+            "category": "한식",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 244,
+            "storeName": "밥도리(Bab Dori)",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 78 .",
+            "category": "한식",
+            "latitude": 35.110897,
+            "longitude": 128.96121
+        },
+        {
+            "id": 245,
+            "storeName": "밥풀릭스 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1367번길 16 1층 102호",
+            "category": "한식",
+            "latitude": 35.107174,
+            "longitude": 128.96138
+        },
+        {
+            "id": 246,
+            "storeName": "배떡하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 79 1층102호",
+            "category": "한식",
+            "latitude": 35.110573,
+            "longitude": 128.961
+        },
+        {
+            "id": 247,
+            "storeName": "백덮밥",
+            "fullAddress": "부산광역시 사하구 동매로 68  4층 (하단동)",
+            "category": "한식",
+            "latitude": 35.102734,
+            "longitude": 128.96556
+        },
+        {
+            "id": 248,
+            "storeName": "버거 스테이지",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 78 1층(하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.110897,
+            "longitude": 128.96121
+        },
+        {
+            "id": 249,
+            "storeName": "버거킹 부산하단역점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1427  1층 (하단동  일성빌딩)",
+            "category": "패스트푸드",
+            "latitude": 35.106632,
+            "longitude": 128.9677
+        },
+        {
+            "id": 250,
+            "storeName": "벚꽃스시",
+            "fullAddress": "부산광역시 사하구 동매로 35-1 1층",
+            "category": "일식",
+            "latitude": 35.103645,
+            "longitude": 128.96233
+        },
+        {
+            "id": 251,
+            "storeName": "별난낙지",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 9-4 하단동",
+            "category": "한식",
+            "latitude": 35.107086,
+            "longitude": 128.96501
+        },
+        {
+            "id": 252,
+            "storeName": "병천순대돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 9  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.11239,
+            "longitude": 128.96338
+        },
+        {
+            "id": 253,
+            "storeName": "보보케키(BoBoKeKi)",
+            "fullAddress": "부산광역시 사하구 하신번영로350번길 4 1층(하단동)",
+            "category": "제과점",
+            "latitude": 35.11195,
+            "longitude": 128.96019
+        },
+        {
+            "id": 254,
+            "storeName": "보성아구찜",
+            "fullAddress": "부산광역시 사하구 낙동대로457번안길 8 1층",
+            "category": "한식",
+            "latitude": 35.104862,
+            "longitude": 128.96812
+        },
+        {
+            "id": 255,
+            "storeName": "보울스 하단점",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 13 1층 일부(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.105354,
+            "longitude": 128.96603
+        },
+        {
+            "id": 256,
+            "storeName": "복돼지인생",
+            "fullAddress": "부산광역시 사하구 동매로 35 (하단동)",
+            "category": "한식",
+            "latitude": 35.103664,
+            "longitude": 128.96219
+        },
+        {
+            "id": 257,
+            "storeName": "복성반점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 289 1층  지하(하단동)",
+            "category": "중식",
+            "latitude": 35.103638,
+            "longitude": 128.96245
+        },
+        {
+            "id": 258,
+            "storeName": "복어나라",
+            "fullAddress": "부산광역시 사하구 하신중앙로 270 하단동",
+            "category": "한식",
+            "latitude": 35.102512,
+            "longitude": 128.96107
+        },
+        {
+            "id": 259,
+            "storeName": "복자시락국밥",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 111   에이동 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.10946,
+            "longitude": 128.9606
+        },
+        {
+            "id": 260,
+            "storeName": "복자씨고깃집",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 11 1층",
+            "category": "한식",
+            "latitude": 35.107117,
+            "longitude": 128.96678
+        },
+        {
+            "id": 261,
+            "storeName": "본가 사하점",
+            "fullAddress": "부산광역시 사하구 하단2동 1157-13번지",
+            "category": "한식",
+            "latitude": 35.116833,
+            "longitude": 128.95995
+        },
+        {
+            "id": 262,
+            "storeName": "본가한옥집김치찜",
+            "fullAddress": "부산광역시 사하구 낙동대로 513  1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11001,
+            "longitude": 128.96568
+        },
+        {
+            "id": 263,
+            "storeName": "본죽 (신평가락타운점)",
+            "fullAddress": "부산광역시 사하구 하신번영로 209 .",
+            "category": "한식",
+            "latitude": 35.09979,
+            "longitude": 128.95819
+        },
+        {
+            "id": 264,
+            "storeName": "봄같은한끼",
+            "fullAddress": "부산광역시 사하구 하단동 618-32 ",
+            "category": "한식",
+            "latitude": 35.10482,
+            "longitude": 128.96869
+        },
+        {
+            "id": 265,
+            "storeName": "봉구스밥버거 동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 55  ",
+            "category": "일반대중음식",
+            "latitude": 35.11335,
+            "longitude": 128.96571
+        },
+        {
+            "id": 266,
+            "storeName": "봉대박스파게티동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 13 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.1123,
+            "longitude": 128.96577
+        },
+        {
+            "id": 267,
+            "storeName": "봉수산",
+            "fullAddress": "부산광역시 사하구 낙동대로563번길 12 (하단동)",
+            "category": "한식",
+            "latitude": 35.113758,
+            "longitude": 128.9622
+        },
+        {
+            "id": 268,
+            "storeName": "봉이돈단지",
+            "fullAddress": "부산광역시 사하구 괴정로 41  101호 (하단동  중보빌라)",
+            "category": "한식",
+            "latitude": 35.103477,
+            "longitude": 128.96924
+        },
+        {
+            "id": 269,
+            "storeName": "부대찌개",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 128 (하단동)",
+            "category": "한식",
+            "latitude": 35.11171,
+            "longitude": 128.96408
+        },
+        {
+            "id": 270,
+            "storeName": "부부감자탕",
+            "fullAddress": "부산광역시 사하구 괴정로43번길 22 1층",
+            "category": "한식",
+            "latitude": 35.10376,
+            "longitude": 128.96962
+        },
+        {
+            "id": 271,
+            "storeName": "부부왕족발",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 28 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.10383,
+            "longitude": 128.96976
+        },
+        {
+            "id": 272,
+            "storeName": "부산갈매기",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 19 부산갈매기 (하단동)",
+            "category": "한식",
+            "latitude": 35.10875,
+            "longitude": 128.96017
+        },
+        {
+            "id": 273,
+            "storeName": "부산댁 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 8 1층",
+            "category": "한식",
+            "latitude": 35.11042,
+            "longitude": 128.96497
+        },
+        {
+            "id": 275,
+            "storeName": "부산삼겹살",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 14 1층",
+            "category": "한식",
+            "latitude": 35.111404,
+            "longitude": 128.96375
+        },
+        {
+            "id": 276,
+            "storeName": "부산쪽쪽갈비",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 5  1층 106호 (하단동  건아연립)",
+            "category": "한식",
+            "latitude": 35.10685,
+            "longitude": 128.9635
+        },
+        {
+            "id": 277,
+            "storeName": "부창한우 숯불구이",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 31  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.11115,
+            "longitude": 128.9629
+        },
+        {
+            "id": 278,
+            "storeName": "불끈낙지",
+            "fullAddress": "부산광역시 사하구 낙동대로 529  2층",
+            "category": "한식",
+            "latitude": 35.111313,
+            "longitude": 128.96468
+        },
+        {
+            "id": 279,
+            "storeName": "불막열삼 하단SK점",
+            "fullAddress": "부산광역시 사하구 하신번영로 419  1층 101호 (하단동  삼산빌딩)",
+            "category": "한식",
+            "latitude": 35.11827,
+            "longitude": 128.96051
+        },
+        {
+            "id": 280,
+            "storeName": "불오뎅",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 1 (하단동)",
+            "category": "한식",
+            "latitude": 35.112553,
+            "longitude": 128.96373
+        },
+        {
+            "id": 281,
+            "storeName": "불오뎅과불꼬챙이",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 56 .1층",
+            "category": "한식",
+            "latitude": 35.1127,
+            "longitude": 128.96071
+        },
+        {
+            "id": 282,
+            "storeName": "비비큐치킨",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 79  1층 3호 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.110573,
+            "longitude": 128.961
+        },
+        {
+            "id": 284,
+            "storeName": "빨간염소",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 49   1층",
+            "category": "일반대중음식",
+            "latitude": 35.10294,
+            "longitude": 128.97298
+        },
+        {
+            "id": 285,
+            "storeName": "빨닭빨닭",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 28 1층 27호  28호  29호  30호",
+            "category": "한식",
+            "latitude": 35.111485,
+            "longitude": 128.96297
+        },
+        {
+            "id": 286,
+            "storeName": "빵위에치즈 사하점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 75 1층",
+            "category": "패스트푸드",
+            "latitude": 35.110558,
+            "longitude": 128.96121
+        },
+        {
+            "id": 287,
+            "storeName": "사랑회",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 31 1층",
+            "category": "일반대중음식",
+            "latitude": 35.11213,
+            "longitude": 128.96303
+        },
+        {
+            "id": 288,
+            "storeName": "사천돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동대로520번길 15 1층",
+            "category": "한식",
+            "latitude": 35.11121,
+            "longitude": 128.96617
+        },
+        {
+            "id": 289,
+            "storeName": "사해방 사하본점",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 14 하단",
+            "category": "중식",
+            "latitude": 35.10264,
+            "longitude": 128.97105
+        },
+        {
+            "id": 290,
+            "storeName": "산호초횟집",
+            "fullAddress": "부산광역시 사하구 하신번영로261번길 18 (하단동)",
+            "category": "한식",
+            "latitude": 35.104626,
+            "longitude": 128.95749
+        },
+        {
+            "id": 291,
+            "storeName": "삼굽살",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 14 1층",
+            "category": "한식",
+            "latitude": 35.107193,
+            "longitude": 128.96713
+        },
+        {
+            "id": 292,
+            "storeName": "삼산회관 부산광역시 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 18 (하단동)",
+            "category": "한식",
+            "latitude": 35.11137,
+            "longitude": 128.96356
+        },
+        {
+            "id": 293,
+            "storeName": "삼성돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 6 (하단동)",
+            "category": "한식",
+            "latitude": 35.106823,
+            "longitude": 128.96379
+        },
+        {
+            "id": 294,
+            "storeName": "생선구이",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 18 (하단동)",
+            "category": "한식",
+            "latitude": 35.104225,
+            "longitude": 128.96948
+        },
+        {
+            "id": 295,
+            "storeName": "서가앤쿡 (하단점)",
+            "fullAddress": "부산광역시 사하구 낙동대로 491  2층 (하단동)",
+            "category": "양식",
+            "latitude": 35.108166,
+            "longitude": 128.96678
+        },
+        {
+            "id": 296,
+            "storeName": "석가",
+            "fullAddress": "부산광역시 사하구 하신번영로 260 (하단동)",
+            "category": "한식",
+            "latitude": 35.10424,
+            "longitude": 128.95863
+        },
+        {
+            "id": 297,
+            "storeName": "선미아구찜",
+            "fullAddress": "부산광역시 사하구 괴정로 25-1 (하단동)",
+            "category": "한식",
+            "latitude": 35.103577,
+            "longitude": 128.9675
+        },
+        {
+            "id": 298,
+            "storeName": "성일숯불갈비",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 61 (하단동)",
+            "category": "한식",
+            "latitude": 35.110943,
+            "longitude": 128.96382
+        },
+        {
+            "id": 299,
+            "storeName": "세린푸드",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 48 2층",
+            "category": "한식",
+            "latitude": 35.112904,
+            "longitude": 128.96616
+        },
+        {
+            "id": 300,
+            "storeName": "세븐일레븐 부산가락일단지점",
+            "fullAddress": "부산광역시 사하구 하신번영로 365 146동 102호",
+            "category": "편의점",
+            "latitude": 35.1103,
+            "longitude": 128.95854
+        },
+        {
+            "id": 301,
+            "storeName": "세븐일레븐 부산대청가람점",
+            "fullAddress": "부산광역시 사하구 하신중앙로313번길 68  제1층 102호 대청가람채 (하단동)",
+            "category": "편의점",
+            "latitude": 35.105377,
+            "longitude": 128.96094
+        },
+        {
+            "id": 302,
+            "storeName": "세븐일레븐 부산동아대원룸점",
+            "fullAddress": "부산광역시 사하구 승학로17번길 73  B동 105호 (하단동  우진아파트)",
+            "category": "편의점",
+            "latitude": 35.10942,
+            "longitude": 128.96777
+        },
+        {
+            "id": 303,
+            "storeName": "세븐일레븐 부산하단골드점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1391 1층",
+            "category": "편의점",
+            "latitude": 35.106647,
+            "longitude": 128.96394
+        },
+        {
+            "id": 304,
+            "storeName": "세븐일레븐 부산하단낙동점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 53 1층",
+            "category": "편의점",
+            "latitude": 35.11253,
+            "longitude": 128.9609
+        },
+        {
+            "id": 305,
+            "storeName": "세븐일레븐 부산하단동아점",
+            "fullAddress": "부산광역시 사하구 낙동대로 536 .",
+            "category": "편의점",
+            "latitude": 35.111965,
+            "longitude": 128.96501
+        },
+        {
+            "id": 306,
+            "storeName": "세븐일레븐 부산하단롯데점",
+            "fullAddress": "부산광역시 사하구 낙동대로 413  1층 102호 (하단동  롯데캐슬아파트)",
+            "category": "편의점",
+            "latitude": 35.103394,
+            "longitude": 128.97302
+        },
+        {
+            "id": 307,
+            "storeName": "세븐일레븐 부산하단원룸점",
+            "fullAddress": "부산광역시 사하구 동매로23번길 9 (하단동)",
+            "category": "편의점",
+            "latitude": 35.1042,
+            "longitude": 128.96085
+        },
+        {
+            "id": 308,
+            "storeName": "세븐일레븐 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 7 1층",
+            "category": "편의점",
+            "latitude": 35.11017,
+            "longitude": 128.96509
+        },
+        {
+            "id": 309,
+            "storeName": "세븐일레븐 하단세양점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1399  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10661,
+            "longitude": 128.9647
+        },
+        {
+            "id": 310,
+            "storeName": "세븐일레븐 하단승학점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 5 1층",
+            "category": "편의점",
+            "latitude": 35.112473,
+            "longitude": 128.96361
+        },
+        {
+            "id": 311,
+            "storeName": "소녕",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 65 (하단동)",
+            "category": "한식",
+            "latitude": 35.110836,
+            "longitude": 128.9639
+        },
+        {
+            "id": 312,
+            "storeName": "소노",
+            "fullAddress": "부산광역시 사하구 낙동대로 565  1층 104 (하단동  호서부산빌딩)",
+            "category": "일반대중음식",
+            "latitude": 35.11394,
+            "longitude": 128.96265
+        },
+        {
+            "id": 313,
+            "storeName": "소담",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 54 (하단동)",
+            "category": "한식",
+            "latitude": 35.102844,
+            "longitude": 128.9732
+        },
+        {
+            "id": 314,
+            "storeName": "소담골",
+            "fullAddress": "부산광역시 사하구 하신중앙로313번길 100 1층",
+            "category": "한식",
+            "latitude": 35.105415,
+            "longitude": 128.95929
+        },
+        {
+            "id": 315,
+            "storeName": "소문난돼지국바",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 55 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11335,
+            "longitude": 128.96571
+        },
+        {
+            "id": 316,
+            "storeName": "소문난돼지국밥",
+            "fullAddress": "부산광역시 사하구 괴정로 42 (하단동 왼쪽)",
+            "category": "한식",
+            "latitude": 35.102547,
+            "longitude": 128.96864
+        },
+        {
+            "id": 317,
+            "storeName": "소미돈까스 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 3 2층(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.106766,
+            "longitude": 128.96532
+        },
+        {
+            "id": 318,
+            "storeName": "소반",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 28 (하단동)",
+            "category": "한식",
+            "latitude": 35.102688,
+            "longitude": 128.97186
+        },
+        {
+            "id": 319,
+            "storeName": "소반",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 75 1층",
+            "category": "한식",
+            "latitude": 35.110558,
+            "longitude": 128.96121
+        },
+        {
+            "id": 320,
+            "storeName": "소영이식당",
+            "fullAddress": "부산광역시 사하구 괴정로 9-1 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.104343,
+            "longitude": 128.9658
+        },
+        {
+            "id": 321,
+            "storeName": "소잡는날",
+            "fullAddress": "부산광역시 사하구 하신번영로300번길 100-2 (하단동)",
+            "category": "한식",
+            "latitude": 35.107647,
+            "longitude": 128.96445
+        },
+        {
+            "id": 322,
+            "storeName": "소풍경 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 14 1층",
+            "category": "한식",
+            "latitude": 35.112076,
+            "longitude": 128.96577
+        },
+        {
+            "id": 323,
+            "storeName": "소화식당",
+            "fullAddress": "부산광역시 사하구 승학로3번길 10 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.106983,
+            "longitude": 128.96895
+        },
+        {
+            "id": 324,
+            "storeName": "송원식당",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 46  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.102726,
+            "longitude": 128.97284
+        },
+        {
+            "id": 325,
+            "storeName": "숑숑돈까스&도시락 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 29 304동302호",
+            "category": "일반대중음식",
+            "latitude": 35.112274,
+            "longitude": 128.96222
+        },
+        {
+            "id": 326,
+            "storeName": "수라오리궁",
+            "fullAddress": "부산광역시 사하구 하신번영로 314 (하단동)",
+            "category": "한식",
+            "latitude": 35.108986,
+            "longitude": 128.95908
+        },
+        {
+            "id": 327,
+            "storeName": "수림식당",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 87-3 1층",
+            "category": "한식",
+            "latitude": 35.109776,
+            "longitude": 128.96468
+        },
+        {
+            "id": 328,
+            "storeName": "숙성고",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 5 B-105호",
+            "category": "한식",
+            "latitude": 35.11131,
+            "longitude": 128.96442
+        },
+        {
+            "id": 329,
+            "storeName": "순대마을",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 23 (하단동)",
+            "category": "한식",
+            "latitude": 35.10741,
+            "longitude": 128.96585
+        },
+        {
+            "id": 330,
+            "storeName": "쉬림핀",
+            "fullAddress": "부산광역시 사하구 괴정로 41 B동 101호 하단동",
+            "category": "일반대중음식",
+            "latitude": 35.103477,
+            "longitude": 128.96924
+        },
+        {
+            "id": 331,
+            "storeName": "스타트",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 18  지하1층",
+            "category": "일반대중음식",
+            "latitude": 35.105682,
+            "longitude": 128.96582
+        },
+        {
+            "id": 332,
+            "storeName": "시골돼지국밥",
+            "fullAddress": "부산광역시 사하구 괴정로43번길 23 (하단동)",
+            "category": "한식",
+            "latitude": 35.103897,
+            "longitude": 128.96942
+        },
+        {
+            "id": 333,
+            "storeName": "시골마당",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 38  103호 강남주택 (하단동)",
+            "category": "한식",
+            "latitude": 35.103477,
+            "longitude": 128.97005
+        },
+        {
+            "id": 334,
+            "storeName": "시골보리밥",
+            "fullAddress": "부산광역시 사하구 제석로 18 1층",
+            "category": "한식",
+            "latitude": 35.103695,
+            "longitude": 128.97145
+        },
+        {
+            "id": 335,
+            "storeName": "시골한방돼지국밥",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 18  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.105682,
+            "longitude": 128.96582
+        },
+        {
+            "id": 336,
+            "storeName": "시장 회 도매 센터",
+            "fullAddress": "부산광역시 사하구 제석로18번길 8 (하단동)",
+            "category": "한식",
+            "latitude": 35.103474,
+            "longitude": 128.97162
+        },
+        {
+            "id": 337,
+            "storeName": "시장식당",
+            "fullAddress": "부산광역시 사하구 낙동대로451번안길 3 (하단동)",
+            "category": "한식",
+            "latitude": 35.104633,
+            "longitude": 128.96902
+        },
+        {
+            "id": 338,
+            "storeName": "식가당",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 41 하단동",
+            "category": "한식",
+            "latitude": 35.112453,
+            "longitude": 128.96141
+        },
+        {
+            "id": 339,
+            "storeName": "신신불닭발",
+            "fullAddress": "부산광역시 사하구 동매로 30 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.10349,
+            "longitude": 128.96144
+        },
+        {
+            "id": 340,
+            "storeName": "신전떡볶이",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 17 (하단동)",
+            "category": "한식",
+            "latitude": 35.1124,
+            "longitude": 128.96599
+        },
+        {
+            "id": 341,
+            "storeName": "신포아구찜 사하점",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 78 1층",
+            "category": "한식",
+            "latitude": 35.110897,
+            "longitude": 128.96121
+        },
+        {
+            "id": 342,
+            "storeName": "심통",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 10  2층 (하단동)",
+            "category": "일식",
+            "latitude": 35.111496,
+            "longitude": 128.96397
+        },
+        {
+            "id": 343,
+            "storeName": "싸움의고수 하단 동아대점",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 28 1층",
+            "category": "한식",
+            "latitude": 35.102688,
+            "longitude": 128.97186
+        },
+        {
+            "id": 344,
+            "storeName": "써브웨이 동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 542 지하층 109호",
+            "category": "일반대중음식",
+            "latitude": 35.112465,
+            "longitude": 128.96478
+        },
+        {
+            "id": 345,
+            "storeName": "썬더치킨 가락1단지점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 54 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112698,
+            "longitude": 128.9609
+        },
+        {
+            "id": 346,
+            "storeName": "쏘크라테스떡볶이하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 542 지하1층107호(대우에덴프라자)",
+            "category": "한식",
+            "latitude": 35.112465,
+            "longitude": 128.96478
+        },
+        {
+            "id": 347,
+            "storeName": "씨유 하단골든빌점",
+            "fullAddress": "부산광역시 사하구 낙동대로486번길 6  1층 상가 (하단동  E.F골든빌라)",
+            "category": "편의점",
+            "latitude": 35.107986,
+            "longitude": 128.96803
+        },
+        {
+            "id": 348,
+            "storeName": "씨유 하단로또일등점",
+            "fullAddress": "부산광역시 사하구 낙동대로 501  1층 101호 102호 103호 (하단동  하구언3차맨션)",
+            "category": "편의점",
+            "latitude": 35.10901,
+            "longitude": 128.96606
+        },
+        {
+            "id": 349,
+            "storeName": "씨유 하단복성점",
+            "fullAddress": "부산광역시 사하구 동매로 74  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.102486,
+            "longitude": 128.9662
+        },
+        {
+            "id": 350,
+            "storeName": "씨유(CU) 뉴하단에덴점",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 19 1층 다호",
+            "category": "편의점",
+            "latitude": 35.10747,
+            "longitude": 128.96356
+        },
+        {
+            "id": 351,
+            "storeName": "씨유(CU) 하단나산점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1362 상가동 101호",
+            "category": "편의점",
+            "latitude": 35.105915,
+            "longitude": 128.9605
+        },
+        {
+            "id": 352,
+            "storeName": "씨유(CU) 하단낙동점",
+            "fullAddress": "부산광역시 사하구 낙동남로1390번길 5 1층 101호",
+            "category": "편의점",
+            "latitude": 35.105682,
+            "longitude": 128.96407
+        },
+        {
+            "id": 353,
+            "storeName": "씨유(CU) 하단블루점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 29 301동 1층 101호",
+            "category": "편의점",
+            "latitude": 35.112274,
+            "longitude": 128.96222
+        },
+        {
+            "id": 354,
+            "storeName": "씨유(CU) 하단청구점",
+            "fullAddress": "부산광역시 사하구 낙동대로520번길 14 3동 1층 101호",
+            "category": "편의점",
+            "latitude": 35.11093,
+            "longitude": 128.967
+        },
+        {
+            "id": 355,
+            "storeName": "씨유(CU)하단아람빌리지점",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 12 1층 101호",
+            "category": "편의점",
+            "latitude": 35.10537,
+            "longitude": 128.96791
+        },
+        {
+            "id": 356,
+            "storeName": "씨유(CU)하단에스케이(SK)점",
+            "fullAddress": "부산광역시 사하구 하신번영로 423  1층 103호 (하단동  세진빌딩)",
+            "category": "편의점",
+            "latitude": 35.11862,
+            "longitude": 128.96062
+        },
+        {
+            "id": 357,
+            "storeName": "씨유(CU)하단지하철역",
+            "fullAddress": "부산광역시 사하구 낙동남로 지하1415 지하1층",
+            "category": "편의점",
+            "latitude": 35.106182,
+            "longitude": 128.96623
+        },
+        {
+            "id": 358,
+            "storeName": "씨유하단골드점",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 6 (하단동)",
+            "category": "편의점",
+            "latitude": 35.106823,
+            "longitude": 128.96556
+        },
+        {
+            "id": 359,
+            "storeName": "씨유하단하남점",
+            "fullAddress": "부산광역시 사하구 하신번영로 210  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.09976,
+            "longitude": 128.95847
+        },
+        {
+            "id": 360,
+            "storeName": "씽씽뒷고기",
+            "fullAddress": "부산광역시 사하구 괴정로43번길 18  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.103634,
+            "longitude": 128.96951
+        },
+        {
+            "id": 361,
+            "storeName": "아구마루",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 109  1층 (하단동)",
+            "category": "일식",
+            "latitude": 35.10964,
+            "longitude": 128.96051
+        },
+        {
+            "id": 362,
+            "storeName": "아사레스토랑",
+            "fullAddress": "부산광역시 사하구 낙동남로1406번길 7  2층 (하단동)",
+            "category": "양식",
+            "latitude": 35.105434,
+            "longitude": 128.96556
+        },
+        {
+            "id": 363,
+            "storeName": "아웃닭 (outdark) 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 15  1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.110226,
+            "longitude": 128.96448
+        },
+        {
+            "id": 364,
+            "storeName": "아웃백스테이크 하단점",
+            "fullAddress": "부산광역시 사하구 하단2동 534-7번지",
+            "category": "양식",
+            "latitude": 35.106693,
+            "longitude": 128.96852
+        },
+        {
+            "id": 365,
+            "storeName": "안녕두루",
+            "fullAddress": "부산광역시 사하구 낙동대로520번길 1 1층일부",
+            "category": "한식",
+            "latitude": 35.110947,
+            "longitude": 128.96605
+        },
+        {
+            "id": 366,
+            "storeName": "안스시",
+            "fullAddress": "부산광역시 사하구 동매로5번길 2 경진빌라 101호",
+            "category": "일식",
+            "latitude": 35.10391,
+            "longitude": 128.95914
+        },
+        {
+            "id": 367,
+            "storeName": "앙트레프레너 (ENTREPRENEUR)",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 14 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.113037,
+            "longitude": 128.9649
+        },
+        {
+            "id": 368,
+            "storeName": "양가손만두",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 21 (하단동)1층",
+            "category": "한식",
+            "latitude": 35.104233,
+            "longitude": 128.96983
+        },
+        {
+            "id": 369,
+            "storeName": "양꼬치&마라탕",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 28 하단동",
+            "category": "중식",
+            "latitude": 35.110527,
+            "longitude": 128.96385
+        },
+        {
+            "id": 371,
+            "storeName": "어사리횟집",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 16 (하단동  양록빌딩)",
+            "category": "한식",
+            "latitude": 35.105686,
+            "longitude": 128.96593
+        },
+        {
+            "id": 372,
+            "storeName": "언양닭칼국수 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1406번길 7 .",
+            "category": "한식",
+            "latitude": 35.105434,
+            "longitude": 128.96556
+        },
+        {
+            "id": 373,
+            "storeName": "엄마 밥주세요",
+            "fullAddress": "부산광역시 사하구 낙동남로1361번길 25 1층",
+            "category": "한식",
+            "latitude": 35.10766,
+            "longitude": 128.96053
+        },
+        {
+            "id": 374,
+            "storeName": "엉클까스",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 14 1층",
+            "category": "양식",
+            "latitude": 35.11151,
+            "longitude": 128.96602
+        },
+        {
+            "id": 375,
+            "storeName": "엉클베이커리",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 3 1층",
+            "category": "제과점",
+            "latitude": 35.108833,
+            "longitude": 128.95926
+        },
+        {
+            "id": 376,
+            "storeName": "에그드랍",
+            "fullAddress": "부산광역시 사하구 낙동대로 532 103호(하단동 더휴)",
+            "category": "일반대중음식",
+            "latitude": 35.111576,
+            "longitude": 128.96532
+        },
+        {
+            "id": 377,
+            "storeName": "에바돈가츠 청년찌게 키햐아",
+            "fullAddress": "부산광역시 사하구 낙동대로 423 1층(하단점)",
+            "category": "일반대중음식",
+            "latitude": 35.103836,
+            "longitude": 128.97205
+        },
+        {
+            "id": 378,
+            "storeName": "에이치이(HE)푸드",
+            "fullAddress": "부산광역시 사하구 하신중앙로 265  355동 지하1층 4호 (하단동  가락타운3단지아파트)",
+            "category": "일반대중음식",
+            "latitude": 35.09993,
+            "longitude": 128.95848
+        },
+        {
+            "id": 379,
+            "storeName": "엠더블유(MW)푸드",
+            "fullAddress": "부산광역시 사하구 하신중앙로 265 355동 지하층 5호(하단동 가락타운2.3단지)",
+            "category": "한식",
+            "latitude": 35.09993,
+            "longitude": 128.95848
+        },
+        {
+            "id": 380,
+            "storeName": "연다연",
+            "fullAddress": "부산광역시 사하구 하신중앙로 296 1층",
+            "category": "일식",
+            "latitude": 35.103577,
+            "longitude": 128.96313
+        },
+        {
+            "id": 381,
+            "storeName": "연주정숯불갈비",
+            "fullAddress": "부산광역시 사하구 낙동남로1347번길 22 (하단동)",
+            "category": "한식",
+            "latitude": 35.107475,
+            "longitude": 128.95946
+        },
+        {
+            "id": 382,
+            "storeName": "열정짬뽕",
+            "fullAddress": "부산광역시 사하구 하신중앙로 320 1층",
+            "category": "중식",
+            "latitude": 35.10454,
+            "longitude": 128.96547
+        },
+        {
+            "id": 383,
+            "storeName": "영심이왕족발",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 2-1   1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.11054,
+            "longitude": 128.96509
+        },
+        {
+            "id": 384,
+            "storeName": "영푸드",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 43 1층",
+            "category": "일반대중음식",
+            "latitude": 35.108692,
+            "longitude": 128.96147
+        },
+        {
+            "id": 385,
+            "storeName": "옛날부추삼겹",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 20 1층",
+            "category": "한식",
+            "latitude": 35.110447,
+            "longitude": 128.96432
+        },
+        {
+            "id": 386,
+            "storeName": "옛날통닭 하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 35 상가동 101호 (하단동 대호맨션)",
+            "category": "일반대중음식",
+            "latitude": 35.108704,
+            "longitude": 128.96104
+        },
+        {
+            "id": 387,
+            "storeName": "옛날하동섬진강재첩국",
+            "fullAddress": "부산광역시 사하구 하신중앙로 279 (하단동)",
+            "category": "한식",
+            "latitude": 35.10335,
+            "longitude": 128.96129
+        },
+        {
+            "id": 388,
+            "storeName": "옛집수구레",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 6 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.106823,
+            "longitude": 128.96379
+        },
+        {
+            "id": 389,
+            "storeName": "오거리 식당",
+            "fullAddress": "부산광역시 사하구 낙동대로 447 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.10483,
+            "longitude": 128.96951
+        },
+        {
+            "id": 390,
+            "storeName": "오거리도넛",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 2  1층 (하단동)",
+            "category": "제과점",
+            "latitude": 35.104866,
+            "longitude": 128.9692
+        },
+        {
+            "id": 391,
+            "storeName": "오거리밀면",
+            "fullAddress": "부산광역시 사하구 괴정로 10 (하단동)",
+            "category": "한식",
+            "latitude": 35.103806,
+            "longitude": 128.96538
+        },
+        {
+            "id": 392,
+            "storeName": "오늘 김해뒷고기",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 25 오늘 김해뒷고기 (하단동)",
+            "category": "한식",
+            "latitude": 35.11034,
+            "longitude": 128.96402
+        },
+        {
+            "id": 393,
+            "storeName": "오늘김해생뒷고기",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 27 하단동",
+            "category": "한식",
+            "latitude": 35.110374,
+            "longitude": 128.96384
+        },
+        {
+            "id": 394,
+            "storeName": "오늘한끼",
+            "fullAddress": "부산광역시 사하구 낙동남로1347번길 45 하단동",
+            "category": "한식",
+            "latitude": 35.108574,
+            "longitude": 128.95927
+        },
+        {
+            "id": 395,
+            "storeName": "오늘한점(부산하단점)",
+            "fullAddress": "부산광역시 사하구 하신번영로 415 (하단동)",
+            "category": "한식",
+            "latitude": 35.117966,
+            "longitude": 128.96056
+        },
+        {
+            "id": 396,
+            "storeName": "오뚜기분식",
+            "fullAddress": "부산광역시 사하구 제석로17번길 6 1층",
+            "category": "한식",
+            "latitude": 35.10394,
+            "longitude": 128.97069
+        },
+        {
+            "id": 397,
+            "storeName": "오르리",
+            "fullAddress": "부산광역시 사하구 낙동대로407번길 26 (하단동)",
+            "category": "한식",
+            "latitude": 35.10233,
+            "longitude": 128.9732
+        },
+        {
+            "id": 398,
+            "storeName": "오복미역하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1423 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.106533,
+            "longitude": 128.96721
+        },
+        {
+            "id": 399,
+            "storeName": "오사마",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 141  1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11221,
+            "longitude": 128.9635
+        },
+        {
+            "id": 400,
+            "storeName": "오일장멸치국수",
+            "fullAddress": "부산광역시 사하구 낙동대로 417 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.103664,
+            "longitude": 128.9726
+        },
+        {
+            "id": 401,
+            "storeName": "오징어나라 가자미천국",
+            "fullAddress": "부산광역시 사하구 승학로3번길 8  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.106907,
+            "longitude": 128.9691
+        },
+        {
+            "id": 402,
+            "storeName": "옥이네 사하점",
+            "fullAddress": "부산광역시 사하구 승학로17번길 46  1층",
+            "category": "한식",
+            "latitude": 35.10828,
+            "longitude": 128.96886
+        },
+        {
+            "id": 403,
+            "storeName": "옥이네국수",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 19 (하단동 에덴태양)",
+            "category": "한식",
+            "latitude": 35.10747,
+            "longitude": 128.96356
+        },
+        {
+            "id": 404,
+            "storeName": "옥천식당",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 3 .",
+            "category": "한식",
+            "latitude": 35.108833,
+            "longitude": 128.95926
+        },
+        {
+            "id": 405,
+            "storeName": "온센",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 43 1층",
+            "category": "한식",
+            "latitude": 35.112816,
+            "longitude": 128.9657
+        },
+        {
+            "id": 406,
+            "storeName": "올타미스터스시",
+            "fullAddress": "부산광역시 사하구 낙동남로1390번길 10 (하단동)",
+            "category": "한식",
+            "latitude": 35.10542,
+            "longitude": 128.96361
+        },
+        {
+            "id": 407,
+            "storeName": "와따그램",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 1층(하단동 동아대학교)",
+            "category": "일반대중음식",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 408,
+            "storeName": "와와양꼬치(하단점)",
+            "fullAddress": "부산광역시 사하구 하신번영로 251 1층",
+            "category": "한식",
+            "latitude": 35.10357,
+            "longitude": 128.9582
+        },
+        {
+            "id": 409,
+            "storeName": "와플대학 동아대캠퍼스",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 9 1층",
+            "category": "일반대중음식",
+            "latitude": 35.111313,
+            "longitude": 128.96576
+        },
+        {
+            "id": 410,
+            "storeName": "와플칸",
+            "fullAddress": "부산광역시 사하구 낙동남로 1413 지하1층(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.106754,
+            "longitude": 128.96648
+        },
+        {
+            "id": 411,
+            "storeName": "완동반점",
+            "fullAddress": "부산광역시 사하구 낙동대로 526-1 1층",
+            "category": "중식",
+            "latitude": 35.11113,
+            "longitude": 128.96553
+        },
+        {
+            "id": 412,
+            "storeName": "왓더버거 부산하단점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 336 1층",
+            "category": "패스트푸드",
+            "latitude": 35.10523,
+            "longitude": 128.96707
+        },
+        {
+            "id": 413,
+            "storeName": "외딴집홍어",
+            "fullAddress": "부산광역시 사하구 하신번영로 251 하단동",
+            "category": "한식",
+            "latitude": 35.10357,
+            "longitude": 128.9582
+        },
+        {
+            "id": 414,
+            "storeName": "요달의 찜닭 사하구점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 143 2층",
+            "category": "한식",
+            "latitude": 35.11229,
+            "longitude": 128.96344
+        },
+        {
+            "id": 415,
+            "storeName": "요리하는 평생",
+            "fullAddress": "부산광역시 사하구 하신번영로 348   1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11196,
+            "longitude": 128.95981
+        },
+        {
+            "id": 416,
+            "storeName": "요와2호점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 138  지하1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.112103,
+            "longitude": 128.96391
+        },
+        {
+            "id": 417,
+            "storeName": "용철이떡갈비",
+            "fullAddress": "부산광역시 사하구 제석로18번길 6 .",
+            "category": "한식",
+            "latitude": 35.103516,
+            "longitude": 128.97147
+        },
+        {
+            "id": 418,
+            "storeName": "우돼끼리",
+            "fullAddress": "부산광역시 사하구 낙동대로 501  107호 상가 (하단동)",
+            "category": "한식",
+            "latitude": 35.10901,
+            "longitude": 128.96606
+        },
+        {
+            "id": 419,
+            "storeName": "우리숯불구이",
+            "fullAddress": "부산광역시 사하구 하신번영로 262 1층",
+            "category": "한식",
+            "latitude": 35.10432,
+            "longitude": 128.95863
+        },
+        {
+            "id": 420,
+            "storeName": "우빵",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 23 (하단동)",
+            "category": "한식",
+            "latitude": 35.10741,
+            "longitude": 128.96585
+        },
+        {
+            "id": 421,
+            "storeName": "우아한 상상",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 68 1층",
+            "category": "일반대중음식",
+            "latitude": 35.11068,
+            "longitude": 128.96173
+        },
+        {
+            "id": 422,
+            "storeName": "우연",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 18 1층",
+            "category": "한식",
+            "latitude": 35.11137,
+            "longitude": 128.96356
+        },
+        {
+            "id": 423,
+            "storeName": "우연횟집",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 21  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.111095,
+            "longitude": 128.96347
+        },
+        {
+            "id": 424,
+            "storeName": "우적",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 9-7 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.106884,
+            "longitude": 128.96475
+        },
+        {
+            "id": 425,
+            "storeName": "원선일식당",
+            "fullAddress": "부산광역시 사하구 하신번영로261번길 10 (하단동)",
+            "category": "한식",
+            "latitude": 35.104694,
+            "longitude": 128.95793
+        },
+        {
+            "id": 426,
+            "storeName": "원조김밥마을",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 26 (하단동)",
+            "category": "한식",
+            "latitude": 35.113525,
+            "longitude": 128.96098
+        },
+        {
+            "id": 427,
+            "storeName": "원카츠(하단)",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 16 1층",
+            "category": "일반대중음식",
+            "latitude": 35.113125,
+            "longitude": 128.96532
+        },
+        {
+            "id": 429,
+            "storeName": "원향루",
+            "fullAddress": "부산광역시 사하구 낙동대로504번길 8 (하단동)",
+            "category": "중식",
+            "latitude": 35.109447,
+            "longitude": 128.9671
+        },
+        {
+            "id": 430,
+            "storeName": "월아산자락",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 10-11 1층",
+            "category": "일반대중음식",
+            "latitude": 35.10712,
+            "longitude": 128.9666
+        },
+        {
+            "id": 431,
+            "storeName": "유가네닭갈비 하단역점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 14 2층(하단동)",
+            "category": "한식",
+            "latitude": 35.107193,
+            "longitude": 128.96713
+        },
+        {
+            "id": 432,
+            "storeName": "유부야",
+            "fullAddress": "부산광역시 사하구 낙동대로 516-6 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.11029,
+            "longitude": 128.96646
+        },
+        {
+            "id": 433,
+            "storeName": "유정맛집",
+            "fullAddress": "부산광역시 사하구 낙동대로457번안길 22 (하단동)",
+            "category": "한식",
+            "latitude": 35.10422,
+            "longitude": 128.96861
+        },
+        {
+            "id": 434,
+            "storeName": "육선장",
+            "fullAddress": "부산광역시 사하구 동매로5번길 1  1층(하단동)",
+            "category": "한식",
+            "latitude": 35.10398,
+            "longitude": 128.95888
+        },
+        {
+            "id": 435,
+            "storeName": "육지로 온 해적",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 72 101호",
+            "category": "일식",
+            "latitude": 35.11122,
+            "longitude": 128.96121
+        },
+        {
+            "id": 436,
+            "storeName": "육콩",
+            "fullAddress": "부산광역시 사하구 동매로15번길 5  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.104076,
+            "longitude": 128.95985
+        },
+        {
+            "id": 437,
+            "storeName": "은하별",
+            "fullAddress": "부산광역시 사하구 동매로 53-2 1층",
+            "category": "양식",
+            "latitude": 35.103363,
+            "longitude": 128.96426
+        },
+        {
+            "id": 438,
+            "storeName": "은하수식당",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 48 (하단동  하단에덴아파트)",
+            "category": "일반대중음식",
+            "latitude": 35.112904,
+            "longitude": 128.96616
+        },
+        {
+            "id": 439,
+            "storeName": "응급실국물떡볶이 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 517 1층",
+            "category": "일반대중음식",
+            "latitude": 35.11027,
+            "longitude": 128.9655
+        },
+        {
+            "id": 440,
+            "storeName": "이가찜집",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 40  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.10272,
+            "longitude": 128.9726
+        },
+        {
+            "id": 441,
+            "storeName": "이공김밥",
+            "fullAddress": "부산광역시 사하구 하신번영로 360 1층",
+            "category": "한식",
+            "latitude": 35.112984,
+            "longitude": 128.9602
+        },
+        {
+            "id": 442,
+            "storeName": "이래진족",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 5 (하단동)",
+            "category": "한식",
+            "latitude": 35.108818,
+            "longitude": 128.9594
+        },
+        {
+            "id": 443,
+            "storeName": "이마트24 R하단센터점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 11 1층",
+            "category": "편의점",
+            "latitude": 35.107117,
+            "longitude": 128.96678
+        },
+        {
+            "id": 444,
+            "storeName": "이마트24 동아대공대2호점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 (하단동  공대2호관지하1층)",
+            "category": "편의점",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 445,
+            "storeName": "이마트24 동아대도서관위성점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 (하단동  공대5호관6층)",
+            "category": "편의점",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 446,
+            "storeName": "이마트24 동아대도서관점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 도서관지하1층",
+            "category": "편의점",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 447,
+            "storeName": "이마트24 동아대학생회관점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 학생회관1층",
+            "category": "편의점",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 448,
+            "storeName": "이마트24 부산동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 18  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.11214,
+            "longitude": 128.96599
+        },
+        {
+            "id": 449,
+            "storeName": "이마트24 하단가락점",
+            "fullAddress": "부산광역시 사하구 하신번영로 233 상가 227동 108호  109호  110호",
+            "category": "편의점",
+            "latitude": 35.101078,
+            "longitude": 128.95796
+        },
+        {
+            "id": 450,
+            "storeName": "이마트24 하단낙동점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 53 1층",
+            "category": "편의점",
+            "latitude": 35.11253,
+            "longitude": 128.9609
+        },
+        {
+            "id": 451,
+            "storeName": "이마트24 하단낙동점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 53 1층",
+            "category": "편의점",
+            "latitude": 35.11253,
+            "longitude": 128.9609
+        },
+        {
+            "id": 452,
+            "storeName": "이마트24 하단에덴점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 28 .",
+            "category": "편의점",
+            "latitude": 35.110527,
+            "longitude": 128.96385
+        },
+        {
+            "id": 453,
+            "storeName": "이마트24 하단에덴점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 28 (하단동)",
+            "category": "편의점",
+            "latitude": 35.110527,
+            "longitude": 128.96385
+        },
+        {
+            "id": 454,
+            "storeName": "이마트24 하단원룸",
+            "fullAddress": "부산광역시 사하구 동매로29번길 17 1층",
+            "category": "편의점",
+            "latitude": 35.10453,
+            "longitude": 128.9615
+        },
+        {
+            "id": 455,
+            "storeName": "이마트24 하단중학교점",
+            "fullAddress": "부산광역시 사하구 하신번영로328번길 25 1층",
+            "category": "편의점",
+            "latitude": 35.10992,
+            "longitude": 128.96065
+        },
+        {
+            "id": 456,
+            "storeName": "이마트24 하단헤를리치점",
+            "fullAddress": "부산광역시 사하구 하신번영로 302 상가 101호 102호",
+            "category": "편의점",
+            "latitude": 35.10798,
+            "longitude": 128.959
+        },
+        {
+            "id": 457,
+            "storeName": "이마트24 하단헤를리치점",
+            "fullAddress": "부산광역시 사하구 하신번영로 302 상가101호102호",
+            "category": "편의점",
+            "latitude": 35.10798,
+            "longitude": 128.959
+        },
+        {
+            "id": 458,
+            "storeName": "이모네",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 5 (하단동)",
+            "category": "한식",
+            "latitude": 35.10687,
+            "longitude": 128.96532
+        },
+        {
+            "id": 459,
+            "storeName": "이모식당",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 16 (하단동)",
+            "category": "한식",
+            "latitude": 35.113125,
+            "longitude": 128.96532
+        },
+        {
+            "id": 460,
+            "storeName": "이조김밥",
+            "fullAddress": "부산광역시 사하구 동매로 16 103호",
+            "category": "한식",
+            "latitude": 35.103508,
+            "longitude": 128.96014
+        },
+        {
+            "id": 461,
+            "storeName": "인생닭강정 하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로 256 109호(하단동 강변상가)",
+            "category": "일반대중음식",
+            "latitude": 35.10386,
+            "longitude": 128.95863
+        },
+        {
+            "id": 462,
+            "storeName": "인생역전",
+            "fullAddress": "부산광역시 사하구 낙동남로1357번길 45 하단동",
+            "category": "한식",
+            "latitude": 35.1086,
+            "longitude": 128.96016
+        },
+        {
+            "id": 463,
+            "storeName": "인생칼국수",
+            "fullAddress": "부산광역시 사하구 하신번영로 387  1층 106호 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11564,
+            "longitude": 128.96053
+        },
+        {
+            "id": 464,
+            "storeName": "인정후라이드(하단점)",
+            "fullAddress": "부산광역시 사하구 동매로 16 102호",
+            "category": "일반대중음식",
+            "latitude": 35.103508,
+            "longitude": 128.96014
+        },
+        {
+            "id": 465,
+            "storeName": "일미돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동대로504번길 9  지하층 103호 (하단동  삼보연립)",
+            "category": "한식",
+            "latitude": 35.109737,
+            "longitude": 128.96715
+        },
+        {
+            "id": 466,
+            "storeName": "일봉초밥",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 27 1층(하단동)",
+            "category": "일식",
+            "latitude": 35.104877,
+            "longitude": 128.96735
+        },
+        {
+            "id": 467,
+            "storeName": "일품참숯갈비",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 34  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.1114,
+            "longitude": 128.96278
+        },
+        {
+            "id": 468,
+            "storeName": "임창정의모서리족발 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 6 2층",
+            "category": "한식",
+            "latitude": 35.11159,
+            "longitude": 128.96417
+        },
+        {
+            "id": 469,
+            "storeName": "자갈치브라더스 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 97 .",
+            "category": "일반대중음식",
+            "latitude": 35.110485,
+            "longitude": 128.96463
+        },
+        {
+            "id": 470,
+            "storeName": "자담치킨 하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로300번길 129 1층",
+            "category": "일반대중음식",
+            "latitude": 35.10863,
+            "longitude": 128.96576
+        },
+        {
+            "id": 471,
+            "storeName": "자미당하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 430  1층 (당리동)",
+            "category": "일반대중음식",
+            "latitude": 35.1127,
+            "longitude": 128.96071
+        },
+        {
+            "id": 472,
+            "storeName": "장보고수산센터",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 64 .",
+            "category": "한식",
+            "latitude": 35.109245,
+            "longitude": 128.96577
+        },
+        {
+            "id": 473,
+            "storeName": "장숙자 감자탕",
+            "fullAddress": "부산광역시 사하구 동매로 47 1층",
+            "category": "한식",
+            "latitude": 35.103535,
+            "longitude": 128.96355
+        },
+        {
+            "id": 474,
+            "storeName": "장어나라장어구이",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 12 (하단동)",
+            "category": "한식",
+            "latitude": 35.10537,
+            "longitude": 128.96791
+        },
+        {
+            "id": 475,
+            "storeName": "전가복",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 120  1층 (하단동  공작아파트)",
+            "category": "중식",
+            "latitude": 35.109154,
+            "longitude": 128.95987
+        },
+        {
+            "id": 476,
+            "storeName": "전국밀면",
+            "fullAddress": "부산광역시 사하구 낙동대로457번안길 31 (하단동)",
+            "category": "한식",
+            "latitude": 35.10419,
+            "longitude": 128.96925
+        },
+        {
+            "id": 477,
+            "storeName": "정 김밥",
+            "fullAddress": "부산광역시 사하구 낙동대로 425 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.10391,
+            "longitude": 128.9719
+        },
+        {
+            "id": 478,
+            "storeName": "정글주스",
+            "fullAddress": "부산광역시 사하구 낙동대로 524 1층(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11093,
+            "longitude": 128.96567
+        },
+        {
+            "id": 479,
+            "storeName": "정성칼국수",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 38 102호",
+            "category": "한식",
+            "latitude": 35.103477,
+            "longitude": 128.97005
+        },
+        {
+            "id": 480,
+            "storeName": "정원",
+            "fullAddress": "부산광역시 사하구 하신중앙로335번길 22 (하단동)",
+            "category": "한식",
+            "latitude": 35.105633,
+            "longitude": 128.9657
+        },
+        {
+            "id": 481,
+            "storeName": "정직유부 하단동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 13  1층",
+            "category": "일반대중음식",
+            "latitude": 35.11329,
+            "longitude": 128.96483
+        },
+        {
+            "id": 482,
+            "storeName": "정터영양탕",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 16 (하단동)",
+            "category": "한식",
+            "latitude": 35.10449,
+            "longitude": 128.9693
+        },
+        {
+            "id": 483,
+            "storeName": "제이케이푸드",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 10  2층",
+            "category": "한식",
+            "latitude": 35.112015,
+            "longitude": 128.96556
+        },
+        {
+            "id": 484,
+            "storeName": "제이푸드",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37 1층 3호(하단동 동아대학교 공과대학 1호관)",
+            "category": "일반대중음식",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 485,
+            "storeName": "조가네 불오뎅",
+            "fullAddress": "부산광역시 사하구 하신번영로 395 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.116196,
+            "longitude": 128.96036
+        },
+        {
+            "id": 486,
+            "storeName": "조선칼국수",
+            "fullAddress": "부산광역시 사하구 낙동대로 557 (하단동)",
+            "category": "한식",
+            "latitude": 35.113346,
+            "longitude": 128.96327
+        },
+        {
+            "id": 487,
+            "storeName": "조은국수",
+            "fullAddress": "부산광역시 사하구 하단동 526-12",
+            "category": "한식",
+            "latitude": 35.10655,
+            "longitude": 128.9672
+        },
+        {
+            "id": 488,
+            "storeName": "조은참치",
+            "fullAddress": "부산광역시 사하구 낙동남로 1421  3층 (하단동  프린스빌딩)",
+            "category": "한식",
+            "latitude": 35.106598,
+            "longitude": 128.96704
+        },
+        {
+            "id": 489,
+            "storeName": "조은통닭 하단직영점",
+            "fullAddress": "부산광역시 사하구 하신번영로300번길 111 1층",
+            "category": "일반대중음식",
+            "latitude": 35.10816,
+            "longitude": 128.96503
+        },
+        {
+            "id": 490,
+            "storeName": "족발쌀롱",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 59 (하단동)",
+            "category": "한식",
+            "latitude": 35.111057,
+            "longitude": 128.96375
+        },
+        {
+            "id": 491,
+            "storeName": "종로족발",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 109  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.110935,
+            "longitude": 128.96431
+        },
+        {
+            "id": 492,
+            "storeName": "주룡장어숯불구이",
+            "fullAddress": "부산광역시 사하구 낙동남로 1393 2층(하단동)",
+            "category": "한식",
+            "latitude": 35.106556,
+            "longitude": 128.96419
+        },
+        {
+            "id": 493,
+            "storeName": "주식회사 고기묵짜",
+            "fullAddress": "부산광역시 사하구 낙동남로 1426 2층",
+            "category": "일반대중음식",
+            "latitude": 35.105927,
+            "longitude": 128.9676
+        },
+        {
+            "id": 494,
+            "storeName": "주식회사 케이에프씨코리아",
+            "fullAddress": "부산광역시 사하구 낙동남로 1403 1층",
+            "category": "일반대중음식",
+            "latitude": 35.10659,
+            "longitude": 128.96521
+        },
+        {
+            "id": 495,
+            "storeName": "준푸드",
+            "fullAddress": "부산광역시 사하구 괴정로 55 1층",
+            "category": "한식",
+            "latitude": 35.102516,
+            "longitude": 128.97028
+        },
+        {
+            "id": 496,
+            "storeName": "쥬씨 하단오거리점",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 2  1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.104866,
+            "longitude": 128.9692
+        },
+        {
+            "id": 497,
+            "storeName": "지니프레쉬 당리하단점",
+            "fullAddress": "부산광역시 사하구 괴정로 79 1층",
+            "category": "일반대중음식",
+            "latitude": 35.102077,
+            "longitude": 128.9727
+        },
+        {
+            "id": 498,
+            "storeName": "지민이식당",
+            "fullAddress": "부산광역시 사하구 하신번영로 395 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.116196,
+            "longitude": 128.96036
+        },
+        {
+            "id": 499,
+            "storeName": "지에스(GS)25 승학점",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 5 1층",
+            "category": "편의점",
+            "latitude": 35.113213,
+            "longitude": 128.96446
+        },
+        {
+            "id": 500,
+            "storeName": "지에스(GS)25 하단종로점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 324 101호",
+            "category": "편의점",
+            "latitude": 35.104725,
+            "longitude": 128.9659
+        },
+        {
+            "id": 501,
+            "storeName": "지에스25 새하단본동점",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 27  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.104877,
+            "longitude": 128.96735
+        },
+        {
+            "id": 502,
+            "storeName": "지코바숯불양념치킨",
+            "fullAddress": "부산광역시 사하구 하신번영로350번길 4 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11195,
+            "longitude": 128.96019
+        },
+        {
+            "id": 503,
+            "storeName": "지코바숯불치킨",
+            "fullAddress": "부산광역시 사하구 하단1동 126-3번지 1층 중호",
+            "category": "일반대중음식",
+            "latitude": 35.10367,
+            "longitude": 128.97018
+        },
+        {
+            "id": 504,
+            "storeName": "집중호우",
+            "fullAddress": "부산광역시 사하구 하신번영로300번길 100-2 1층동(하단동)",
+            "category": "한식",
+            "latitude": 35.107647,
+            "longitude": 128.96445
+        },
+        {
+            "id": 505,
+            "storeName": "징기스",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 41 1층",
+            "category": "한식",
+            "latitude": 35.108147,
+            "longitude": 128.96605
+        },
+        {
+            "id": 506,
+            "storeName": "짬뽕천하삼국지",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 1  2층 (하단동)",
+            "category": "중식",
+            "latitude": 35.113194,
+            "longitude": 128.9643
+        },
+        {
+            "id": 507,
+            "storeName": "찌웅이네 숯불두마리치킨",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 49 .",
+            "category": "일반대중음식",
+            "latitude": 35.1112,
+            "longitude": 128.96179
+        },
+        {
+            "id": 508,
+            "storeName": "찌웅이네 숯불두마리치킨 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 38 1층",
+            "category": "일반대중음식",
+            "latitude": 35.111336,
+            "longitude": 128.96248
+        },
+        {
+            "id": 509,
+            "storeName": "찌지미부엌",
+            "fullAddress": "부산광역시 사하구 동매로 31 .",
+            "category": "한식",
+            "latitude": 35.103695,
+            "longitude": 128.96176
+        },
+        {
+            "id": 510,
+            "storeName": "차노아구닭",
+            "fullAddress": "부산광역시 사하구 동매로 65  1층 차노아구닭 (하단동)",
+            "category": "한식",
+            "latitude": 35.10304,
+            "longitude": 128.96533
+        },
+        {
+            "id": 511,
+            "storeName": "차화",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 60 1층 (하단동)",
+            "category": "중식",
+            "latitude": 35.110962,
+            "longitude": 128.96355
+        },
+        {
+            "id": 512,
+            "storeName": "착한고등어",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 76 1층",
+            "category": "한식",
+            "latitude": 35.109695,
+            "longitude": 128.96547
+        },
+        {
+            "id": 513,
+            "storeName": "착한분식",
+            "fullAddress": "부산광역시 사하구 낙동남로 1421  1층 (하단동  프린스빌딩)",
+            "category": "한식",
+            "latitude": 35.106598,
+            "longitude": 128.96704
+        },
+        {
+            "id": 514,
+            "storeName": "참나무장작구이누룽지통닭",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 75 .",
+            "category": "일반대중음식",
+            "latitude": 35.109535,
+            "longitude": 128.96521
+        },
+        {
+            "id": 515,
+            "storeName": "참조은국수&보리밥",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 16 1층 하단동",
+            "category": "한식",
+            "latitude": 35.10729,
+            "longitude": 128.967
+        },
+        {
+            "id": 516,
+            "storeName": "참좋은소",
+            "fullAddress": "부산광역시 사하구 하신번영로 256  1층 101 (하단동  강변빌딩)",
+            "category": "한식",
+            "latitude": 35.10386,
+            "longitude": 128.95863
+        },
+        {
+            "id": 517,
+            "storeName": "참치공장 ( 하단점 )",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 1 1층 ( 하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11035,
+            "longitude": 128.96529
+        },
+        {
+            "id": 518,
+            "storeName": "처갓집양념치킨",
+            "fullAddress": "부산광역시 사하구 하신번영로 360 1층(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112984,
+            "longitude": 128.9602
+        },
+        {
+            "id": 519,
+            "storeName": "처갓집양념치킨 하단가락타운점",
+            "fullAddress": "부산광역시 사하구 동매로 35 1층",
+            "category": "일반대중음식",
+            "latitude": 35.103664,
+            "longitude": 128.96219
+        },
+        {
+            "id": 520,
+            "storeName": "천라쿵푸마라탕 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 13 .",
+            "category": "중식",
+            "latitude": 35.11152,
+            "longitude": 128.96579
+        },
+        {
+            "id": 521,
+            "storeName": "천하 왕소금구이",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 2 1층",
+            "category": "한식",
+            "latitude": 35.10673,
+            "longitude": 128.96745
+        },
+        {
+            "id": 522,
+            "storeName": "철인7호 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 11 1층(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112392,
+            "longitude": 128.9632
+        },
+        {
+            "id": 523,
+            "storeName": "청계옥",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 29 301동 104호 (하단동 청목미르피아아파트)",
+            "category": "한식",
+            "latitude": 35.112274,
+            "longitude": 128.96222
+        },
+        {
+            "id": 524,
+            "storeName": "청년피자 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 553-1 1층",
+            "category": "패스트푸드",
+            "latitude": 35.112946,
+            "longitude": 128.96353
+        },
+        {
+            "id": 525,
+            "storeName": "청양일초하단쭈꾸미",
+            "fullAddress": "부산광역시 사하구 동매로 44 (하단동)",
+            "category": "한식",
+            "latitude": 35.103333,
+            "longitude": 128.96298
+        },
+        {
+            "id": 526,
+            "storeName": "청춘곱도리탕",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 110 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.111053,
+            "longitude": 128.96454
+        },
+        {
+            "id": 527,
+            "storeName": "최가네 촌국수",
+            "fullAddress": "부산광역시 사하구 하신번영로207번길 8 (하단동)",
+            "category": "한식",
+            "latitude": 35.099667,
+            "longitude": 128.95766
+        },
+        {
+            "id": 528,
+            "storeName": "춘리마라탕",
+            "fullAddress": "부산광역시 사하구 제석로 7 1층",
+            "category": "중식",
+            "latitude": 35.103138,
+            "longitude": 128.97025
+        },
+        {
+            "id": 529,
+            "storeName": "치킨신드롬 하단신평점",
+            "fullAddress": "부산광역시 사하구 동매로104번길 12 1층",
+            "category": "일반대중음식",
+            "latitude": 35.10175,
+            "longitude": 128.96912
+        },
+        {
+            "id": 530,
+            "storeName": "친차이",
+            "fullAddress": "부산광역시 사하구 낙동대로457번안길 13 1층",
+            "category": "중식",
+            "latitude": 35.10468,
+            "longitude": 128.96849
+        },
+        {
+            "id": 531,
+            "storeName": "칠암아나구",
+            "fullAddress": "부산광역시 사하구 제석로 14  1층 102호 (하단동  싸인오티)",
+            "category": "한식",
+            "latitude": 35.103428,
+            "longitude": 128.97102
+        },
+        {
+            "id": 532,
+            "storeName": "칠칠육",
+            "fullAddress": "부산광역시 사하구 승학로3번길 79 1층",
+            "category": "한식",
+            "latitude": 35.109734,
+            "longitude": 128.96692
+        },
+        {
+            "id": 533,
+            "storeName": "칠칠켄터키동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 65 1층",
+            "category": "일반대중음식",
+            "latitude": 35.110836,
+            "longitude": 128.9639
+        },
+        {
+            "id": 534,
+            "storeName": "카츠모리",
+            "fullAddress": "부산광역시 사하구 괴정로15번길 38 101호",
+            "category": "일반대중음식",
+            "latitude": 35.104,
+            "longitude": 128.96828
+        },
+        {
+            "id": 535,
+            "storeName": "케이푸드",
+            "fullAddress": "부산광역시 사하구 낙동대로 542 지하1층 118호",
+            "category": "한식",
+            "latitude": 35.112465,
+            "longitude": 128.96478
+        },
+        {
+            "id": 536,
+            "storeName": "코리아세븐-부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 7 (하단동)",
+            "category": "편의점",
+            "latitude": 35.11017,
+            "longitude": 128.96509
+        },
+        {
+            "id": 537,
+            "storeName": "코지하우스 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 569 하단동",
+            "category": "양식",
+            "latitude": 35.114162,
+            "longitude": 128.96242
+        },
+        {
+            "id": 538,
+            "storeName": "콩불동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 55  지층 3 (하단동  동아아파트)",
+            "category": "한식",
+            "latitude": 35.11335,
+            "longitude": 128.96571
+        },
+        {
+            "id": 539,
+            "storeName": "콩시루 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1406번길 2 1층",
+            "category": "한식",
+            "latitude": 35.10574,
+            "longitude": 128.96532
+        },
+        {
+            "id": 540,
+            "storeName": "쿠시로",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 15  쿠시로 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.108772,
+            "longitude": 128.95992
+        },
+        {
+            "id": 541,
+            "storeName": "크랩크랩 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로 484 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.107807,
+            "longitude": 128.96771
+        },
+        {
+            "id": 542,
+            "storeName": "크로앙쥬 부산동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 48 8호",
+            "category": "일반대중음식",
+            "latitude": 35.112904,
+            "longitude": 128.96616
+        },
+        {
+            "id": 543,
+            "storeName": "크리스피크림 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1397 (하단동)",
+            "category": "제과점",
+            "latitude": 35.10659,
+            "longitude": 128.96452
+        },
+        {
+            "id": 544,
+            "storeName": "크리스피크림도넛 부산하단역",
+            "fullAddress": "부산광역시 사하구 낙동남로 1415   지하 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.106182,
+            "longitude": 128.96623
+        },
+        {
+            "id": 545,
+            "storeName": "크앙분식",
+            "fullAddress": "부산광역시 사하구 낙동대로536번길 9 101호",
+            "category": "한식",
+            "latitude": 35.11219,
+            "longitude": 128.96555
+        },
+        {
+            "id": 546,
+            "storeName": "킹콩김치삼겹",
+            "fullAddress": "부산광역시 사하구 하신번영로 256  1층 102호 (하단동  강변빌딩)",
+            "category": "한식",
+            "latitude": 35.10386,
+            "longitude": 128.95863
+        },
+        {
+            "id": 548,
+            "storeName": "탕화쿵푸마라탕",
+            "fullAddress": "부산광역시 사하구 낙동대로 484 1층(하단동)",
+            "category": "중식",
+            "latitude": 35.107807,
+            "longitude": 128.96771
+        },
+        {
+            "id": 549,
+            "storeName": "태양키친",
+            "fullAddress": "부산광역시 사하구 하신번영로312번길 11 1층",
+            "category": "한식",
+            "latitude": 35.108784,
+            "longitude": 128.9598
+        },
+        {
+            "id": 550,
+            "storeName": "토끼와거북이",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 18 1동68호",
+            "category": "한식",
+            "latitude": 35.11137,
+            "longitude": 128.96356
+        },
+        {
+            "id": 551,
+            "storeName": "토종생오리농원",
+            "fullAddress": "부산광역시 사하구 동매로 21 (하단동)",
+            "category": "한식",
+            "latitude": 35.103832,
+            "longitude": 128.96078
+        },
+        {
+            "id": 552,
+            "storeName": "통영장어구이",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 82 하단동",
+            "category": "일반대중음식",
+            "latitude": 35.10988,
+            "longitude": 128.9653
+        },
+        {
+            "id": 553,
+            "storeName": "통영장어구이",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 27 (하단동)",
+            "category": "한식",
+            "latitude": 35.107662,
+            "longitude": 128.9651
+        },
+        {
+            "id": 554,
+            "storeName": "통통분식",
+            "fullAddress": "부산광역시 사하구 낙동남로1406번길 2 1층",
+            "category": "한식",
+            "latitude": 35.10574,
+            "longitude": 128.96532
+        },
+        {
+            "id": 555,
+            "storeName": "투가이즈 치킨앤피자",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 41 .",
+            "category": "일반대중음식",
+            "latitude": 35.102943,
+            "longitude": 128.9726
+        },
+        {
+            "id": 556,
+            "storeName": "툴라",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 39 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112637,
+            "longitude": 128.96577
+        },
+        {
+            "id": 557,
+            "storeName": "티바두마리치킨 하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1367번길 16 1층 101호(하단동  선경아트빌)",
+            "category": "일반대중음식",
+            "latitude": 35.107174,
+            "longitude": 128.96138
+        },
+        {
+            "id": 558,
+            "storeName": "파리바게뜨",
+            "fullAddress": "부산광역시 사하구 낙동대로 552 1층",
+            "category": "제과점",
+            "latitude": 35.113434,
+            "longitude": 128.96388
+        },
+        {
+            "id": 559,
+            "storeName": "파리바게뜨",
+            "fullAddress": "부산광역시 사하구 하신번영로 207 (하단동)",
+            "category": "제과점",
+            "latitude": 35.09963,
+            "longitude": 128.95818
+        },
+        {
+            "id": 560,
+            "storeName": "파리바게뜨 부산하단역점",
+            "fullAddress": "부산광역시 사하구 하단동 526-5 ",
+            "category": "제과점",
+            "latitude": 35.10658,
+            "longitude": 128.96602
+        },
+        {
+            "id": 561,
+            "storeName": "파스타역",
+            "fullAddress": "부산광역시 사하구 괴정로 14 1층",
+            "category": "양식",
+            "latitude": 35.103622,
+            "longitude": 128.96582
+        },
+        {
+            "id": 562,
+            "storeName": "파슷타애요 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 11 1층",
+            "category": "일반대중음식",
+            "latitude": 35.105194,
+            "longitude": 128.9681
+        },
+        {
+            "id": 563,
+            "storeName": "파파상 돈까스",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 22 1층",
+            "category": "한식",
+            "latitude": 35.110477,
+            "longitude": 128.96414
+        },
+        {
+            "id": 564,
+            "storeName": "파파존스 부산하단점",
+            "fullAddress": "부산광역시 사하구 동매로 35 1층",
+            "category": "일반대중음식",
+            "latitude": 35.103664,
+            "longitude": 128.96219
+        },
+        {
+            "id": 565,
+            "storeName": "팔각도부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로485번길 13 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.107426,
+            "longitude": 128.96637
+        },
+        {
+            "id": 566,
+            "storeName": "팔딱추어탕",
+            "fullAddress": "부산광역시 사하구 괴정로 76 105호",
+            "category": "한식",
+            "latitude": 35.101696,
+            "longitude": 128.97182
+        },
+        {
+            "id": 567,
+            "storeName": "펭귄상회",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 5 B동106호(하단동)",
+            "category": "한식",
+            "latitude": 35.11131,
+            "longitude": 128.96442
+        },
+        {
+            "id": 568,
+            "storeName": "평화 김해뒷고기(하단점)",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 21 .",
+            "category": "한식",
+            "latitude": 35.111095,
+            "longitude": 128.96347
+        },
+        {
+            "id": 569,
+            "storeName": "포노이",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 13  2층",
+            "category": "일반대중음식",
+            "latitude": 35.104557,
+            "longitude": 128.96964
+        },
+        {
+            "id": 570,
+            "storeName": "포항물회",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 29 303동301호 하단동청목미르피아아파트",
+            "category": "일반대중음식",
+            "latitude": 35.112274,
+            "longitude": 128.96222
+        },
+        {
+            "id": 571,
+            "storeName": "푸드팩토리",
+            "fullAddress": "부산광역시 사하구 낙동대로535번길 21 1층",
+            "category": "한식",
+            "latitude": 35.111095,
+            "longitude": 128.96347
+        },
+        {
+            "id": 572,
+            "storeName": "푸라닭하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 29 1층",
+            "category": "일반대중음식",
+            "latitude": 35.112217,
+            "longitude": 128.96298
+        },
+        {
+            "id": 573,
+            "storeName": "프랭크버거 부산하단동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 549 2층",
+            "category": "패스트푸드",
+            "latitude": 35.112656,
+            "longitude": 128.9639
+        },
+        {
+            "id": 574,
+            "storeName": "프레드피자 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 14 1층",
+            "category": "패스트푸드",
+            "latitude": 35.11151,
+            "longitude": 128.96602
+        },
+        {
+            "id": 575,
+            "storeName": "프리존협동조합 먹방라운지",
+            "fullAddress": "부산광역시 사하구 낙동대로550번길 37  1층 (하단동  동아대학교승학캠퍼스)",
+            "category": "한식",
+            "latitude": 35.11881,
+            "longitude": 128.96808
+        },
+        {
+            "id": 576,
+            "storeName": "피자 알볼로 하단점",
+            "fullAddress": "부산광역시 사하구 하신중앙로 336  1층 102호 (하단동  시우스빌딩)",
+            "category": "일반대중음식",
+            "latitude": 35.10523,
+            "longitude": 128.96707
+        },
+        {
+            "id": 577,
+            "storeName": "피자1번가",
+            "fullAddress": "부산광역시 사하구 하신번영로300번길 90  1층 101호 (하단동  동산아파트)",
+            "category": "일반대중음식",
+            "latitude": 35.107643,
+            "longitude": 128.96388
+        },
+        {
+            "id": 578,
+            "storeName": "피자1번가 남영맨션점",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 41 1층",
+            "category": "패스트푸드",
+            "latitude": 35.112453,
+            "longitude": 128.96141
+        },
+        {
+            "id": 579,
+            "storeName": "피자비토랩(PIZZA VITTO LAB)",
+            "fullAddress": "부산광역시 사하구 하신번영로201번길 14  1층 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.099174,
+            "longitude": 128.95752
+        },
+        {
+            "id": 580,
+            "storeName": "피자스쿨동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 524 .",
+            "category": "패스트푸드",
+            "latitude": 35.11093,
+            "longitude": 128.96567
+        },
+        {
+            "id": 581,
+            "storeName": "피자에땅",
+            "fullAddress": "부산광역시 사하구 낙동대로 520  101호 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.110703,
+            "longitude": 128.96614
+        },
+        {
+            "id": 582,
+            "storeName": "필드키친하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 78 1층",
+            "category": "한식",
+            "latitude": 35.110897,
+            "longitude": 128.96121
+        },
+        {
+            "id": 583,
+            "storeName": "필라프에빠지다&파스타하단점",
+            "fullAddress": "부산광역시 사하구 하신번영로 365  상가 145동 1층 105호 (하단동  가락타운1단지아파트)",
+            "category": "한식",
+            "latitude": 35.1103,
+            "longitude": 128.95854
+        },
+        {
+            "id": 584,
+            "storeName": "핏제리아곳간",
+            "fullAddress": "부산광역시 사하구 낙동대로 543 (하단동)",
+            "category": "양식",
+            "latitude": 35.112347,
+            "longitude": 128.96411
+        },
+        {
+            "id": 585,
+            "storeName": "하기연진주냉면",
+            "fullAddress": "부산광역시 사하구 괴정로 41 (하단동)",
+            "category": "한식",
+            "latitude": 35.103477,
+            "longitude": 128.96924
+        },
+        {
+            "id": 586,
+            "storeName": "하나옛날통닭",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 9-2 1층",
+            "category": "일반대중음식",
+            "latitude": 35.10709,
+            "longitude": 128.96515
+        },
+        {
+            "id": 587,
+            "storeName": "하남돼지집",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 49 (하단동)",
+            "category": "한식",
+            "latitude": 35.10852,
+            "longitude": 128.96593
+        },
+        {
+            "id": 588,
+            "storeName": "하단 치킨 분식",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 12  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.104538,
+            "longitude": 128.96939
+        },
+        {
+            "id": 589,
+            "storeName": "하단강동농원",
+            "fullAddress": "부산광역시 사하구 낙동대로 495 (하단동)",
+            "category": "한식",
+            "latitude": 35.10856,
+            "longitude": 128.96661
+        },
+        {
+            "id": 590,
+            "storeName": "하단꼼장어",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 29 (하단동)",
+            "category": "한식",
+            "latitude": 35.10787,
+            "longitude": 128.96501
+        },
+        {
+            "id": 591,
+            "storeName": "하단돼지갈비",
+            "fullAddress": "부산광역시 사하구 낙동남로 1420 (하단동)",
+            "category": "한식",
+            "latitude": 35.1059,
+            "longitude": 128.9669
+        },
+        {
+            "id": 592,
+            "storeName": "하단돼지국밥",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 55 1층",
+            "category": "한식",
+            "latitude": 35.11254,
+            "longitude": 128.96075
+        },
+        {
+            "id": 593,
+            "storeName": "하단맛집",
+            "fullAddress": "부산광역시 사하구 제석로18번길 11-4 1층",
+            "category": "한식",
+            "latitude": 35.103554,
+            "longitude": 128.9719
+        },
+        {
+            "id": 594,
+            "storeName": "하단맛집까치생숯불구이",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 62 1층",
+            "category": "한식",
+            "latitude": 35.110867,
+            "longitude": 128.96364
+        },
+        {
+            "id": 595,
+            "storeName": "하단밀면",
+            "fullAddress": "부산광역시 사하구 낙동대로563번길 35 (하단동)",
+            "category": "한식",
+            "latitude": 35.113647,
+            "longitude": 128.96086
+        },
+        {
+            "id": 596,
+            "storeName": "하단보리밥",
+            "fullAddress": "부산광역시 사하구 낙동대로457번안길 10 1층",
+            "category": "한식",
+            "latitude": 35.10481,
+            "longitude": 128.96815
+        },
+        {
+            "id": 597,
+            "storeName": "하단본가콩나물국밥",
+            "fullAddress": "부산광역시 사하구 낙동남로 1382-1 (하단동)",
+            "category": "한식",
+            "latitude": 35.105907,
+            "longitude": 128.96288
+        },
+        {
+            "id": 598,
+            "storeName": "하단우가",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 11 (하단동)",
+            "category": "한식",
+            "latitude": 35.107132,
+            "longitude": 128.9636
+        },
+        {
+            "id": 599,
+            "storeName": "하단정",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 57 1층일부호(하단동)",
+            "category": "한식",
+            "latitude": 35.11254,
+            "longitude": 128.96054
+        },
+        {
+            "id": 600,
+            "storeName": "하단종철이집",
+            "fullAddress": "부산광역시 사하구 하신번영로 256 하단동",
+            "category": "한식",
+            "latitude": 35.10386,
+            "longitude": 128.95863
+        },
+        {
+            "id": 601,
+            "storeName": "하단통닭",
+            "fullAddress": "부산광역시 사하구 동매로 48 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.103317,
+            "longitude": 128.96347
+        },
+        {
+            "id": 602,
+            "storeName": "하단통영식당",
+            "fullAddress": "부산광역시 사하구 낙동남로1389번길 9-2 1층",
+            "category": "일반대중음식",
+            "latitude": 35.10703,
+            "longitude": 128.96342
+        },
+        {
+            "id": 603,
+            "storeName": "하동아구찜",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 38 상가1동 105호",
+            "category": "한식",
+            "latitude": 35.1048,
+            "longitude": 128.96667
+        },
+        {
+            "id": 604,
+            "storeName": "하오츠",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 3 1층 (하단동)",
+            "category": "중식",
+            "latitude": 35.102688,
+            "longitude": 128.97046
+        },
+        {
+            "id": 605,
+            "storeName": "하이뽕",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 16 .",
+            "category": "중식",
+            "latitude": 35.111614,
+            "longitude": 128.96611
+        },
+        {
+            "id": 606,
+            "storeName": "하정집",
+            "fullAddress": "부산광역시 사하구 낙동대로474번길 9 B1층",
+            "category": "한식",
+            "latitude": 35.107365,
+            "longitude": 128.96872
+        },
+        {
+            "id": 607,
+            "storeName": "하키",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 61 B동 1층",
+            "category": "일반대중음식",
+            "latitude": 35.11165,
+            "longitude": 128.96227
+        },
+        {
+            "id": 608,
+            "storeName": "한국맥도날드 (유) 동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 548 1층",
+            "category": "패스트푸드",
+            "latitude": 35.11295,
+            "longitude": 128.9645
+        },
+        {
+            "id": 609,
+            "storeName": "한국맥도날드 (유)동아대학점",
+            "fullAddress": "부산광역시 사하구 낙동대로 548 하단동",
+            "category": "패스트푸드",
+            "latitude": 35.11295,
+            "longitude": 128.9645
+        },
+        {
+            "id": 610,
+            "storeName": "한국맥도날드 (유)부산하단DT점",
+            "fullAddress": "부산광역시 사하구 낙동대로 431 1층",
+            "category": "패스트푸드",
+            "latitude": 35.104153,
+            "longitude": 128.971
+        },
+        {
+            "id": 611,
+            "storeName": "한국맥도날드(유) 부산하단DT점",
+            "fullAddress": "부산광역시 사하구 낙동대로 431 하단동",
+            "category": "패스트푸드",
+            "latitude": 35.104153,
+            "longitude": 128.971
+        },
+        {
+            "id": 612,
+            "storeName": "한국맥도날드(유)동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 548 하단동",
+            "category": "패스트푸드",
+            "latitude": 35.11295,
+            "longitude": 128.9645
+        },
+        {
+            "id": 613,
+            "storeName": "한국맥도날드(유)동아대점",
+            "fullAddress": "부산광역시 사하구 낙동대로 548 (하단동)",
+            "category": "양식",
+            "latitude": 35.11295,
+            "longitude": 128.9645
+        },
+        {
+            "id": 614,
+            "storeName": "한근숯불닭갈비 하단역점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 6 1층",
+            "category": "한식",
+            "latitude": 35.106827,
+            "longitude": 128.96736
+        },
+        {
+            "id": 615,
+            "storeName": "한려식당",
+            "fullAddress": "부산광역시 사하구 하신번영로261번길 10  (하단동)",
+            "category": "한식",
+            "latitude": 35.104694,
+            "longitude": 128.95793
+        },
+        {
+            "id": 616,
+            "storeName": "한바다식당",
+            "fullAddress": "부산광역시 사하구 하신번영로261번길 16 1층(하단동)",
+            "category": "한식",
+            "latitude": 35.104507,
+            "longitude": 128.95749
+        },
+        {
+            "id": 617,
+            "storeName": "한성뒷고기",
+            "fullAddress": "부산광역시 사하구 낙동대로451번안길 10 1층 동쪽",
+            "category": "한식",
+            "latitude": 35.104816,
+            "longitude": 128.9687
+        },
+        {
+            "id": 618,
+            "storeName": "한우장사",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 24  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.10512,
+            "longitude": 128.96721
+        },
+        {
+            "id": 619,
+            "storeName": "항정살돈천하",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 26  1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.105038,
+            "longitude": 128.96725
+        },
+        {
+            "id": 620,
+            "storeName": "해동통닭",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 18 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.104225,
+            "longitude": 128.96948
+        },
+        {
+            "id": 621,
+            "storeName": "해림식당",
+            "fullAddress": "부산광역시 사하구 낙동대로457번길 11 1층",
+            "category": "한식",
+            "latitude": 35.105194,
+            "longitude": 128.9681
+        },
+        {
+            "id": 622,
+            "storeName": "해물나라",
+            "fullAddress": "부산광역시 사하구 낙동남로1405번길 10-2 (하단동)",
+            "category": "한식",
+            "latitude": 35.106827,
+            "longitude": 128.96565
+        },
+        {
+            "id": 623,
+            "storeName": "해물누룽지탕 백두산",
+            "fullAddress": "부산광역시 사하구 괴정로 79-1 1층",
+            "category": "중식",
+            "latitude": 35.102097,
+            "longitude": 128.9729
+        },
+        {
+            "id": 624,
+            "storeName": "해물장터",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 16 (하단동)",
+            "category": "한식",
+            "latitude": 35.110416,
+            "longitude": 128.96451
+        },
+        {
+            "id": 625,
+            "storeName": "해어가횟집",
+            "fullAddress": "부산광역시 사하구 하신번영로 352 1층",
+            "category": "일식",
+            "latitude": 35.11238,
+            "longitude": 128.95998
+        },
+        {
+            "id": 626,
+            "storeName": "해운대31cm해물칼국수하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 75 1층(하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.109535,
+            "longitude": 128.96521
+        },
+        {
+            "id": 627,
+            "storeName": "해월관",
+            "fullAddress": "부산광역시 사하구 낙동남로1373번길 9 (하단동)",
+            "category": "중식",
+            "latitude": 35.106976,
+            "longitude": 128.96162
+        },
+        {
+            "id": 628,
+            "storeName": "해피데이",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 15 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.112404,
+            "longitude": 128.96301
+        },
+        {
+            "id": 629,
+            "storeName": "해피데이 푸드",
+            "fullAddress": "부산광역시 사하구 괴정로 52  1층 102호 (하단동  우경하바빌)",
+            "category": "한식",
+            "latitude": 35.1022,
+            "longitude": 128.9698
+        },
+        {
+            "id": 630,
+            "storeName": "행복식당",
+            "fullAddress": "부산광역시 사하구 낙동대로 501 1층105호",
+            "category": "한식",
+            "latitude": 35.10901,
+            "longitude": 128.96606
+        },
+        {
+            "id": 631,
+            "storeName": "행복한밥상",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 129 1층",
+            "category": "한식",
+            "latitude": 35.10893,
+            "longitude": 128.9604
+        },
+        {
+            "id": 632,
+            "storeName": "행복한칼국수",
+            "fullAddress": "부산광역시 사하구 하신번영로 365  가락타운상가 146-105 (하단동)",
+            "category": "한식",
+            "latitude": 35.1103,
+            "longitude": 128.95854
+        },
+        {
+            "id": 633,
+            "storeName": "행진푸드",
+            "fullAddress": "부산광역시 사하구 괴정로57번길 48  1층 102호 (하단동  삼창아파트)",
+            "category": "한식",
+            "latitude": 35.102623,
+            "longitude": 128.97322
+        },
+        {
+            "id": 634,
+            "storeName": "혜자식당",
+            "fullAddress": "부산광역시 사하구 낙동대로451번안길 11 하단동",
+            "category": "한식",
+            "latitude": 35.104668,
+            "longitude": 128.96863
+        },
+        {
+            "id": 635,
+            "storeName": "호식이두마리치킨",
+            "fullAddress": "부산광역시 사하구 낙동대로519번길 30 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.11056,
+            "longitude": 128.96371
+        },
+        {
+            "id": 636,
+            "storeName": "호야네푸드 하단점",
+            "fullAddress": "부산광역시 사하구 낙동대로520번길 15  1층",
+            "category": "중식",
+            "latitude": 35.11121,
+            "longitude": 128.96617
+        },
+        {
+            "id": 637,
+            "storeName": "호호국수",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 11 1층",
+            "category": "한식",
+            "latitude": 35.1114,
+            "longitude": 128.9658
+        },
+        {
+            "id": 638,
+            "storeName": "호호불닭발",
+            "fullAddress": "부산광역시 사하구 낙동대로451번길 35  1층 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.103584,
+            "longitude": 128.9702
+        },
+        {
+            "id": 639,
+            "storeName": "홍갓츠",
+            "fullAddress": "부산광역시 사하구 낙동대로 530 .",
+            "category": "한식",
+            "latitude": 35.11137,
+            "longitude": 128.96541
+        },
+        {
+            "id": 640,
+            "storeName": "홍단육회",
+            "fullAddress": "부산광역시 사하구 동매로 117  상가동 B302호 건우리안 (하단동)",
+            "category": "한식",
+            "latitude": 35.101933,
+            "longitude": 128.97104
+        },
+        {
+            "id": 641,
+            "storeName": "홍림뒷고기",
+            "fullAddress": "부산광역시 사하구 하신번영로380번길 113  A동 1층 (하단동)",
+            "category": "한식",
+            "latitude": 35.109493,
+            "longitude": 128.96043
+        },
+        {
+            "id": 642,
+            "storeName": "홍주방",
+            "fullAddress": "부산광역시 사하구 낙동대로 532  1층 104호 (하단동)",
+            "category": "한식",
+            "latitude": 35.111576,
+            "longitude": 128.96532
+        },
+        {
+            "id": 643,
+            "storeName": "화덕애",
+            "fullAddress": "부산광역시 사하구 하단1동 618-23번지 북쪽 1층 건물",
+            "category": "한식",
+            "latitude": 35.104946,
+            "longitude": 128.96759
+        },
+        {
+            "id": 644,
+            "storeName": "화반3호점",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 55 자하층2호",
+            "category": "한식",
+            "latitude": 35.11335,
+            "longitude": 128.96571
+        },
+        {
+            "id": 645,
+            "storeName": "환희의주방",
+            "fullAddress": "부산광역시 사하구 제석로 12  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.103287,
+            "longitude": 128.97087
+        },
+        {
+            "id": 646,
+            "storeName": "황.돈",
+            "fullAddress": "부산광역시 사하구 낙동남로1367번길 22 (하단동)",
+            "category": "한식",
+            "latitude": 35.107506,
+            "longitude": 128.9614
+        },
+        {
+            "id": 647,
+            "storeName": "황금성",
+            "fullAddress": "부산광역시 사하구 하신번영로 395 101호전체(하단동)",
+            "category": "중식",
+            "latitude": 35.116196,
+            "longitude": 128.96036
+        },
+        {
+            "id": 648,
+            "storeName": "황금오리맛집",
+            "fullAddress": "부산광역시 사하구 낙동대로 529  2층 (하단동)",
+            "category": "한식",
+            "latitude": 35.111313,
+            "longitude": 128.96468
+        },
+        {
+            "id": 649,
+            "storeName": "황상필 생선구이",
+            "fullAddress": "부산광역시 사하구 하신중앙로 331  1층 101호 하이웰빌딩 (하단동)",
+            "category": "한식",
+            "latitude": 35.105373,
+            "longitude": 128.96623
+        },
+        {
+            "id": 650,
+            "storeName": "황족",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 10 B동1층2호",
+            "category": "한식",
+            "latitude": 35.114014,
+            "longitude": 128.9612
+        },
+        {
+            "id": 651,
+            "storeName": "회뜨락",
+            "fullAddress": "부산광역시 사하구 낙동대로549번길 29  302동 203호 (하단동  청목미르피아아파트)",
+            "category": "한식",
+            "latitude": 35.112274,
+            "longitude": 128.96222
+        },
+        {
+            "id": 652,
+            "storeName": "후라이드참잘하는집",
+            "fullAddress": "부산광역시 사하구 낙동대로 521 2층",
+            "category": "일반대중음식",
+            "latitude": 35.110577,
+            "longitude": 128.96533
+        },
+        {
+            "id": 653,
+            "storeName": "흥부가",
+            "fullAddress": "부산광역시 사하구 낙동대로516번길 55 (하단동)",
+            "category": "한식",
+            "latitude": 35.11335,
+            "longitude": 128.96571
+        },
+        {
+            "id": 654,
+            "storeName": "辛석쇠구이",
+            "fullAddress": "부산광역시 사하구 낙동대로563번안길 27 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.1123,
+            "longitude": 128.96292
+        }
+    ]
+}

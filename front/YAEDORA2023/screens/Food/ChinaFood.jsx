@@ -1,3 +1,5 @@
+// ChinaFood.jsx
+
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import { View, StyleSheet, Button } from 'react-native';
@@ -7,11 +9,14 @@ import { useNavigation } from '@react-navigation/native';
 
 
 const createAxiosObject = () => {
+  const { CancelToken } = axios;
+  const source = CancelToken.source();
   const axiosObject = axios.create({
     baseURL: 'http://localhost:25565',
     headers: {
       Accept: 'application/json',
     },
+    cancelToken: source.token,
   });
 
   const timeout = setTimeout(() => {
@@ -30,10 +35,9 @@ const createAxiosObject = () => {
   return axiosObject;
 };
 
-const Map = () => {
-  const [likeData, setLikeData] = useState([]);
-  const [recommendData, setRecommendData] = useState([]);
-  const [nearData, setNearData] = useState([]);
+const ChinaFood = () => {
+
+  const [breadData, setBreadData] = useState([]);
 
 
   const navigation = useNavigation();
@@ -41,60 +45,28 @@ const Map = () => {
   const handleMarkerPress = (store) => {
     navigation.navigate('StoreDetails', { id: store.store.id });
   };
-  
   const handleCategoryButtonPress = (category) => {
+    // Navigate to the corresponding screen based on the category
     navigation.navigate(category);
   };
-  
+
   useEffect(() => {
-    fetchLikedStores();
-    fetchRecommendStores();
-    fetchNearStores();
-  }, [fetchLikedStores, fetchRecommendStores, fetchNearStores]);
 
+    fetchBreadStores();
+  }, [fetchBreadStores]);
 
-  const fetchLikedStores = async () => {
+  const fetchBreadStores = async () => {
     try {
       const axiosObject = createAxiosObject();
-      const response = await axiosObject.get('http://localhost:25565/store/like?member_id=1', { headers: { Accept: "application/json" }, });
+      const response = await axiosObject.get('http://localhost:25565/store', { headers: { Accept: "application/json" }, });
 
-      const likedStores = response.data
-
-
-      setLikeData(likedStores.storeLikeDtos)
+      const breadStores = response.data
+      setBreadData(breadStores.stores)
 
     } catch (error) {
-      console.log('Error fetching liked stores:', error);
+      console.log('Error fetching Bread stores:', error);
     }
   }
-  const fetchRecommendStores = async () => {
-    try {
-      const axiosObject = createAxiosObject();
-      const response = await axiosObject.get('http://localhost:25565/recommend', { headers: { Accept: "application/json" }, });
-
-      const recommendStores = response.data
-
-      setRecommendData(recommendStores.storeRecommend)
-
-    } catch (error) {
-      console.log('Error fetching recommended stores:', error);
-    }
-  }
-  const fetchNearStores = async () => {
-    try {
-      const axiosObject = createAxiosObject();
-      const response = await axiosObject.get('http://localhost:25565/store/near', { headers: { Accept: "application/json" }, });
-
-      const nearStores = response.data
-
-
-      setNearData(nearStores.stores)
-
-    } catch (error) {
-      console.log('Error fetching Near stores:', error);
-    }
-  }
-  
   const mapRef = useRef(null);
   const [selectedPlace, setSelectedPlace] = useState(null);
 
@@ -146,14 +118,15 @@ const Map = () => {
         <Button title="중식" onPress={() => handleCategoryButtonPress("ChinaFood")} />
         
       </View>
+
       <View style={styles.mapContainer}>
         <MapView
           ref={mapRef}
           provider={PROVIDER_GOOGLE}
           style={styles.map}
           initialRegion={{
-            latitude: 35.1085, // 초기위치 사하구
-            longitude: 128.9643, // 초기위치 사하구
+            latitude: 35.11081, // 초기위치 사하구
+            longitude: 128.9479, // 초기위치 사하구
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421,
           }}
@@ -167,49 +140,23 @@ const Map = () => {
             description="This is the initial location"
             pinColor="red"
           />
-          {likeData.map((store) => (//yellow
-            <Marker
-              key={store.id}
-              coordinate={{
-                latitude: store.store.latitude,
-                longitude: store.store.longitude,
-              }}
-              title={store.store.storename}
-              description={store.store.category}
-              pinColor={store.color}
-              onPress={() => handleMarkerPress(store)}
-            />
+
+          {breadData.map((store) => (
+            // Check if the category is "중식" before rendering the marker
+            store.store.category === "중식" && (
+              <Marker
+                key={store.id}
+                coordinate={{
+                  latitude: store.store.latitude,
+                  longitude: store.store.longitude,
+                }}
+                title={store.store.storename}
+                description={store.store.category}
+                pinColor="#140718"
+                onPress={() => handleMarkerPress(store)}
+              />
+            )
           ))}
-          {recommendData.map((store) => (//skyBlue
-            <Marker
-              key={store.store.id}
-              coordinate={{
-                latitude: store.store.latitude,
-                longitude: store.store.longitude,
-              }}
-              title={store.store.storename}
-              description={store.store.category}
-              pinColor={store.color}
-              onPress={() => handleMarkerPress(store)} // Corrected variable name
-            />
-          ))}
-
-          {nearData.map((store) => (//pink
-            <Marker
-              key={store.store.id}
-              coordinate={{
-                latitude: store.store.latitude,
-                longitude: store.store.longitude,
-              }}
-              title={store.store.storeName}
-              description={store.store.category}
-              pinColor={"#F8EFFB"}
-              onPress={() => handleMarkerPress(store)}
-            />
-          ))}
-
-
-
         </MapView>
       </View>
     </View>
@@ -242,4 +189,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Map;
+export default ChinaFood;
+

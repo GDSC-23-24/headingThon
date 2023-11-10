@@ -15,6 +15,7 @@ export default function Main({ navigation }) {
   };
 
   const navigateToCommunity = () => {
+    navigation.navigate('Community');
     
   };
 

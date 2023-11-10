@@ -7,15 +7,6 @@ const profileImage = require('../imgSrc/004.png');
 const userData = {
   nickname: '하윤지',
   likedStores: ['Store 1', 'Store 2', 'Store 3', 'Store 4', 'Store 3', 'Store 3', 'Store 3', 'Store 3', 'Store 3', 'Store 3'],
-  reviews: [
-    { id: '1', store: '의영은 만찢남', content: '맛있어욤' },
-    { id: '2', store: '지우의 햇살미소', content: '친절해요' },
-    { id: '3', store: '승지는 섬섬옥수', content: '가격이 싸요' },
-    { id: '4', store: 'store', content: 'Review' },
-    { id: '5', store: 'store', content: 'Review' },
-    { id: '6', store: 'store', content: 'Review' },
-
-  ],
 };
 const createAxiosObject = () => {
   const { CancelToken } = axios;
@@ -44,38 +35,44 @@ const createAxiosObject = () => {
   return axiosObject;
 };
 
-
 const MyPageScreen = () => {
   const [likeData, setLikeData] = useState([]);
+  const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
     fetchLikedStores();
-  },[    fetchLikedStores]);
+  }, [fetchLikedStores]);
 
   const fetchLikedStores = async () => {
     try {
       const axiosObject = createAxiosObject();
-      const response = await axiosObject.get('http://localhost:25565/store/like?member_id=1', { headers: { Accept: "application/json" }, }); 
-      const likedStores = response.data; // Assuming the data structure is an array of liked stores
-      //setLikeData(likedStores); // Update the state with the fetched data]
-      console.log("start")
-      setLikeData(likedStores.storeLikeDtos)
-      console.log(response.data)
-      console.log(likedStores)
-
-
-
-      
-
+      const response = await axiosObject.get('http://localhost:25565/store/like?member_id=1', { headers: { Accept: 'application/json' } });
+      const likedStores = response.data.storeLikeDtos;
+      setLikeData(likedStores);
+      const storeIds = likedStores.map(store => store.store.id);
+      fetchReviews(storeIds);
     } catch (error) {
-      console.log('Error fetching application details:', error);
+      console.log('Error fetching liked stores:', error);
     }
-  }
+  };
+  const fetchReviews = async () => {
+    try {
+      const axiosObject = createAxiosObject();
+      const response = await axiosObject.get('http://localhost:25565/store/review/member/1', { headers: { Accept: 'application/json' } });
+      const reviewStores = response.data.ReviewDto;
+      console.log(reviewStores);
+      setReviews(reviewStores);
+      const storeIds = reviewStores.map(store => store.store.id);
+      fetchReviews(storeIds);
+    } catch (error) {
+      console.log('Error fetching liked stores:', error);
+    }
+  };
 
 
+  
 
   return (
-
     <View style={styles.container}>
       <Text style={styles.title}>마이페이지</Text>
       <Image source={profileImage} style={styles.profileImage} />
@@ -84,23 +81,18 @@ const MyPageScreen = () => {
       <Text style={styles.sectionTitle}>좋아하는 가게</Text>
       <FlatList
         data={likeData}
-        keyExtractor={(item) =>String(item.id)}
+        keyExtractor={(item) => String(item.id)}
         renderItem={({ item }) => <Text style={styles.likedStore}>{item.store.storename}</Text>}
       />
 
-
-
       <Text style={styles.sectionTitle}>내가 쓴 리뷰</Text>
       <FlatList
-        data={userData.reviews}
-        keyExtractor={(item) => item.id}
-        renderItem={({ item }) => (
-          <View style={styles.reviewContainer}>
-            <Text style={styles.storeName}>{item.store}</Text>
-            <Text style={styles.reviewContent}>{item.content}</Text>
-          </View>
-        )}
-      />
+        data={reviews}
+        keyExtractor={(item) => String(item.id)}
+        renderItem={({ item }) => 
+        <Text style={styles.likedStore}>{item.storeDto.storename} " : "{item.content}</Text>}
+        
+     />
     </View>
   );
 };

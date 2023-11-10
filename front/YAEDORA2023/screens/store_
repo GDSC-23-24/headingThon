@@ -1,0 +1,84 @@
+{
+    "stores": [
+        {
+            "id": 1,
+            "storeName": "(GS)25부산을숙도점",
+            "fullAddress": "부산광역시 사하구 낙동남로1233번길 34 (하단동)",
+            "category": "일반대중음식",
+            "latitude": 35.110893,
+            "longitude": 128.94698
+        },
+        {
+            "id": 2,
+            "storeName": "(주)GS가락타운",
+            "fullAddress": "부산광역시 사하구 동매로 9 (하단동)",
+            "category": "편의점",
+            "latitude": 35.1038,
+            "longitude": 128.95935
+        },
+        {
+            "id": 3,
+            "storeName": "(주)교동면옥 부산하단점",
+            "fullAddress": "부산광역시 사하구 낙동남로 1382 1층",
+            "category": "한식",
+            "latitude": 35.10591,
+            "longitude": 128.96266
+        },
+        {
+            "id": 4,
+            "storeName": "(주)롯데리아",
+            "fullAddress": "부산광역시 사하구 낙동대로 551 (하단동)",
+            "category": "패스트푸드",
+            "latitude": 35.11284,
+            "longitude": 128.96373
+        },
+        {
+            "id": 5,
+            "storeName": "(주)센킴스롤링파스타",
+            "fullAddress": "부산광역시 사하구 낙동남로1423번길 3 2층(하단동  태영빌딩)",
+            "category": "양식",
+            "latitude": 35.106678,
+            "longitude": 128.96716
+        },
+        {
+            "id": 6,
+            "storeName": "(주)제이와이써브",
+            "fullAddress": "부산광역시 사하구 낙동남로 1413 지하1층 (하단동  아트몰링)",
+            "category": "일반대중음식",
+            "latitude": 35.106754,
+            "longitude": 128.96648
+        },
+        {
+            "id": 7,
+            "storeName": "(주)코리아세븐 부산하단가락점",
+            "fullAddress": "부산광역시 사하구 하신번영로 312  1층 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10883,
+            "longitude": 128.95906
+        },
+        {
+            "id": 8,
+            "storeName": "(주)코리아세븐 부산하단남영점",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 30  남영상가 A동 1층 3호 (하단동  남영아파트)",
+            "category": "편의점",
+            "latitude": 35.113605,
+            "longitude": 128.96141
+        },
+        {
+            "id": 9,
+            "storeName": "(주)코리아세븐부산하단제일",
+            "fullAddress": "부산광역시 사하구 낙동대로 474 (하단동)",
+            "category": "편의점",
+            "latitude": 35.10714,
+            "longitude": 128.96819
+        },
+        {
+            "id": 10,
+            "storeName": "153(일오삼)",
+            "fullAddress": "부산광역시 사하구 낙동대로575번길 64 1층",
+            "category": "한식",
+            "latitude": 35.111885,
+            "longitude": 128.96126
+        }
+    ]
+}

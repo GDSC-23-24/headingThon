@@ -13,7 +13,7 @@ export default function Start({ navigation }) {
 
   useEffect(() => {
     fetchLocationData();
-  }, []);
+  }, [fetchLocationData]);
 
   const fetchLocationData = () => {
     axios.get('http://localhost:25565/location/town')
