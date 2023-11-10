@@ -15,6 +15,7 @@ import com.yaedora.Store.repository.MenuRepository;
 import com.yaedora.Store.repository.RatingRepository;
 import com.yaedora.Store.repository.StoreLikeRepository;
 import com.yaedora.Store.repository.StoreRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,6 +26,7 @@ import java.util.Optional;
 
 @Service
 @Transactional
+@Slf4j
 public class StoreService {
 
     @Autowired
@@ -164,12 +166,27 @@ public class StoreService {
      */
     public StoreDetailDto getStoreDetail(Long storeId){
         Store store = storeRepository.findStoreById(storeId);
+        log.info("1");
         List<MenuDto> menus = menuRepository.findAllByStoreId(storeId);
-        LikesRateDto likesRateDto = storeRepository.findCountAndRate(storeId);
+        log.info("2");
+
+        Optional<LikesRateDto> likesRateDto = storeRepository.findCountAndRate(storeId);
+        log.info("3");
+
         List<ReviewDto> review =  reviewRepository.findBystoreId(storeId).stream().map(ReviewDto::from).toList();
+        log.info("4");
 
-        StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus,likesRateDto.getLikes(), likesRateDto.getRate_avg(),review);
+        if(likesRateDto.isPresent()){
+            StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus,likesRateDto.get().getLikes(), likesRateDto.get().getRate_avg(),review);
+            return storeDetailDto;
+        }
+        else{
+            StoreDetailDto storeDetailDto = new StoreDetailDto(StoreDto.from(store),menus, 0l, 0.0,review);
+            return storeDetailDto;
 
-        return storeDetailDto;
+        }
+
+
+
     }
 }
