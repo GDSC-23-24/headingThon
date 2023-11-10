@@ -27,9 +27,9 @@ public class storeController {
      */
     @GetMapping("/store")
     public ResponseEntity<?> getStores(){
-        List<StoreDto> stores = storeService.getStoresList();
+        List<StoreResponseDto> stores = storeService.getStoresList();
         log.info("가게명 전체");
-        Map<String, List<StoreDto>> response = new HashMap<>();
+        Map<String, List<StoreResponseDto>> response = new HashMap<>();
         response.put("stores", stores);
         return ResponseEntity.ok(response);
 
