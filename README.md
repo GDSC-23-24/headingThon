@@ -97,6 +97,9 @@
 # 기술 스택
 
 ### Front
+node : 18.18.2
+npm : 9.8.1
+jdk : 8
 <br>
 
 ### Backend
