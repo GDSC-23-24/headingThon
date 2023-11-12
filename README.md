@@ -97,7 +97,7 @@
 # 기술 스택
 
 ### Front
-윤지랑 지우가 넣고 싶은 것<br>
+<br>
 
 ### Backend
 Spring-boot : 3.1.5<br>
@@ -105,5 +105,5 @@ jdk - version : 17<br>
 Database : MSSQL
 
 ### ???
-의영이가 넣고 싶은 것<br>
+<br>
 
