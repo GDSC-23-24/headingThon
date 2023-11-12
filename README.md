@@ -1,3 +1,4 @@
+
 <h1 align="center"> 
 편의점만 이용하는 결식 아동들을 위한<br/>
 가 추천 어플<br/>
@@ -10,27 +11,65 @@
 
 # 목차
 1. 문제 인식
-2. 데이터 수집
-3. 개발 기술
-4. 기능 구현
-5. 한계점
-6. 추후 개선사항
+2. 앱 구성
+3. 데이터베이스 설계
+4. 멤버
+5. 기술스택
+<br>
 
 # 문제 인식
 ### 결식 아동이란?
 결식아동은 빈곤으로 인해 결식할 위험이 있는 한부모, 소년소녀가장, 
 저소득층(중위소득의 52%미만)가정의 아동을 뜻한다
-
+<br>
 ### 아동 급식 카드
 경제적 빈곤 상태에 놓여 있는 가정의 자녀가 학교에서 급식을 먹지 못할 경우 학교 바깥에서 급식에 준하는 식사를 할 수 있도록 정부에서 보조하는 카드이다.
-
+<br>
 ### 결식 아동 편의점 이용 비율
 ![image](https://github.com/GDSC-23-24/headingThon/assets/100742454/7b1fdc7f-39dc-48f1-a0e9-b94f7721d0ca)
-
+<br>
 ### 목표
 1. UN-SDGs 2번 기아 종식
 2. 가맹점 수 대비 낮은 이용률 개선
 3. 찾기 힘든 가맹점정보를 쉽게 접근
 4. 가맹점 정보와 지도가 한번에 표시 되지 않는 현 상황 개선
 
+<br>
+# 앱 구성
+
+<img src="https://github.com/GDSC-23-24/headingThon/assets/69447192/2dc424ee-8cc1-4a00-b755-4689eac3cc26">
+
+<img src="https://github.com/GDSC-23-24/headingThon/assets/69447192/e714734d-aca9-4863-ba59-6d5c5f708620">
+
+<img src="https://github.com/GDSC-23-24/headingThon/assets/69447192/9b9a54fd-1961-4260-ab5a-f5b64623c219">
+
+<img src="https://github.com/GDSC-23-24/headingThon/assets/69447192/e8ce9303-8a66-402b-9da5-a31c684faa97">
+
+<img src="https://github.com/GDSC-23-24/headingThon/assets/69447192/8997356a-c39f-4aae-b31d-f1d956e838fd">
+
+<br>
+# 데이터베이스 설계
+
+<img src="https://github.com/GDSC-23-24/headingThon/assets/69447192/d0905f68-20d8-40b8-a8c6-fa163a3ee43e">
+
+<br>
+# 멤버
+
+추천 시스템 개발 : 권의영
+프론트 : 정지우, 하윤지
+백엔드 : 채승지
+
+<br>
+# 기술 스택
+
+### Front
+윤지랑 지우가 넣고 싶은 것
+
+### Backend
+Spring-boot : 3.1.5
+jdk - version : 17
+Database : MSSQL
+
+### ???
+의영이가 넣고 싶은 것
 
