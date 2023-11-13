@@ -107,6 +107,6 @@ Spring-boot : 3.1.5<br>
 jdk - version : 17<br>
 Database : MSSQL
 
-### ???
-<br>
+### Recommend System
+algorithm : Collaborative Filtering<br>
 
